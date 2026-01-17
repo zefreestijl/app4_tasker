@@ -5,7 +5,7 @@ import { EditorContent, useEditor, useEditorState } from '@tiptap/react'
 import StarterKit from '@tiptap/starter-kit'
 import { TextStyle } from '@tiptap/extension-text-style'
 import { Undo, Redo, Eraser, Scissors, Minus } from 'lucide-react'
-import './styles.css'
+import '../styles.css'
 
 const extensions = [TextStyle, StarterKit]
 
