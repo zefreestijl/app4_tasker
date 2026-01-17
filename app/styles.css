@@ -1,0 +1,84 @@
+/* Variables for consistency */
+:root {
+  --white: #ffffff;
+  --black: #0d0d0d;
+  --gray-2: #e2e8f0;
+  --gray-3: #cbd5e1;
+}
+
+.control-group {
+  margin-bottom: 1rem;
+  border: 1px solid var(--gray-2);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.button-group button {
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.3rem;
+  border: 1px solid var(--gray-2);
+  background: white;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.button-group button:hover {
+  background-color: #f8fafc;
+}
+
+.button-group button.is-active {
+  background-color: #0d0d0d;
+  color: white;
+  border-color: #0d0d0d;
+}
+
+.button-group button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* Editor Content Styles */
+.tiptap {
+  padding: 1rem;
+  min-height: 200px;
+  outline: none;
+}
+
+.tiptap pre {
+  background: var(--black);
+  border-radius: 0.5rem;
+  color: var(--white);
+  font-family: 'JetBrains Mono', monospace;
+  margin: 1.5rem 0;
+  padding: 0.75rem 1rem;
+}
+
+.tiptap pre code {
+  background: none;
+  color: inherit;
+  font-size: 0.8rem;
+  padding: 0;
+}
+
+.tiptap blockquote {
+  border-left: 3px solid var(--gray-3);
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+}
+
+.tiptap hr {
+  border: none;
+  border-top: 1px solid var(--gray-2);
+  margin: 2rem 0;
+}
+
+.tiptap ul, .tiptap ol {
+  padding: 0 1.2rem;
+  margin: 1rem 0;
+}
