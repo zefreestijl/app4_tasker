@@ -1,0 +1,601 @@
+/* --- Instructional/Note Box --- */
+.instruction-box {
+    background-color: #f8f9fa;
+    border-left: 4px solid #95a5a6;
+    padding: 15px;
+    margin-top: 25px;
+    color: #555;
+    font-size: 0.9em;
+    border-radius: 0 4px 4px 0;
+}
+
+/**/
+/* General Page Reset */
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light grey background to make the 'paper' pop */
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* The "Paper" Container */
+.document-page {
+    background-color: #ffffff;
+    /* Replicating the logic from your original code: */
+    width: 90vw; 
+    max-width: 8.5in; /* Standard paper width */
+    
+    /* Center the document on the screen */
+    margin: 0 auto; 
+    padding: 40px; /* Internal spacing so text doesn't hit the edge */
+    
+    /* Optional: Adds a subtle shadow to look like paper */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+.document-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+/* Paragraph Styling */
+.document-body p {
+    margin-bottom: 15px;
+}
+
+/* The "Grey Instructions" Note */
+.instruction-note {
+    font-size: 12px; /* From your original inline style */
+    color: #666666;  /* Grey color as requested in the text */
+    font-style: italic;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+
+
+/* B */
+/* --- Project Information Section Styles --- */
+
+.document-section {
+    margin-top: 40px;
+}
+
+.document-section h2 {
+    font-size: 20px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* List Styling */
+.project-info-list {
+    counter-reset: section-counter;
+    list-style-type: decimal;
+    padding-left: 20px; /* Indent for the numbers */
+}
+
+.project-info-list > li {
+    margin-bottom: 15px;
+    font-weight: bold; /* Makes the numbered items bold */
+}
+
+/* Helper spans to manage font weights */
+.project-info-list .label {
+    font-weight: bold;
+}
+
+.project-info-list .placeholder-text {
+    font-weight: normal;
+    font-style: italic;
+    color: #666;
+    background-color: #f0f0f0; /* Slight highlight to show it needs filling */
+    padding: 0 4px;
+}
+
+.description-text {
+    font-weight: normal;
+    font-size: 0.95em;
+    margin: 5px 0 15px 0;
+}
+
+/* Table Styling */
+.doc-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 14px;
+    font-weight: normal; /* Reset weight so table content isn't bold */
+}
+
+.doc-table th, 
+.doc-table td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.doc-table th {
+    background-color: #eaeaea; /* Light grey header background */
+    font-weight: bold;
+}
+
+/* Specific alignment for the first column in the first table */
+.cell-label {
+    text-align: center; 
+    font-weight: normal;
+}
+
+/* Mobile responsiveness for tables */
+@media (max-width: 600px) {
+    .doc-table th, .doc-table td {
+        font-size: 12px;
+        padding: 4px;
+    }
+}
+
+
+/* */
+/* --- Key Project Contacts Specifics --- */
+
+/* Force equal width for the 6 columns in the contacts table */
+.contacts-table th, 
+.contacts-table td {
+    width: 16.66%; 
+    
+    /* Ensures long email addresses wrap to the next line 
+       instead of stretching the table off the page */
+    word-wrap: break-word; 
+    word-break: break-all;
+    white-space: normal;
+}
+
+/* Optional: On very small screens, let the table scroll 
+   instead of squishing content unreadably */
+@media (max-width: 768px) {
+    .contacts-table {
+        display: block;
+        overflow-x: auto;
+    }
+    
+    /* Unset fixed widths on mobile so columns can expand */
+    .contacts-table th, 
+    .contacts-table td {
+        width: auto;
+        min-width: 120px; /* Minimum readable width per column */
+    }
+}
+
+
+/**/
+/* --- Project Goals Section Specifics --- */
+
+/* Sub-headings within the section (like "1. Major BIM Goals...") */
+.document-section h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Specific column sizing for the Goals Table */
+.goals-table th:nth-child(1),
+.goals-table td:nth-child(1) {
+    width: 20%;  /* Priority column */
+    text-align: center;
+}
+
+.goals-table th:nth-child(2),
+.goals-table td:nth-child(2) {
+    width: 55%;  /* Goal Description (needs the most space) */
+    text-align: left; /* Left align easier to read for long text */
+}
+
+.goals-table th:nth-child(3),
+.goals-table td:nth-child(3) {
+    width: 25%;  /* BIM Uses */
+    text-align: center;
+}
+
+/* Styling for the "(HIGH/ MED/ LOW)" text in the header */
+.sub-header-text {
+    display: block; /* Forces it to a new line */
+    font-size: 0.8em;
+    font-weight: normal;
+    margin-top: 4px;
+    color: #555;
+}
+
+/**/
+/* --- Reference / Attachment Section Specifics --- */
+
+.reference-note {
+    /* Replicating the logic of the original 'margin-left: .25in' 
+       but with a cleaner visual style */
+    margin-left: 24px; 
+    padding-left: 16px;
+    border-left: 4px solid #ddd; /* Adds a visual bar to show it's a note */
+    
+    font-size: 13px; /* Slightly larger than 11px for better readability */
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.reference-note a {
+    color: #0056b3; /* Professional blue for links */
+    text-decoration: underline;
+}
+
+.reference-note a:hover {
+    text-decoration: none;
+    color: #003d82;
+}
+
+
+/* */
+/* --- BIM Uses Table Specifics --- */
+
+.bim-uses-table {
+    /* Slightly smaller font to fit 8 columns comfortably */
+    font-size: 11px; 
+}
+
+.bim-uses-table th {
+    background-color: #333;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+/* The narrow columns for the checkmarks */
+.bim-uses-table .check-col,
+.bim-uses-table .check-cell {
+    width: 30px; /* Fixed narrow width */
+    text-align: center;
+    background-color: #fcfcfc;
+}
+
+/* The content columns */
+.bim-uses-table td:not(.check-cell) {
+    font-weight: bold; /* Matches original document style */
+    text-align: center;
+    color: #444;
+}
+
+/* Visual cue for the check boxes */
+.check-cell {
+    cursor: pointer; /* Implies it's clickable */
+}
+
+/* Subtle hover effect for rows to help reading across wide tables */
+.bim-uses-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+/**/
+/* --- BIM Uses Image Specifics --- */
+
+.project-phase-figure {
+    margin: 20px 0;
+    text-align: center; /* Centers the image on the page */
+}
+
+.project-phase-figure img {
+    /* Ensures image fits the page but doesn't grow larger than original quality */
+    max-width: 100%; 
+    height: auto; 
+    
+    /* Replicating the 'fr-shadow' and 'fr-rounded' look */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    border: 1px solid #eee;
+}
+
+
+/**/
+/* --- Detailed Content Sections --- */
+
+/* Grouping div to ensure headers stay close to their paragraphs */
+.content-group {
+    margin-bottom: 25px;
+}
+
+.content-group h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+/* Standard bullet list styling */
+.standard-list {
+    margin: 0;
+    padding-left: 25px; /* Indentation */
+    list-style-type: disc;
+}
+
+.standard-list li {
+    margin-bottom: 6px;
+    line-height: 1.5;
+}
+
+/* Specific styling for bibliography/references */
+.reference-list {
+    list-style-type: none; /* No bullets for references */
+    padding-left: 0;
+    margin: 0;
+}
+
+.reference-list li {
+    margin-bottom: 12px;
+    padding-left: 15px;
+    border-left: 3px solid #eee; /* Light bar to denote a reference */
+    font-size: 13px;
+    color: #555;
+}
+
+.ref-link {
+    font-size: 0.9em;
+    color: #0056b3;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.ref-link:hover {
+    text-decoration: underline;
+}
+
+
+/**/
+/* --- Helper for Long URLs in References --- */
+
+.reference-list li a {
+    /* Ensures long URLs (like the ones in this section) break to the next line 
+       if they hit the edge of the page, rather than pushing the layout wide */
+    word-wrap: break-word; 
+    word-break: break-all;
+    display: inline-block;
+}
+
+/**/
+/* --- Footer Citation Style --- */
+
+.source-footer {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 40px; /* Separates it from the content above */
+    padding-top: 10px;
+    border-top: 1px solid #eee; /* Optional: adds a faint line above the footer */
+}
+
+/**/
+/* --- Table Styling --- */
+
+.standard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 0.95em;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.standard-table th, 
+.standard-table td {
+    border: 1px solid #e0e0e0;
+    padding: 12px 10px; /* Adjusted padding for tighter fit */
+    text-align: left;
+    vertical-align: top;
+}
+
+.standard-table th {
+    background-color: #f8f9fa;
+    color: #2c3e50;
+    font-weight: 600;
+    border-bottom: 2px solid #ddd;
+    text-align: center; /* Headers centered for this specific table */
+}
+
+.standard-table tr:nth-child(even) {
+    background-color: #fcfcfc;
+}
+
+.standard-table tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.2s ease;
+}
+/**/
+/* --- Image Styling --- */
+
+.image-container {
+    margin: 20px 0;
+    text-align: center; /* Centers the image */
+}
+
+.responsive-image {
+    max-width: 100%; /* Ensures image never exceeds container width */
+    height: auto;    /* Maintains aspect ratio */
+    border: 1px solid #ddd; /* Optional: adds a neat border */
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+figcaption {
+    margin-top: 8px;
+    font-size: 0.9em;
+    color: #666;
+    font-style: italic;
+}
+
+/**/
+/* --- Ordered List Styling --- */
+
+.ordered-list {
+    list-style-type: decimal; /* Ensures numbers are shown */
+    margin-left: 20px;       /* Indents the list slightly */
+}
+
+.ordered-list li {
+    margin-bottom: 8px;      /* Spacing between items */
+    padding-left: 5px;       /* Space between number and text */
+}
+
+/**/
+/* --- Global Styles --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+article {
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* --- Headings --- */
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+h3 {
+    color: #34495e;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/* --- Content Grouping --- */
+.document-section {
+    margin-bottom: 50px;
+}
+
+.content-group {
+    margin-bottom: 20px;
+}
+
+/* --- Lists --- */
+.standard-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.standard-list li {
+    margin-bottom: 8px;
+}
+
+.ordered-list {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+.reference-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.reference-list li {
+    margin-bottom: 15px;
+    padding-left: 15px;
+    border-left: 3px solid #eee;
+}
+
+.ref-link {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 0.9em;
+    display: inline-block;
+    margin-top: 2px;
+}
+
+.ref-link:hover {
+    text-decoration: underline;
+}
+
+/* --- Tables --- */
+.standard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 0.95em;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.standard-table th, 
+.standard-table td {
+    border: 1px solid #e0e0e0;
+    padding: 12px 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.standard-table th {
+    background-color: #f8f9fa;
+    color: #2c3e50;
+    font-weight: 600;
+    border-bottom: 2px solid #ddd;
+    text-align: center;
+}
+
+.standard-table tr:nth-child(even) {
+    background-color: #fcfcfc;
+}
+
+.standard-table tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.2s ease;
+}
+
+/* --- Images --- */
+.image-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+figcaption {
+    margin-top: 8px;
+    font-size: 0.9em;
+    color: #666;
+    font-style: italic;
+}
+
+/* --- Utilities --- */
+.placeholder-text {
+    font-style: italic;
+    color: #888;
+}
+
+/**/
