@@ -13,8 +13,15 @@
     <div class="main-container">
 
         <!-- Outlinere -->
-        <aside class="sidebar">
-            <h3>Outliner</h3>
+        <aside class="sidebar" id="sidebar" tabindex="0">
+
+            <div class="sidebar-header">
+                <h3 class="sidebar-title">Outliner</h3>
+                <button onclick="toggleSidebar()" class="pin-btn" title="Toggle Sidebar">
+                    ☰
+                </button>
+            </div>
+
             <ul>
 
                 <!-- A -->
@@ -395,8 +402,16 @@
 
 
             </ul>
-        </aside>
 
+
+
+        </aside>
+        <script>
+            function toggleSidebar() {
+                var sidebar = document.getElementById("sidebar");
+                sidebar.classList.toggle("collapsed");
+            }
+        </script>
 
         <!-- Main Window-->
         <main class="content">
