@@ -26,7 +26,7 @@ body {
    ========================================= */
 .sidebar {
     width: 300px;
-    min-width: 0px;        /* Prevent it from disappearing completely */
+    min-width: 2rem;        /* Prevent it from disappearing completely */
     height: 100%;
     background-color: #f4f4f4;
     border-right: 1px solid #ddd;
@@ -140,13 +140,19 @@ details summary { list-style: none; outline: none; }
    ========================================= */
 /* When 'collapsed' class is added via JS */
 .sidebar.collapsed {
-    width: 3rem;            /* Shrink width */
+    width: 2rem;            /* Shrink width */
+    padding-left: 0;     /* Remove the extra left gap */
+    min-width: 2rem;
 }
 
 /* Rotate the button 90 degrees */
 .sidebar.collapsed .pin-btn {
     transform: rotate(90deg);
     color: #0066cc;
+}
+/* 2. Center the Bullet Points in the narrow strip */
+.sidebar.collapsed ul {
+    padding-left: 1.1rem; /* This centers the dot exactly in the middle of 2.2rem */
 }
 
 /* HOVER PEEK: When hovering a collapsed sidebar, expand it over content */
