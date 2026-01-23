@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISO 19650 Example Template</title>
+    <link rel="stylesheet" href="../../public/styles.css">
+</head>
+<body>
+
+    <section class="content-card">
+    
+    <div class="section-label">Asset Information Requirements</div>
+    
+    <div class="nested-goal-box">
+        <div class="goal-label">Defining asset information requirements</div>
+        <div class="intro-text" style="margin-bottom:0;">
+            Once the maintainable assets are identified, the next step is to define what information is required to support their operation and maintenance.
+        </div>
+    </div>
+    
+    <p class="intro-text" style="margin-top:12px;">
+        The next step is to define <strong>exactly what information</strong> we require for each one.
+    </p>
+    <p class="intro-text">
+        Each <strong>Asset Information Requirement (AIR)</strong> entry should follow a clear and consistent structure, this ensures our delivery team knows what to provide, how to provide it, and when.
+    </p>
+
+    <div class="subsection-box">
+        <h3 class="subsection-title" style="font-size: 14px;">What Makes Up a Complete AIR?</h3>
+        <p class="intro-text">When we define an AIR for an asset, we typically include the following elements:</p>
+
+        <div class="table-wrapper">
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th width="30%">Field</th>
+                        <th width="70%">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Asset Type</strong></td>
+                        <td>The name of the asset (e.g. Chiller, Fire Alarm Panel, Fan Coil Unit)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Property / Data Field</strong></td>
+                        <td>What information we require (e.g. Serial Number, Fire Rating, Installation Date)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Purpose / Use Case</strong></td>
+                        <td>Why this information is needed (e.g. for warranty tracking or compliance)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Units / Format</strong></td>
+                        <td>Expected unit or format (e.g. °C, kW, YYYY-MM-DD)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Delivery Stage</strong></td>
+                        <td>When we expect certain data to be delivered (e.g. prior to commissioning, at handover)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Responsibility</strong></td>
+                        <td>Who is expected to provide or verify the data (e.g. Contractor, MEP Consultant)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Verification Rule</strong></td>
+                        <td>How the data will be checked (e.g. required field, format check, value range)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Standard Mapping</strong></td>
+                        <td>If applicable, map to COBie field or IFC property set (e.g. Pset_ManufacturerTypeInformation)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Notes / Clarifications</strong></td>
+                        <td>Any special conditions, references to standards, or clarifications</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="note-box-accent">
+        <div class="note-title">Why this matters</div>
+        <p>Clearly defining asset information requirements ensures that operational data is requested with purpose. By focusing on the information that supports real operational outcomes, teams avoid unnecessary data collection and create a strong foundation for structured information delivery later.</p>
+    </div>
+
+</section>
+
+</body>
+</html>

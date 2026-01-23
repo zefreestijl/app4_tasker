@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISO 19650 Example Template</title>
+    <link rel="stylesheet" href="../../public/styles.css">
+</head>
+<body>
+
+    <section class="content-card">
+    
+        <div class="section-label">On-site Construction</div>
+    
+        <p>
+            For on-site constructed solutions, the guidelines are as follows. Regardless of the method, when quantifying these elements and their associated finishes using models, it's crucial to consider the <strong>net square area (m² or ft²)</strong> as the quantification unit, considering that all voids are already accounted for in the model.
+        </p>
+    
+        <h4 style="margin-top: 20px; color: #2c82c9; font-size: 1.1em;">Early Estimation Methods</h4>
+        <p>During the early estimates, one of either of these methods can be performed:</p>
+        <ol style="margin-top: 10px; padding-left: 20px; line-height: 1.6; color: #333;">
+            <li style="margin-bottom: 10px;">Use the <strong>Room information to derive the quantities</strong> of the walls, floor, ceilings, and their finishes.</li>
+            <li>Develop a <strong>model using multi-layered objects</strong> and applying average prices to the element composition.</li>
+        </ol>
+    
+        <h4 style="margin-top: 25px; color: #2c82c9; font-size: 1.1em;">Advanced/Detailed Modeling</h4>
+        <p>
+            For more accurate and detailed quantities of on-site constructed elements, especially during more advanced project stages, it's essential to model walls, floors, ceilings, and their finishes as <strong>distinct single-layered objects</strong>.
+        </p>
+    
+        <div style="text-align: center; margin: 20px 0;">
+            
+        <img src="../../public/img/10.6.2.1.png" alt="Plannerly Templates">
+
+
+            <p style="font-style: italic; font-size: 0.9em; color: #666; margin-top: 10px;">
+                Figure 08 – Example of walls modelled as single separate-layered objects.
+            </p>
+        </div>
+    
+        <p>
+            In this approach, each material should be represented by a separate model element, differentiating the core construction element from the finishes that may be applied to it.
+        </p>
+        <p>
+            However, for composite construction elements that typically have a standardized composition, such as a drywall steel frame with gypsum plasterboards, modeling them as layered elements is feasible.
+        </p>
+    
+        <ul style="margin-top: 15px; padding-left: 20px; line-height: 1.6; color: #333;">
+            <li style="margin-bottom: 15px;">
+                <strong>Example A (Masonry):</strong> Illustrates a masonry wall element (comprising three layers: mortar + masonry + mortar) with a tiling finish element (single layer).
+                <br><span style="font-size: 0.9em; color: #555;">In this scenario, the tiling finish <strong>extends 10cm above the ceiling</strong>.</span>
+            </li>
+            <li style="margin-bottom: 15px;">
+                <strong>Example B (Drywall):</strong> Illustrates a drywall element (consisting of three layers: gypsum board + steel frame + gypsum board) with a paint finish element (single layer).
+                <br><span style="font-size: 0.9em; color: #555;">The paint finish <strong>extends to the ceiling</strong>.</span>
+            </li>
+        </ul>
+    
+        <div style="text-align: center; margin: 20px 0;">
+            
+            <p style="font-style: italic; font-size: 0.9em; color: #666; margin-top: 10px;">
+                
+                <img src="../../public/img/10.6.2.2.png" alt="Plannerly Templates">
+
+
+                Figure 09 - Examples of single separate-layered walls, considering the height according to each constructive need of each material.
+            </p>
+        </div>
+    
+        <div style="background-color: #f0f4f8; border-left: 4px solid #2c82c9; padding: 15px; margin: 15px 0;">
+            <p style="margin: 0; color: #333;">
+                <strong>Benefit:</strong> This separation method allows better control over the modeling considerations specific to each material, resulting in more accurate quantities.
+            </p>
+        </div>
+    
+    </section>
+
+</body>
+</html>

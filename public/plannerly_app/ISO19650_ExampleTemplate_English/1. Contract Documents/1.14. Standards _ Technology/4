@@ -1,0 +1,84 @@
+<div id="subtree-container" class="subtree-container"><div class="aea2d7dde423afa7ad9351a0886150a8-scss b51b00c1669ad99a1c607cd1e77c2824-scss" style="inset: 358px 269px 0px 0px; justify-content: flex-end;"><div class="afeebf1df237d4103108ba40799802d6-scss"><div class="c13443431e58facf06f9d12490b92a82-scss" style="width: 90vw; max-width: 8.5in;"><div class="_0df5ec6b9902d7d22ccfa3ebb4f35211-scss">Software Versions &amp; File Formats</div><div class="e5e059a27f4c194020f0d961a3cb5989-scss" dir="auto"><div class="fr-view"><div style="font-family:Roboto, Arial, sans-serif;">
+<!-- Section wrapper --><div style="border:1px solid #e8eef6;border-radius:16px;background:#ffffff;padding:18px;">
+<!-- Title --><!-- Short intro --><div style="font-size:13px;font-weight:800;color:#5b6b88;letter-spacing:.06em;text-transform:uppercase;margin-bottom:6px;" data-pasted="true">SOFTWARE VERSIONS AND FILE FORMATS</div>
+<div style="color:#5b6b88;line-height:1.65;font-size:14px;margin-bottom:12px;">This section confirms the approved software environment and file formats used on the project so information can be exchanged consistently across all disciplines.</div>
+<!-- Card: Software Environment --><div style="border:1px solid #e8eef6;border-radius:16px;background:#fbfdff;padding:16px 18px;margin-top:10px;">
+<div style="font-size:14px;font-weight:900;color:#0e1e3d;margin-bottom:6px;">Software </div>
+<div style="color:#5b6b88;line-height:1.65;font-size:14px;">The project does not mandate a single authoring tool. However, any software proposed for use must be agreed by the project team and recorded in this plan before it is used. Confirming tools and versions early helps avoid compatibility issues and supports smooth coordination and OpenBIM exchange.</div>
+<!-- Small note --><div style="margin-top:10px;background:#ffffff;border:1px dashed #cfe1ff;border-radius:14px;padding:12px 14px;color:#1c2430;"><table data-pasted="true" style="width: 73%; height: 164px;">
+<colgroup><col style="width: 29.8327%;"></colgroup> <colgroup><col style="width: 29.6468%;"></colgroup> <colgroup><col style="width: 25.1859%;"></colgroup> <colgroup><col style="width: 15.3346%;"></colgroup>
+<thead><tr style="height: 31px;">
+<th style="background-color: rgb(246, 249, 254);"><span style="color: rgb(14, 30, 61);">Discipline</span></th>
+<th style="background-color: rgb(246, 249, 254);"><span style="color: rgb(14, 30, 61);">Use</span></th>
+<th style="background-color: rgb(246, 249, 254);"><span style="color: rgb(14, 30, 61);">Software + Link</span></th>
+<th style="background-color: rgb(246, 249, 254);"><span style="color: rgb(14, 30, 61);">Version</span></th>
+</tr></thead>
+<tbody>
+<tr style="height: 53px;">
+<td><span style="font-size: 14px; font-family: Roboto; color: rgb(91, 107, 136);" data-pasted="true">All</span></td>
+<td><span style="font-size: 14px; font-family: Roboto; color: rgb(91, 107, 136);" data-pasted="true">BIM Management Platform</span></td>
+<td><a href="https://www.plannerly.com/" rel="noopener noreferrer" target="_blank">Plannerly</a></td>
+<td style="text-align: left;">
+<span style="font-size: 14px; font-family: Roboto; color: rgb(91, 107, 136);" data-pasted="true"> Always Current</span><br>
+</td>
+</tr>
+<tr style="height: 42px;">
+<td><span style="font-size: 14px; font-family: Roboto; color: rgb(91, 107, 136);" data-pasted="true">Architecture</span></td>
+<td><span style="font-size: 14px; font-family: Roboto; color: rgb(91, 107, 136);" data-pasted="true">Design</span></td>
+<td>
+<span><span><span style=""><smartfield data-key="Software Used for Modelling" contenteditable="false" class="missing-value fr-deletable"><span class="lodIcon lodIcon_errorTriangle">&nbsp;</span>{{Software Used for Modelling}}</smartfield></span></span></span><span> </span><br>
+</td>
+<td style="text-align: center;">
+<span style=""><smartfield data-key="Version to be used for Design Authoring" contenteditable="false" class="missing-value fr-deletable"><span class="lodIcon lodIcon_errorTriangle">&nbsp;</span>{{Version to be used for Design Authoring}}</smartfield></span><span> </span><br>
+</td>
+</tr>
+<tr style="height: 30px;">
+<td><span style="font-size: 14px; font-family: Roboto; color: rgb(91, 107, 136);" data-pasted="true">Structure</span></td>
+<td><span style="font-size: 14px; font-family: Roboto; color: rgb(91, 107, 136);" data-pasted="true">Design</span></td>
+<td>
+<span><span><span style=""><smartfield data-key="Software Used for Modelling" contenteditable="false" class="missing-value fr-deletable"><span class="lodIcon lodIcon_errorTriangle">&nbsp;</span>{{Software Used for Modelling}}</smartfield></span></span></span><span> </span><br>
+</td>
+<td style="text-align: center;">
+<span style=""><smartfield data-key="Version to be used for Design Authoring" contenteditable="false" class="missing-value fr-deletable"><span class="lodIcon lodIcon_errorTriangle">&nbsp;</span>{{Version to be used for Design Authoring}}</smartfield></span><span> </span><br>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<!-- Placeholder hint for your existing software table --><!-- Card: File Formats --><div style="border:1px solid #e8eef6;border-radius:16px;background:#fbfdff;padding:16px 18px;margin-top:14px;">
+<div style="font-size:14px;font-weight:900;color:#0e1e3d;margin-bottom:6px;">File formats</div>
+<div style="color:#5b6b88;line-height:1.65;font-size:14px;">To support OpenBIM workflows and long-term usability of information, project data shall be shared using both native and open formats where applicable. Native formats support authoring and coordination, while IFC and accessible formats support review, verification, and handover.</div>
+<!-- Rules --><div style="margin-top:10px;border:1px solid #e8eef6;border-radius:14px;background:#ffffff;padding:12px 14px;"> <table style="width: 99%; height: 141px;" data-pasted="true">
+<colgroup><col style="width: 33.3915%;"></colgroup> <colgroup><col style="width: 33.3043%;"></colgroup> <colgroup><col style="width: 33.3043%;"></colgroup>
+<thead><tr style="height: 33px;">
+<th style="background-color: rgb(246, 249, 254);"><span style="color: rgb(14, 30, 61);">File Type</span></th>
+<th style="background-color: rgb(246, 249, 254);"><span style="font-size: 14px; font-family: Roboto; color: rgb(14, 30, 61);">Format</span></th>
+<th style="background-color: rgb(246, 249, 254);"><span style="font-size: 14px; font-family: Roboto; color: rgb(14, 30, 61);">Version</span></th>
+</tr></thead>
+<tbody>
+<tr style="height: 40px;">
+<td><span style="font-size: 14px; font-family: Roboto; color: rgb(91, 107, 136);">Graphical Models<br></span></td>
+<td><span style="font-size: 14px; font-family: Roboto; color: rgb(91, 107, 136);">Native + IFC<br></span></td>
+<td><span style="font-size: 14px; font-family: Roboto; color: rgb(91, 107, 136);">2x3 / 4<br></span></td>
+</tr>
+<tr style="height: 34px;">
+<td><span style="font-size: 14px; font-family: Roboto; color: rgb(91, 107, 136);">Information Exchanges<br></span></td>
+<td><span style="font-size: 14px; font-family: Roboto; color: rgb(91, 107, 136);">Excel<br></span></td>
+<td><span style="font-size: 14px; font-family: Roboto; color: rgb(91, 107, 136);">2013 / 2016 / 2019, Office 365<br></span></td>
+</tr>
+<tr style="height: 34px;">
+<td><span style="font-size: 14px; font-family: Roboto; color: rgb(91, 107, 136);">Documentation<br></span></td>
+<td><span style="font-size: 14px; font-family: Roboto; color: rgb(91, 107, 136);">PDF<br></span></td>
+<td><span style="font-size: 14px; font-family: Roboto;"><br></span></td>
+</tr>
+</tbody>
+</table>
+<div style="font-size:12px;font-weight:900;color:#5b6b88;letter-spacing:.12em;text-transform:uppercase;margin-bottom:6px;"><br></div>
+</div>
+</div>
+<!-- Placeholder hint for your existing file formats table --><!-- Why this matters callout --><div style="margin-top:14px;background:#fbfdff;border:1px solid #dbe6f3;border-left:5px solid #009ef5;border-radius:14px;padding:14px 16px;">
+<div style="font-weight:900;color:#1c2430;margin-bottom:6px;font-size:14px;">Why this matters</div>
+<div style="color:#5b6b88;line-height:1.65;font-size:14px;">Defining software tools and file formats upfront prevents compatibility issues, supports OpenBIM workflows, and ensures information can be shared, reviewed, and verified consistently throughout the project lifecycle.</div>
+</div>
+</div>
+</div></div></div></div></div></div></div>

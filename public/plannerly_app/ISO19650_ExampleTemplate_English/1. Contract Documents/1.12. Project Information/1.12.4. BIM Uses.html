@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISO 19650 Example Template</title>
+    <link rel="stylesheet" href="../../public/styles.css">
+</head>
+<body>
+
+    <section class="content-card">
+    
+    <div class="section-label">BIM Uses (Delivery Plan)</div>
+    
+    <div class="nested-goal-box">
+        <p style="margin-top:0;">
+            The BIM Uses listed below respond to the requirements set out in the EIR. In this BEP, you’ll confirm <strong>what</strong> BIM Uses apply, assign <strong>who</strong> delivers them, and record <strong>readiness</strong> to proceed.
+        </p>
+    </div>
+
+    
+
+    <div class="subsection-box">
+        <h3 class="subsection-title">1. Project BIM Uses</h3>
+        <p class="intro-text">Confirm which BIM Uses apply, set priority, and indicate the project stage(s).</p>
+
+        <div class="table-wrapper">
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th width="40%">BIM Use</th>
+                        <th width="30%">Priority</th>
+                        <th width="30%">Stage (P/D/C/O)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>3D Coordination</strong></td>
+                        <td>High</td>
+                        <td>D / C</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Record / As-Built Modelling</strong></td>
+                        <td>High</td>
+                        <td>C / O</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Building Maintenance Scheduling</strong></td>
+                        <td><span class="smart-field">{{Priority}}</span></td>
+                        <td><span class="smart-field">{{Stage}}</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="subsection-box">
+        <h3 class="subsection-title">2. BIM Roles</h3>
+        <p class="intro-text">Assign delivery responsibility for each BIM Use (who leads and who supports).</p>
+
+        <div class="table-wrapper">
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th width="40%">BIM Use</th>
+                        <th width="30%">Responsible Team</th>
+                        <th width="30%">Lead Contact</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>3D Coordination</strong></td>
+                        <td>Main Contractor + Design Team</td>
+                        <td>BIM Coordinator</td>
+                    </tr>
+                    <tr>
+                        <td><strong>As-Built Modelling</strong></td>
+                        <td>Main Contractor + FM Representative</td>
+                        <td>Information Manager</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Building Maintenance Scheduling</strong></td>
+                        <td><span class="smart-field">{{Responsible Team}}</span></td>
+                        <td><span class="smart-field">{{Lead Contact}}</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="subsection-box">
+        <h3 class="subsection-title">3. Readiness Check</h3>
+        <p class="intro-text">Record confidence and capability to deliver each BIM Use (and any gaps to resolve).</p>
+        
+        
+
+        <div class="table-wrapper">
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th width="40%">BIM Use</th>
+                        <th width="40%">Capability (H/M/L)</th>
+                        <th width="20%">Proceed? (Y/N)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>3D Coordination</strong></td>
+                        <td>H</td>
+                        <td>Y</td>
+                    </tr>
+                    <tr>
+                        <td><strong>As-Built Modelling</strong></td>
+                        <td>M</td>
+                        <td>Y</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Building Maintenance Scheduling</strong></td>
+                        <td><span class="smart-field">{{Capability}}</span></td>
+                        <td><span class="smart-field">{{Proceed?}}</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p style="margin-top:10px; font-size:13px; font-style:italic; color:#5b6b88;">
+            Tip: If capability is <strong>Low</strong>, record what support is needed (skills, resources, or tools) before confirming “Proceed”.
+        </p>
+    </div>
+
+    <div class="note-box-accent">
+        <div class="note-title">Why this matters</div>
+        <p>The EIR defines the required BIM Uses and information outcomes. This BEP section turns those requirements into an executable plan by confirming <strong>what</strong> applies, assigning <strong>who</strong> delivers it, and checking <strong>readiness</strong> to proceed. This reduces ambiguity, improves accountability, and supports reliable delivery and verification.</p>
+    </div>
+
+</section>
+</body>
+</html>

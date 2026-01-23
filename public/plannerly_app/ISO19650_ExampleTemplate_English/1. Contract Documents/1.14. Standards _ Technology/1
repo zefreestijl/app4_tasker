@@ -1,0 +1,146 @@
+<div id="subtree-container" class="subtree-container"><div class="aea2d7dde423afa7ad9351a0886150a8-scss b51b00c1669ad99a1c607cd1e77c2824-scss" style="inset: 142px 269px 0px 0px; justify-content: flex-end;"><div class="afeebf1df237d4103108ba40799802d6-scss"><div class="c13443431e58facf06f9d12490b92a82-scss" style="width: 90vw; max-width: 8.5in;"><div class="_0df5ec6b9902d7d22ccfa3ebb4f35211-scss">Project Standards</div><div class="e5e059a27f4c194020f0d961a3cb5989-scss" dir="auto"><div class="fr-view"><div style="border:1px solid #e8eef6;border-radius:16px;background:#fbfdff;padding:18px 18px 16px 18px;" data-pasted="true">
+<div style="font-size:13px;font-weight:800;color:#5b6b88;letter-spacing:.06em;text-transform:uppercase;margin-bottom:6px;">Information standards</div>
+<div style="border:1px solid #e8eef6;border-radius:14px;background:#ffffff;padding:14px 16px;margin-top:10px;"><div style="color:#1c2430;line-height:1.6;font-size:14px;">This section sets out the standards, methods, and procedures that apply to the production, exchange, and management of information on this project. All appointed parties shall comply with these requirements when creating, sharing, and delivering information.</div></div>
+<p style="margin:12px 0 0 0;color:#5b6b88;line-height:1.65;font-size:14px;">Use this section to confirm the project’s approach to <strong>standards</strong>, <strong>tools</strong>, <strong>formats</strong>, and <strong>CDE processes</strong>. Provide a realistic project-specific answer.</p>
+</div>
+<!-- 1) INFORMATION MANAGEMENT STANDARDS --><div style="margin-top:12px;border:1px solid #e8eef6;border-radius:16px;background:#ffffff;padding:16px 18px;">
+<div style="font-size:14px;font-weight:900;color:#0e1e3d;margin-bottom:10px;">Information management standards</div>
+<p style="margin:0 0 12px 0;color:#5b6b88;line-height:1.65;font-size:14px;">Information shall be managed in accordance with recognised international and national standards to ensure consistency, traceability, and interoperability.</p>
+<table style="width: 100%; border-collapse: collapse; height: 544px;">
+<thead><tr>
+<th style="text-align:left;padding:10px 12px;background:#f6f9fe;border:1px solid #e8eef6;color:#0e1e3d;font-size:13px;">Function</th>
+<th style="text-align:left;padding:10px 12px;background:#f6f9fe;border:1px solid #e8eef6;color:#0e1e3d;font-size:13px;">Standard</th>
+<th style="text-align:left;padding:10px 12px;background:#f6f9fe;border:1px solid #e8eef6;color:#0e1e3d;font-size:13px;">Description</th>
+</tr></thead>
+<tbody>
+<tr>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;"><strong>Information management</strong></td>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">ISO 19650 series</td>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">Collaborative production and management of information across the project lifecycle</td>
+</tr>
+<tr>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;"><strong>National Annex</strong></td>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">
+<span><span><span><span style=""><smartfield data-key="Local Annex" contenteditable="false" class="missing-value fr-deletable"><span class="lodIcon lodIcon_errorTriangle">&nbsp;</span>{{Local Annex}}</smartfield></span></span> </span></span> (e.g. UK National Annex)</td>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">National guidance applicable to the project location</td>
+</tr>
+<tr>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;"><strong>Classification</strong></td>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">
+<span><span><span><span style=""><smartfield data-key="Classification system for this project" contenteditable="false" class="missing-value fr-deletable"><span class="lodIcon lodIcon_errorTriangle">&nbsp;</span>{{Classification system for this project}}</smartfield></span></span> </span></span> (e.g. Uniclass 2015)</td>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">Classification system used to structure models, documents, and scope</td>
+</tr>
+<tr>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;"><strong>Level of Information Need</strong></td>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">ISO 7817-1</td>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">Method for defining information requirements by purpose, stage, and use</td>
+</tr>
+<tr>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;"><strong>Asset management</strong></td>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">ISO 55000 series</td>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">Principles for managing information required for asset operation</td>
+</tr>
+<tr style="height: 62px;">
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">
+<strong>Open data &amp; model exchange</strong><br>
+</td>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">ISO 16739 (IFC)<br>
+</td>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">Open, neutral data format for interoperable exchange of model-based information between authoring and review tools.<br>
+</td>
+</tr>
+<tr>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">
+<strong>Information delivery planning</strong><br>
+</td>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">ISO 29481 (IDM)<br>
+</td>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">Framework for defining information delivery processes, exchanges, and responsibilities across project stages.<br>
+</td>
+</tr>
+<tr style="height: 42px;">
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">
+<strong>Data structure &amp; dictionaries</strong><br>
+</td>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">ISO 23386 / ISO 23387<br>
+</td>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">Standards for defining data dictionaries and data templates to ensure consistency, reusability, and clarity of information.<br>
+</td>
+</tr>
+<tr>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">
+<strong>Information containers &amp; linking</strong><br>
+</td>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">ISO 21597 (ICDD)<br>
+</td>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">Method for structuring, linking, and managing information containers across documents, models, and datasets.<br>
+</td>
+</tr>
+<tr>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">
+<strong>Drawings &amp; representation</strong><br>
+</td>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">ISO 4157<br>
+</td>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">Standards governing construction drawings and building representation to ensure consistency and clarity.<br>
+</td>
+</tr>
+<tr>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">
+<strong>GIS–BIM interoperability</strong><br>
+</td>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">ISO 23262 (If applicable)<br>
+</td>
+<td style="padding:10px 12px;border:1px solid #e8eef6;color:#5b6b88;font-size:14px;">Requirements for interoperability between GIS and BIM datasets, where spatial or site-wide information is required.<br>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="margin-top:12px;border:1px solid #e8eef6;border-radius:16px;background:#ffffff;padding:16px 18px;" data-pasted="true">
+<div style="font-size:14px;font-weight:900;color:#0e1e3d;margin-bottom:10px;">Information Container / File Naming Standard</div>
+<p><span style="color: rgb(91, 107, 136); font-family: Roboto;">The naming structure aligns with ISO 19650 principles and supports automated tracking, version control, and information status management within the CDE.</span><span style="font-family: Roboto;"><br></span></p>
+<p style="box-sizing: inherit; margin: 0px 0px 10px; color: rgb(95, 95, 95); font-family: &quot;Open sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;" data-pasted="true"><span style="color: rgb(91, 107, 136); font-family: Roboto;">Example: ABC123–IBL-A1–01–M–A-0001_BLDG1</span></p>
+<table style="box-sizing: inherit; border-collapse: collapse; border: none; empty-cells: show; max-width: 100%; width: 1050px; color: rgb(95, 95, 95); font-family: &quot;Open sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+<thead style="box-sizing: inherit;"><tr style="box-sizing: inherit;">
+<th style="box-sizing: inherit; border: 1px solid rgb(221, 221, 221); background: rgb(246, 249, 254); padding: 6px; text-align: left; width: 10.9804%;">
+<span style="box-sizing: inherit; font-size: 12px; color: rgb(14, 30, 61); font-family: Roboto;">Project</span><span style="font-size: 12px; color: rgb(14, 30, 61); font-family: Roboto;"><br style="box-sizing: inherit;"></span>
+</th>
+<th style="box-sizing: inherit; border: 1px solid rgb(221, 221, 221); background: rgb(246, 249, 254); padding: 6px; text-align: left; width: 11.1213%;"><span style="font-size: 12px;"><span style="box-sizing: inherit; color: rgb(14, 30, 61); font-family: Roboto;">Originator</span><span style="color: rgb(14, 30, 61); font-family: Roboto;"><br style="box-sizing: inherit;"></span></span></th>
+<th style="box-sizing: inherit; border: 1px solid rgb(221, 221, 221); background: rgb(246, 249, 254); padding: 6px; text-align: left; width: 15.6265%;"><span style="font-size: 12px;"><span style="color: rgb(14, 30, 61); font-family: Roboto;">Functional Breakdown<br style="box-sizing: inherit;"></span></span></th>
+<th style="box-sizing: inherit; border: 1px solid rgb(221, 221, 221); background: rgb(246, 249, 254); padding: 6px; text-align: left; width: 14.4256%;"><span style="font-size: 12px; color: rgb(14, 30, 61); font-family: Roboto;">Spatial Breakdown<br style="box-sizing: inherit;"></span></th>
+<th style="box-sizing: inherit; border: 1px solid rgb(221, 221, 221); background: rgb(246, 249, 254); padding: 6px; text-align: left; width: 11.1688%;"><span style="font-size: 12px; color: rgb(14, 30, 61); font-family: Roboto;">Form Code<br style="box-sizing: inherit;"></span></th>
+<th style="box-sizing: inherit; border: 1px solid rgb(221, 221, 221); background: rgb(246, 249, 254); padding: 6px; text-align: left; width: 11.1841%;"><span style="font-size: 12px; color: rgb(14, 30, 61); font-family: Roboto;">Discipline<br style="box-sizing: inherit;"></span></th>
+<th style="box-sizing: inherit; border: 1px solid rgb(221, 221, 221); background: rgb(246, 249, 254); padding: 6px; text-align: left; width: 128px;"><span style="font-size: 12px; color: rgb(14, 30, 61); font-family: Roboto;">Number<br style="box-sizing: inherit;"></span></th>
+<th style="box-sizing: inherit; border: 1px solid rgb(221, 221, 221); background: rgb(246, 249, 254); padding: 6px; text-align: left; width: 132px;">
+<span style="font-size: 12px; color: rgb(14, 30, 61); font-family: Roboto;">Description</span><span style="font-family: Roboto;"><br style="box-sizing: inherit;"></span>
+</th>
+</tr></thead>
+<tbody style="box-sizing: inherit;"><tr style="box-sizing: inherit;">
+<td style="box-sizing: inherit; min-width: 5px; border: 1px solid rgb(221, 221, 221); padding: 6px; width: 10.9804%;"><span style="color: rgb(91, 107, 136); font-family: Roboto;">ABC123<br style="box-sizing: inherit;"></span></td>
+<td style="box-sizing: inherit; min-width: 5px; border: 1px solid rgb(221, 221, 221); padding: 6px; width: 11.1213%;"><span style="color: rgb(91, 107, 136); font-family: Roboto;">IBL</span></td>
+<td style="box-sizing: inherit; min-width: 5px; border: 1px solid rgb(221, 221, 221); padding: 6px; width: 15.6265%;"><span style="color: rgb(91, 107, 136); font-family: Roboto;">A1</span></td>
+<td style="box-sizing: inherit; min-width: 5px; border: 1px solid rgb(221, 221, 221); padding: 6px; width: 14.4256%;"><span style="color: rgb(91, 107, 136); font-family: Roboto;">01</span></td>
+<td style="box-sizing: inherit; min-width: 5px; border: 1px solid rgb(221, 221, 221); padding: 6px; width: 11.1688%;"><span style="color: rgb(91, 107, 136); font-family: Roboto;">M</span></td>
+<td style="box-sizing: inherit; min-width: 5px; border: 1px solid rgb(221, 221, 221); padding: 6px; width: 11.1841%;"><span style="color: rgb(91, 107, 136); font-family: Roboto;">A</span></td>
+<td style="box-sizing: inherit; min-width: 5px; border: 1px solid rgb(221, 221, 221); padding: 6px; width: 128px;"><span style="color: rgb(91, 107, 136); font-family: Roboto;">0001</span></td>
+<td style="box-sizing: inherit; min-width: 5px; border: 1px solid rgb(221, 221, 221); padding: 6px; width: 132px;"><span style="color: rgb(91, 107, 136); font-family: Roboto;">_BLDG1</span></td>
+</tr></tbody>
+</table>
+</div>
+<div style="margin-top:12px;border:1px solid #e8eef6;border-radius:16px;background:#ffffff;padding:16px 18px;" data-pasted="true">
+<div style="font-size:14px;font-weight:900;color:#0e1e3d;margin-bottom:10px;">Geometry and Reliability Definitions</div>
+<div style="border:1px solid #e8eef6;border-radius:16px;background:#fbfdff;padding:18px 18px 16px 18px;" data-pasted="true">
+<p data-start="984" data-end="1127" data-pasted="true"><span style="font-family: Roboto; color: rgb(91, 107, 136);">Geometry and reliability definitions clarify <strong data-start="1029" data-end="1065">what level of detail is provided</strong> and <strong data-start="1070" data-end="1126">how much confidence can be placed in the information</strong>:</span></p>
+<ul data-start="1132" data-end="1535">
+<li data-start="1132" data-end="1337" style="font-family: Roboto; color: rgb(91, 107, 136);"><p data-start="1134" data-end="1337"><strong data-start="1134" data-end="1146">Geometry</strong> may be symbolic or generic at early stages, progress to detailed elements for coordination, and reach fabrication-level detail where components are suitable for manufacture and installation.</p></li>
+<li data-start="1340" data-end="1533" style="font-family: Roboto; color: rgb(91, 107, 136);"><p data-start="1342" data-end="1533"><strong data-start="1342" data-end="1357">Reliability</strong> reflects information maturity, ranging from preliminary assumptions, through proposed and coordinated information, to verified as-built data validated against site conditions.</p></li>
+</ul>
+<p data-start="1538" data-end="1686"><span style="font-family: Roboto; color: rgb(91, 107, 136);">These definitions help ensure information is used appropriately for coordination, construction, and handover, reducing misinterpretation and rework.</span></p>
+</div>
+<table data-mce-style="background-color: #ffffff;" data-pasted="true" style="width: 100%;"></table>
+</div>
+<div style="margin-top:12px;background:#fbfdff;border:1px solid #dbe6f3;border-left:5px solid #009ef5;border-radius:14px;padding:14px 16px;" data-pasted="true">
+<div style="font-weight:900;color:#1c2430;letter-spacing:-.01em;margin-bottom:6px;">Why this matters</div>
+<div style="color:#5b6b88;line-height:1.65;font-size:14px;">Clear standards for naming, geometry, and reliability reduce ambiguity, prevent misuse of information, and support consistent verification. This enables teams to trust the information they receive and ensures models and data can be confidently used for coordination, construction, and handover.</div>
+</div></div></div></div></div></div></div>

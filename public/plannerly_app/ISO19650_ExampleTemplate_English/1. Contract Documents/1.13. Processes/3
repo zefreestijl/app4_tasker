@@ -1,0 +1,73 @@
+<div id="subtree-container" class="subtree-container"><div class="aea2d7dde423afa7ad9351a0886150a8-scss b51b00c1669ad99a1c607cd1e77c2824-scss" style="inset: 327px 269px 0px 0px; justify-content: flex-end;"><div class="afeebf1df237d4103108ba40799802d6-scss"><div class="c13443431e58facf06f9d12490b92a82-scss" style="width: 90vw; max-width: 8.5in;"><div class="_0df5ec6b9902d7d22ccfa3ebb4f35211-scss">Model Quality Control</div><div class="e5e059a27f4c194020f0d961a3cb5989-scss" dir="auto"><div class="fr-view"><p><br></p>
+<div style="border:1px solid #e8eef6;border-radius:16px;background:#fbfdff;padding:18px 18px 16px 18px;">
+<div style="font-size:13px;font-weight:800;color:#5b6b88;letter-spacing:.06em;text-transform:uppercase;margin-bottom:6px;">Model quality control</div>
+<div style="border:1px solid #e8eef6;border-radius:14px;background:#ffffff;padding:14px 16px;margin-top:10px;font-size:13px;color:#5b6b88;"><p data-pasted="true">Model Quality Control ensures that models are <strong data-start="209" data-end="265" data-pasted="true">accurate, consistent, and fit for their intended use</strong> at each stage of the project. Checks focus on geometry, data completeness, coordination, and compliance with the agreed information requirements, supporting reliable verification, issue resolution, and controlled information exchange.</p></div>
+</div>
+<div style="font-family:Roboto, Arial, sans-serif;">
+<!-- Card: Section header --><!-- Note (assignment use) --> <!-- Table: Model Quality Checks --><div style="margin-top:12px;border:1px solid #e8eef6;border-radius:16px;background:#ffffff;padding:16px 18px;">
+<div style="font-size:14px;font-weight:900;color:#0e1e3d;margin-bottom:10px;">Quality checks</div>
+<table style="width: 100%; border-collapse: collapse; margin-top: 10px; height: 272px;" data-pasted="true">
+<colgroup><col style="width: 12.2107%;"></colgroup> <colgroup><col style="width: 37.7069%;"></colgroup> <colgroup><col style="width: 13.0058%;"></colgroup> <colgroup><col style="width: 17.0261%;"></colgroup> <colgroup><col style="width: 20.0505%;"></colgroup>
+<thead><tr style="height: 41px;">
+<th style="background:#f6f9fe;padding:10px;color:#0e1e3d;">Check<br>
+</th>
+<th style="background:#f6f9fe;padding:10px;color:#0e1e3d;">Definition<br>
+</th>
+<th style="background:#f6f9fe;padding:10px;color:#0e1e3d;">Responsible party<br>
+</th>
+<th style="background:#f6f9fe;padding:10px;color:#0e1e3d;">Software used<br>
+</th>
+<th style="background:#f6f9fe;padding:10px;color:#0e1e3d;">Frequency<br>
+</th>
+</tr></thead>
+<tbody>
+<tr style="height: 62px;">
+<td style="padding:10px;color:#5b6b88;"><span style="color: rgb(91, 107, 136);"><strong>Visual</strong></span></td>
+<td style="padding:10px;color:#5b6b88;">Ensure there are no unintended model components and that design intent is followed (e.g., correct families, levels, constraints, and coordination spaces).<span style="color: rgb(91, 107, 136);"><br></span>
+</td>
+<td style="padding:10px;color:#5b6b88;">Appointed party<span style="color: rgb(91, 107, 136);"><br></span>
+</td>
+<td style="padding:10px;color:#5b6b88;"><span style="color: rgb(91, 107, 136);"><span><span><span><span style=""><smartfield data-key="Software Used for Modelling" contenteditable="false" class="missing-value fr-deletable"><span class="lodIcon lodIcon_errorTriangle">&nbsp;</span>{{Software Used for Modelling}}</smartfield></span></span></span></span> <br></span></td>
+<td style="padding:10px;color:#5b6b88;">Weekly <br>
+</td>
+</tr>
+<tr style="height: 63px;">
+<td style="padding:10px;color:#5b6b88;"><span style="color: rgb(91, 107, 136);"><strong>Clash</strong></span></td>
+<td style="padding:10px;color:#5b6b88;">Detect and resolve conflicts between building elements across disciplines, including hard clashes and key clearance/access issues.<span style="color: rgb(91, 107, 136);"><br></span>
+</td>
+<td style="padding:10px;color:#5b6b88;">Appointed party<span style="color: rgb(91, 107, 136);"><br></span>
+</td>
+<td style="padding:10px;color:#5b6b88;"><span style="color: rgb(91, 107, 136);"><span><span><span><span style=""><smartfield data-key="Software Used for Clash" contenteditable="false" class="missing-value fr-deletable"><span class="lodIcon lodIcon_errorTriangle">&nbsp;</span>{{Software Used for Clash}}</smartfield></span></span></span></span> <br></span></td>
+<td style="padding:10px;color:#5b6b88;">Weekly<br>
+</td>
+</tr>
+<tr style="height: 63px;">
+<td style="padding:10px;color:#5b6b88;"><span style="color: rgb(91, 107, 136);"><strong>Standards</strong></span></td>
+<td style="padding:10px;color:#5b6b88;">Confirm modelling standards are followed (naming, worksets, parameters, classifications, view templates, line styles, levels/grids, and agreed model structure).<span style="color: rgb(91, 107, 136);"><br></span>
+</td>
+<td style="padding:10px;color:#5b6b88;">Appointed party<span style="color: rgb(91, 107, 136);"><br></span>
+</td>
+<td style="padding:10px;color:#5b6b88;"><span style="color: rgb(91, 107, 136);"><span><span><span><span style=""><smartfield data-key="Software Used for Standards" contenteditable="false" class="missing-value fr-deletable"><span class="lodIcon lodIcon_errorTriangle">&nbsp;</span>{{Software Used for Standards}}</smartfield></span></span></span></span> <br></span></td>
+<td style="padding:10px;color:#5b6b88;">Ongoing / before each exchange<br>
+</td>
+</tr>
+<tr style="height: 43px;">
+<td style="padding:10px;color:#5b6b88;">
+<strong>I</strong><strong>nformation Integrity</strong>
+</td>
+<td style="padding:10px;color:#5b6b88;">Verify that model information meets the defined Exchange Information Requirements (EIR) — including required attributes, classifications, responsibilities, and status. Record any missing, incomplete, or non-compliant information and assign corrective actions before acceptance.<br>
+</td>
+<td style="padding:10px;color:#5b6b88;">Lead Appointed party</td>
+<td style="padding:10px;color:#5b6b88;">Plannerly<br>
+</td>
+<td style="padding:10px;color:#5b6b88;">Before each formal information exchange<br>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Why this matters --><div style="margin-top:12px;background:#fbfdff;border:1px solid #dbe6f3;border-left:5px solid #009ef5;border-radius:14px;padding:14px 16px;">
+<div style="font-weight:900;color:#1c2430;letter-spacing:-.01em;margin-bottom:6px;">Why this matters</div>
+<div style="color:#5b6b88;line-height:1.65;font-size:14px;">Model coordination confirms that elements fit together. <strong style="color:#1c2430;"><span style="color: rgb(91, 107, 136);">Information verification confirms that the right information has been delivered.</span></strong> Plannerly verify module is used to verify models and documents against the project’s information requirements, helping teams confirm completeness and accountability before sharing or acceptance.</div>
+</div>
+</div></div></div></div></div></div></div>

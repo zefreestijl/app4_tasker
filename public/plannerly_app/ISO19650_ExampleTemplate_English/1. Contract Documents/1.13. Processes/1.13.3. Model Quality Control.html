@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISO 19650 Example Template</title>
+    <link rel="stylesheet" href="../../public/styles.css">
+</head>
+<body>
+
+    <section class="content-card">
+    
+    <div class="section-label">Model Quality Control</div>
+
+    <div class="nested-goal-box">
+        <p style="margin:0;">
+            Model Quality Control ensures that models are <strong>accurate, consistent, and fit for their intended use</strong> at each stage of the project. Checks focus on geometry, data completeness, coordination, and compliance with the agreed information requirements, supporting reliable verification, issue resolution, and controlled information exchange.
+        </p>
+    </div>
+
+    
+
+    <div class="subsection-box">
+        <h3 class="subsection-title">Quality checks</h3>
+        
+        <div class="table-wrapper">
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th width="15%">Check</th>
+                        <th width="40%">Definition</th>
+                        <th width="15%">Responsible party</th>
+                        <th width="15%">Software used</th>
+                        <th width="15%">Frequency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Visual</strong></td>
+                        <td>Ensure there are no unintended model components and that design intent is followed (e.g., correct families, levels, constraints, and coordination spaces).</td>
+                        <td>Appointed party</td>
+                        <td><span class="smart-field">{{Software Used for Modelling}}</span></td>
+                        <td>Weekly</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Clash</strong></td>
+                        <td>Detect and resolve conflicts between building elements across disciplines, including hard clashes and key clearance/access issues.</td>
+                        <td>Appointed party</td>
+                        <td><span class="smart-field">{{Software Used for Clash}}</span></td>
+                        <td>Weekly</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Standards</strong></td>
+                        <td>Confirm modelling standards are followed (naming, worksets, parameters, classifications, view templates, line styles, levels/grids, and agreed model structure).</td>
+                        <td>Appointed party</td>
+                        <td><span class="smart-field">{{Software Used for Standards}}</span></td>
+                        <td>Ongoing / before each exchange</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Information Integrity</strong></td>
+                        <td>Verify that model information meets the defined Exchange Information Requirements (EIR) — including required attributes, classifications, responsibilities, and status. Record any missing, incomplete, or non-compliant information and assign corrective actions before acceptance.</td>
+                        <td>Lead Appointed party</td>
+                        <td>Plannerly</td>
+                        <td>Before each formal information exchange</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="note-box-accent">
+        <div class="note-title">Why this matters</div>
+        <p>Model coordination confirms that elements fit together. <strong>Information verification confirms that the right information has been delivered.</strong> The Plannerly verify module is used to verify models and documents against the project’s information requirements, helping teams confirm completeness and accountability before sharing or acceptance.</p>
+    </div>
+
+</section>
+
+</body>
+</html>

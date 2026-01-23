@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISO 19650 Example Template</title>
+    <link rel="stylesheet" href="../../public/styles.css">
+</head>
+<body>
+
+    <section class="content-card">
+    
+    <div class="section-label">Defining Asset Information Requirements</div>
+
+    <p>
+        Now that we’ve identified our maintainable assets and linked them to real operational needs, the next step is to define <strong>exactly what information</strong> we require for each one.
+    </p>
+    <p>
+        Each <strong>Asset Information Requirement (AIR)</strong> entry should follow a clear and consistent structure, this ensures our delivery team knows what to provide, how to provide it, and when.
+    </p>
+
+    
+
+    <div class="subsection-box">
+        <h3 class="subsection-title">What Makes Up a Complete AIR?</h3>
+        <p>When we define an AIR for an asset, we typically include the following elements:</p>
+        
+        <div class="table-wrapper">
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th width="30%">Field</th>
+                        <th width="70%">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Asset Type</strong></td>
+                        <td>The name of the asset (e.g. Chiller, Fire Alarm Panel, Fan Coil Unit)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Property / Data Field</strong></td>
+                        <td>What information we require (e.g. Serial Number, Fire Rating, Installation Date)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Purpose / Use Case</strong></td>
+                        <td>Why this information is needed (e.g. for warranty tracking or compliance)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Units / Format</strong></td>
+                        <td>Expected unit or format (e.g. °C, kW, YYYY-MM-DD)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Delivery Stage</strong></td>
+                        <td>When we expect certain data to be delivered (e.g. prior to commissioning, at handover)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Responsibility</strong></td>
+                        <td>Who is expected to provide or verify the data (e.g. Contractor, MEP Consultant)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Verification Rule</strong></td>
+                        <td>How the data will be checked (e.g. required field, format check, value range)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Standard Mapping</strong></td>
+                        <td>If applicable, map to COBie field or IFC property set (e.g. Pset_ManufacturerTypeInformation)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Notes / Clarifications</strong></td>
+                        <td>Any special conditions, references to standards, or clarifications</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <p>Below are some common operational use cases that typically require structured data for maintainable assets:</p>
+
+    <div class="table-wrapper">
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th width="25%">Operational needs</th>
+                    <th width="40%">Examples of Required Data</th>
+                    <th width="35%">Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Planned Preventive Maintenance (PPM)</strong></td>
+                    <td>Asset type, location, maintenance schedule, SFG20 code</td>
+                    <td>Used to set up recurring tasks in CAFM or BMS systems</td>
+                </tr>
+                <tr>
+                    <td><strong>Reactive Maintenance</strong></td>
+                    <td>Installer details, warranty expiry, asset ID</td>
+                    <td>Helps determine if repair is covered or chargeable</td>
+                </tr>
+                <tr>
+                    <td><strong>Regulatory Compliance</strong></td>
+                    <td>Test results, inspection history, fire rating, certificate ID</td>
+                    <td>Supports safety audits and legal reporting</td>
+                </tr>
+                <tr>
+                    <td><strong>Energy Performance Tracking</strong></td>
+                    <td>Power input, efficiency rating, commissioning date</td>
+                    <td>Supports ESG goals and energy benchmarking</td>
+                </tr>
+                <tr>
+                    <td><strong>Replacement Planning</strong></td>
+                    <td>Install date, expected lifespan, asset condition</td>
+                    <td>Aids capital forecasting and lifecycle cost analysis</td>
+                </tr>
+                <tr>
+                    <td><strong>Inventory and Asset Register</strong></td>
+                    <td>Manufacturer, model, serial number, barcode/QR code</td>
+                    <td>Ensures accurate record-keeping for all maintainable systems</td>
+                </tr>
+                <tr>
+                    <td><strong>FM Contractor Setup</strong></td>
+                    <td>Access zones, maintenance clearances, operational manuals</td>
+                    <td>Reduces onboarding time and errors for new maintenance teams</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p>
+        Many of these needs tie directly back to our Organizational Information Requirements (OIR). Example: long-term goals around compliance, safety, sustainability, and operational efficiency. So when we define AIR, we’re really giving shape to those high-level goals by saying what data we need and why.
+    </p>
+
+</section>
+
+</body>
+</html>

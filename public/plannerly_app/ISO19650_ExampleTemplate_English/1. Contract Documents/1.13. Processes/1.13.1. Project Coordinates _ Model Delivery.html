@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISO 19650 Example Template</title>
+    <link rel="stylesheet" href="../../public/styles.css">
+</head>
+<body>
+
+    <section class="content-card">
+    
+    <div class="section-label">Project Coordinates and Model Delivery</div>
+
+    <div class="nested-goal-box">
+        <p style="margin:0;">All discipline models shall use a <strong>common coordinate and level system</strong> to ensure consistent model alignment throughout the project. This approach supports reliable coordination between disciplines, accurate information exchange, and a controlled handover of verified information.</p>
+    </div>
+
+    <div class="subsection-box">
+        <h3 class="subsection-title">Model Delivery</h3>
+        <p class="intro-text">Confirm what information will be shared, who delivers it, how often, and in what format.</p>
+
+        
+
+        <div class="table-wrapper">
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th width="25%">Information</th>
+                        <th width="25%">Team</th>
+                        <th width="25%">Frequency</th>
+                        <th width="25%">Format</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Architectural Model</strong></td>
+                        <td>Architect (Lead Designer)</td>
+                        <td>Weekly</td>
+                        <td>.rvt</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Structural Model</strong></td>
+                        <td>Structural Engineer</td>
+                        <td>Weekly</td>
+                        <td>.rvt</td>
+                    </tr>
+                    <tr>
+                        <td><strong>MEP Model</strong></td>
+                        <td>MEP Engineer</td>
+                        <td>Weekly</td>
+                        <td>.rvt</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Federated / Coordination Model</strong></td>
+                        <td><span class="smart-field">{{Team}}</span></td>
+                        <td><span class="smart-field">{{Frequency}}</span></td>
+                        <td><span class="smart-field">{{Format}}</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p style="margin-top:10px; font-size:13px; font-style:italic; color:#5b6b88;">
+            Tip: Keep delivery frequency realistic — consistent weekly drops are better than occasional “big” uploads.
+        </p>
+    </div>
+
+    <div class="subsection-box">
+        <h3 class="subsection-title">Project Coordinates</h3>
+        <p class="intro-text">Define the coordinate and level system so all models align correctly for coordination, verification, and exchange.</p>
+
+        
+
+        <div class="table-wrapper">
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th colspan="3" style="background:#f6f9fe; color:#0e1e3d;">Physical Project Coordinates:</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td width="30%">Project Datum</td>
+                        <td colspan="2">0,0,0</td>
+                    </tr>
+                    <tr>
+                        <td>Height Datum</td>
+                        <td colspan="2">0.0 ft. / m</td>
+                    </tr>
+                    <tr>
+                        <td>Project Location</td>
+                        <td>Easting: 452 780.00</td>
+                        <td>Northing: 318 420.00</td>
+                    </tr>
+                    <tr>
+                        <td>Project Rotation / Positioning</td>
+                        <td colspan="2">degrees 0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="nested-goal-box" style="margin-top:16px;">
+            <div style="font-weight:900; color:#0e1e3d; margin-bottom:8px; font-size:14px;">Alignment rules (must follow)</div>
+            <ul class="styled-checklist">
+                <li>All discipline models shall use the <strong>same coordinate and level system</strong> defined above.</li>
+                <li>Models must not be manually shifted to “make it fit” — coordinate issues must be resolved at source.</li>
+                <li>Each update replaces the previous version in the CDE (avoid parallel “final_final” versions).</li>
+                <li>For IFC export (if required), shared coordinates must be maintained to keep models aligned in review tools.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="note-box-accent">
+        <div class="note-title">Why this matters</div>
+        <p>Model delivery rules ensure teams share the right information at the right time. Coordinate consistency prevents “misaligned models”, reduces rework during coordination, and supports reliable verification and handover.</p>
+    </div>
+
+</section>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISO 19650 Example Template</title>
+    <link rel="stylesheet" href="../../public/styles.css">
+</head>
+<body>
+
+    <section class="content-card">
+    
+        <div class="section-label">Confirmation</div>
+    
+        <p style="font-weight: bold; font-size: 1.1em; color: #1e293b; margin-bottom: 20px;">
+            BIM Model Sign-Off and Authorization
+        </p>
+    
+        
+    
+        <div style="overflow-x: auto;">
+            <table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+                <thead>
+                    <tr style="background-color: #2c82c9; color: white; text-align: left;">
+                        <th style="padding: 12px; border: 1px solid #dee2e6; width: 35%;">Section</th>
+                        <th style="padding: 12px; border: 1px solid #dee2e6;">Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="padding: 10px; border: 1px solid #dee2e6; background-color: #f8fafc; font-weight: bold;">Project Title</td>
+                        <td style="padding: 10px; border: 1px solid #dee2e6;"><span class="smart-field">{{Project Title}}</span></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px; border: 1px solid #dee2e6; background-color: #f8fafc; font-weight: bold;">Project ID/Number</td>
+                        <td style="padding: 10px; border: 1px solid #dee2e6;"><span class="smart-field">{{Project ID}}</span></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px; border: 1px solid #dee2e6; background-color: #f8fafc; font-weight: bold;">Model Name/Reference</td>
+                        <td style="padding: 10px; border: 1px solid #dee2e6;">{{ModelTitle}} / {{ModelReferenceNumber}}</td>
+                    </tr>
+                    <tr style="background-color: #f1f5f9;">
+                        <td style="padding: 10px; border: 1px solid #dee2e6; background-color: #f8fafc; font-weight: bold;">Model Revision</td>
+                        <td style="padding: 10px; border: 1px solid #dee2e6;">{{ModelRevision}}</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px; border: 1px solid #dee2e6; background-color: #f8fafc; font-weight: bold;">Date of Submission</td>
+                        <td style="padding: 10px; border: 1px solid #dee2e6;">{{ModelSubmissionDate}}</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px; border: 1px solid #dee2e6; background-color: #f8fafc; font-weight: bold;">Submitted by (Authoring Company)</td>
+                        <td style="padding: 10px; border: 1px solid #dee2e6;">{{AuthoringCompany}}</td>
+                    </tr>
+                    <tr style="background-color: #f0fdf4;">
+                        <td style="padding: 10px; border: 1px solid #dee2e6; background-color: #f8fafc; font-weight: bold;">Reviewed by (Approver)</td>
+                        <td style="padding: 10px; border: 1px solid #dee2e6; font-weight: bold; color: #166534;">{{ApproverCompany}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    
+        <div style="margin-top: 20px; padding: 15px; border: 2px solid #22c55e; border-radius: 6px; background-color: #f0fdf4; text-align: center;">
+            <p style="margin: 0; font-weight: bold; color: #15803d;">
+                CERTIFIED FOR PROJECT USE
+            </p>
+        </div>
+    
+    </section>
+
+</body>
+</html>

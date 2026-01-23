@@ -1,0 +1,1112 @@
+/* --- Global Styles --- */
+:root {
+  --color-text-dark: #1c2430;
+  --color-text-gray: #5b6b88;
+  --color-border: #e3e8f0;
+  --color-bg-light: #fbfdff;
+  --color-blue-accent: #009ef5;
+  --color-header-border: #dbeaff;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--color-text-dark);
+  background-color: #f4f5f7;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+a {
+  color: var(--color-text-dark);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* --- Main Container --- */
+.assignment-container {
+  max-width: 850px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* --- Card Utilities --- */
+.content-card, .header-card {
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: 22px;
+  padding: 26px 22px;
+  margin-bottom: 18px;
+}
+
+h3 {
+  margin: 0 0 10px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  font-size: 18px;
+}
+
+h4 {
+  margin: 0 0 4px;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+}
+
+p, li {
+  color: var(--color-text-gray);
+  font-size: 14px;
+  margin: 0 0 12px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* --- Header Section --- */
+.header-card {
+  border: 3px solid var(--color-header-border);
+}
+
+.header-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.tag {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.tag--primary {
+  padding: 8px 14px;
+  border-radius: 99px;
+  background: #e6f2ff;
+  color: #0b3a7a;
+  font-weight: 700;
+}
+
+.tag--secondary {
+  color: var(--color-text-gray);
+  font-weight: 600;
+}
+
+/* --- Three Column Grid --- */
+.grid-three {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.mini-card {
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: 18px;
+  padding: 14px;
+}
+
+/* --- Roles Section --- */
+.roles-grid {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.role-box {
+  padding: 12px;
+  border: 1px solid #edf2f8;
+  border-radius: 12px;
+  background: var(--color-bg-light);
+}
+
+.role-box h4 {
+  line-height: 1.2;
+}
+
+.dashed-notice {
+  padding: 12px 14px;
+  background: #fff;
+  border: 1px dashed #cfe1ff;
+  border-radius: 16px;
+  color: var(--color-text-dark);
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+/* --- Steps Section --- */
+.steps-container {
+  display: grid;
+  gap: 12px;
+}
+
+.step-card {
+  background: var(--color-bg-light);
+  border: 1px solid #edf2f8;
+  border-radius: 16px;
+  padding: 14px;
+}
+
+.step-card ul {
+  padding-left: 20px;
+  margin-top: 6px;
+}
+
+.image-wrapper {
+  background: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: 14px;
+  padding: 10px 12px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.sub-options {
+  display: grid;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.option-box {
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: 14px;
+  padding: 10px 12px;
+}
+
+/* --- Note Section --- */
+.note-card {
+  background: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: 18px;
+  padding: 14px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  margin-bottom: 18px;
+}
+
+.note-icon {
+  font-size: 20px;
+}
+
+/* --- Sequence & Context --- */
+.blue-context-box {
+  background: var(--color-bg-light);
+  border: 1px solid #dbe6f3;
+  border-left: 5px solid var(--color-blue-accent);
+  border-radius: 14px;
+  padding: 14px 16px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.image-card {
+  border: 1px solid var(--color-border);
+  border-radius: 18px;
+  overflow: hidden;
+  background: #f6f8fb;
+  margin-top: 12px;
+}
+
+.image-card-header {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--color-border);
+  font-weight: 700;
+  color: var(--color-text-dark);
+}
+
+.image-card-body {
+  padding: 12px;
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 768px) {
+  .grid-three {
+      grid-template-columns: 1fr;
+  }
+}
+
+
+
+/* --- Task 1 Specific Styles --- */
+/* The Blue Header Variant */
+.task-header-theme {
+  background: #eaf3ff;
+  border: 1px solid #dbeaff;
+}
+
+.task-title {
+  margin: 0 0 10px;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  color: var(--color-text-dark);
+  font-size: clamp(24px, 3.2vw, 36px);
+}
+
+/* Role Pills */
+.role-tags-container {
+  margin-top: 14px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.pill-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  border-radius: 99px;
+  background: #ffffff;
+  border: 1px solid #dbeaff;
+  color: #0e1e3d;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+/* Goal Box styling */
+.goal-box {
+  border: 1px solid var(--color-border);
+  border-radius: 18px;
+  padding: 14px;
+  background: var(--color-bg-light);
+  margin-bottom: 12px;
+}
+
+.goal-label {
+  color: var(--color-text-gray);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.goal-text {
+  color: var(--color-text-dark);
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 15px;
+  font-style: italic;
+}
+
+/* Two Column Grid */
+.grid-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 12px;
+}
+
+/* Step Header with Module Badge */
+.step-header-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.module-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  border-radius: 99px;
+  background: #0e1e3d;
+  border: 1px solid var(--color-border);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.breadcrumb {
+  font-size: 13px;
+  color: var(--color-text-gray);
+  margin-bottom: 12px;
+}
+
+/* Checklist Styling */
+.checklist-box {
+  border: 1px solid #edf2f8;
+  border-radius: 18px;
+  padding: 14px;
+  background: var(--color-bg-light);
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.checklist-title {
+  font-weight: 700;
+  color: var(--color-text-dark);
+  letter-spacing: -0.01em;
+  margin-bottom: 8px;
+}
+
+.styled-checklist {
+  margin: 0;
+  padding-left: 22px;
+  color: var(--color-text-gray);
+}
+
+.styled-checklist li {
+  font-weight: 600;
+  line-height: 1.6;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+/* Small Title inside Dashed Notice */
+.notice-title {
+  color: var(--color-text-dark);
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .grid-two {
+      grid-template-columns: 1fr;
+  }
+}
+
+
+
+/* --- Task 2 Specific Styles (Red/Pink Theme) --- */
+/* The Red Header Variant */
+.task-header-theme--red {
+  background: #ffece8;
+  border: 1px solid #ffd6ce;
+}
+
+/* Red Tag Variant */
+.tag--red-primary {
+  padding: 8px 14px;
+  border-radius: 99px;
+  background: #fff2ef;
+  color: #7a1c10;
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.tag--red-secondary {
+  color: #8a4a3f;
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* Red Pill Badge */
+.pill-badge--red {
+  border: 1px solid #ffd6ce;
+  color: #0e1e3d;
+}
+
+/* Red Mini Card (for the overview grid) */
+.mini-card--red {
+  background: #fffaf9;
+  border: 1px solid #ffe2dc;
+}
+
+/* Red Dashed Notice */
+.dashed-notice--red {
+  border-color: #ffd6ce;
+  background: #fff;
+}
+
+/**/
+/* --- Task 3 Specific Styles (Green Theme) --- */
+
+/* The Green Header Variant */
+.task-header-theme--green {
+  background: #eaf7f1;
+  border: 1px solid #d6efe4;
+}
+
+/* Green Tag Variant */
+.tag--green-primary {
+  padding: 8px 14px;
+  border-radius: 99px;
+  background: #e6f6ef;
+  color: #0b5f44;
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.tag--green-secondary {
+  color: #3f6f60;
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* Green Pill Badge */
+.pill-badge--green {
+  border: 1px solid #d6efe4;
+  color: #0e1e3d;
+}
+
+/* Green Mini Card (for the overview grid) */
+.mini-card--green {
+  background: #f8fdfc;
+  border: 1px solid #eaf7f1;
+}
+
+/**/
+/* --- Task 1 Specific Styles (Blue Theme) --- */
+
+/* The Blue Header Variant */
+.task-header-theme--blue {
+  background: #eaf3ff;
+  border: 1px solid #dbeaff;
+}
+
+/* Blue Tag Variant */
+.tag--blue-primary {
+  padding: 8px 14px;
+  border-radius: 99px;
+  background: #e6f2ff;
+  color: #0b3a7a;
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.tag--blue-secondary {
+  color: #5b6b88;
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* Blue Pill Badge */
+.pill-badge--blue {
+  border: 1px solid #dbeaff;
+  color: #0e1e3d;
+}
+
+/* Blue Mini Card */
+.mini-card--blue {
+  background: #fbfdff;
+  border: 1px solid #edf2f8;
+}
+
+/* Blue Dashed Notice */
+.dashed-notice--blue {
+  border-color: #cfe1ff;
+  background: #ffffff;
+}
+
+/**/
+/* --- Task 4 Specific Styles (Indigo Theme) --- */
+
+/* The Indigo Header Variant */
+.task-header-theme--indigo {
+  background: #f1f2ff;
+  border: 1px solid #dfe2ff;
+}
+
+/* Indigo Tag Variant */
+.tag--indigo-primary {
+  padding: 8px 14px;
+  border-radius: 99px;
+  background: #eef0ff;
+  color: #2c2f7a;
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.tag--indigo-secondary {
+  color: #4a4f8a;
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* Indigo Pill Badge */
+.pill-badge--indigo {
+  border: 1px solid #dfe2ff;
+  color: #0e1e3d;
+}
+
+/* Indigo Mini Card */
+.mini-card--indigo {
+  background: #fbfbff;
+  border: 1px solid #eceeff;
+}
+
+/* Indigo Dashed Notice */
+.dashed-notice--indigo {
+  border-color: #dfe2ff;
+  background: #ffffff;
+}
+
+/**/
+/* --- Lessons Learnt Specific Styles --- */
+
+/* The Answer Input Placeholder */
+.answer-box {
+    background: #ffffff;
+    border: 1px solid #e3e8f0;
+    border-radius: 12px;
+    padding: 18px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    color: #9aa5b1;
+    font-style: italic;
+    min-height: 40px; /* Gives it some height like a text box */
+}
+
+/* The Guidance Helper Box */
+.guidance-box {
+    padding: 10px 12px;
+    border: 1px dashed #dfe2ff;
+    border-radius: 14px;
+    background: #ffffff;
+    color: #5b6b88;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.guidance-box strong {
+    color: #1c2430;
+    font-weight: 700;
+}
+
+/* Ensure the Indigo Theme matches previous tasks */
+.task-header-theme--indigo {
+    background: #f1f2ff;
+    border: 1px solid #dfe2ff;
+}
+
+.mini-card--indigo {
+    background: #fbfbff;
+    border: 1px solid #eceeff;
+}
+
+.pill-badge--indigo {
+    border: 1px solid #dfe2ff;
+    color: #0e1e3d;
+}
+
+/**/
+/* --- Evaluation Rubric Specific Styles --- */
+
+/* Header Layout */
+.header-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-title {
+    margin: 0;
+    font-weight: 900;
+    color: #1c2430;
+    font-size: 18px;
+}
+
+/* Legend Pills */
+.legend-row {
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.legend-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 10px;
+    border-radius: 99px;
+    font-weight: 950;
+    font-size: 12px;
+}
+
+.legend--distinction { background: #f2fbf6; border: 1px solid #d6f3e0; color: #14532d; }
+.legend--merit       { background: #f0f9ff; border: 1px solid #cfe9ff; color: #0b3a7a; }
+.legend--pass        { background: #fff7ed; border: 1px solid #fde4c8; color: #7c2d12; }
+.legend--fail        { background: #fff1f2; border: 1px solid #ffd6ce; color: #7a1c10; }
+
+.pill-badge--distinction {
+    background: #fbfdff;
+    border: 1px solid #edf2f8;
+    color: #0e1e3d;
+    font-weight: 950;
+    font-size: 13px;
+    padding: 8px 12px;
+    border-radius: 999px;
+}
+
+/* Task Headers */
+.task-header-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.task-label-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.task-name {
+    font-weight: 950;
+    color: #1c2430;
+    letter-spacing: -0.01em;
+}
+
+.task-meta {
+    color: #5b6b88;
+    font-weight: 850;
+    font-size: 13px;
+}
+
+/* Rubric Grid System */
+.rubric-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.rubric-box {
+    border-radius: 18px;
+    padding: 12px;
+    border: 1px solid transparent; /* default */
+}
+
+.rubric-title {
+    font-weight: 950;
+    margin-bottom: 8px;
+}
+
+/* Rubric Themes */
+.rubric-box--distinction { background: #f2fbf6; border-color: #d6f3e0; }
+.rubric-box--distinction .rubric-title, 
+.rubric-box--distinction li { color: #14532d; }
+
+.rubric-box--merit { background: #f0f9ff; border-color: #cfe9ff; }
+.rubric-box--merit .rubric-title, 
+.rubric-box--merit li { color: #0b3a7a; }
+
+.rubric-box--pass { background: #fff7ed; border-color: #fde4c8; }
+.rubric-box--pass .rubric-title, 
+.rubric-box--pass li { color: #7c2d12; }
+
+.rubric-box--fail { background: #fff1f2; border-color: #ffd6ce; }
+.rubric-box--fail .rubric-title, 
+.rubric-box--fail li { color: #7a1c10; }
+
+/* Responsive Grid - Stack on mobile */
+@media (max-width: 900px) {
+    .rubric-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .rubric-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/**/
+/* --- Professor Guide Specific Styles --- */
+
+.pill-badge--neutral {
+    background: #ffffff;
+    border: 1px solid #e3e8f0;
+    color: #0e1e3d;
+    font-weight: 950;
+    font-size: 13px;
+    padding: 8px 12px;
+    border-radius: 999px;
+}
+
+.mini-card--neutral {
+    background: #ffffff;
+    border: 1px solid #e3e8f0;
+}
+
+.checklist-box--neutral {
+    border: 1px solid #edf2f8;
+    background: #fbfdff;
+    border-radius: 18px;
+    padding: 14px;
+    margin-top: 12px;
+}
+
+.dashed-notice--neutral {
+    border: 1px dashed #cfe1ff;
+    border-radius: 18px;
+    padding: 14px;
+    background: #ffffff;
+    margin-top: 12px;
+}
+
+/* Re-using grid-two from previous, but defining it just in case if missed */
+.grid-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+@media (max-width: 600px) {
+    .grid-two {
+        grid-template-columns: 1fr;
+    }
+}
+/**/
+/* --- Introduction Section Styles --- */
+
+.intro-card {
+    border: 1px solid #e8eef6;
+    border-radius: 16px;
+    background: #ffffff;
+    padding: 18px;
+    margin-bottom: 12px;
+}
+
+.intro-title {
+    font-size: 18px;
+    font-weight: 800;
+    color: #0e1e3d;
+    margin: 0 0 8px 0;
+}
+
+/* Blue Note with Left Border Accent */
+.note-box-accent {
+    background: #fbfdff;
+    border: 1px solid #dbe6f3;
+    border-left: 5px solid #009ef5;
+    border-radius: 14px;
+    padding: 14px 16px;
+    margin-top: 12px;
+}
+
+.note-title {
+    font-weight: 700;
+    color: #1c2430;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+/**/
+/* --- EIR Checklist Specific Styles --- */
+
+.eir-checklist-container {
+    font-family: 'Roboto', sans-serif;
+    padding: 0 10px;
+}
+
+.checklist-card {
+    border: 1px solid #e8eef6;
+    border-radius: 16px;
+    padding: 18px;
+    margin-bottom: 20px;
+    background: #ffffff;
+}
+
+/* Style the summary to look clickable and bold */
+.checklist-summary {
+    font-size: 18px;
+    font-weight: 800;
+    color: #0e1e3d;
+    cursor: pointer;
+    list-style: none; /* Hides default triangle in some browsers */
+}
+
+/* Custom triangle indicator for details */
+.checklist-summary::-webkit-details-marker {
+    display: none;
+}
+
+.checklist-summary::before {
+    content: '▶';
+    font-size: 12px;
+    margin-right: 10px;
+    display: inline-block;
+    transition: transform 0.2s;
+}
+
+details[open] .checklist-summary::before {
+    transform: rotate(90deg);
+}
+
+/* Why This Matters Box */
+.why-matter-box {
+    margin-top: 24px;
+    padding: 14px 16px;
+    background: #fbfdff;
+    border: 1px solid #dbe6f3;
+    border-left: 5px solid #009ef5;
+    border-radius: 14px;
+    color: #5b6b88;
+    font-size: 14px;
+    line-height: 1.65;
+}
+
+.why-matter-box strong {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #0e1e3d;
+}
+/**/
+/* --- Vision, Mission, Values Section Styles --- */
+
+.section-label {
+    font-size: 13px;
+    font-weight: 800;
+    color: #5b6b88;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+.vision-intro-box {
+    border: 1px solid #e8eef6;
+    border-radius: 14px;
+    background: #fbfdff;
+    padding: 14px 16px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.intro-bold {
+    color: #1c2430;
+    font-weight: 900;
+    line-height: 1.55;
+    margin-bottom: 8px;
+}
+
+.vision-card {
+    /* Extending the base mini-card style */
+    padding: 14px;
+}
+
+.vision-card-label {
+    font-size: 12px;
+    font-weight: 900;
+    color: #5b6b88;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.vision-heading {
+    color: #1c2430;
+    margin-bottom: 8px;
+    letter-spacing: -0.01em;
+}
+
+.vision-list {
+    margin: 0;
+    padding-left: 18px;
+    color: #5b6b88;
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+.vision-list li {
+    margin-bottom: 6px;
+    font-weight: 400; /* Regular weight for list items */
+}
+
+.vision-footer {
+    margin-top: 12px;
+    color: #5b6b88;
+    font-size: 14px;
+}
+/**/
+/* --- OIR Strategic Goal Specific Styles --- */
+
+.oir-intro-container {
+    border: 1px solid #e8eef6;
+    border-radius: 16px;
+    background: #fbfdff;
+    padding: 18px;
+    margin-bottom: 12px;
+}
+
+.goal-description {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.role-dashed-box {
+    margin-top: 12px;
+    padding: 12px 14px;
+    background: #ffffff;
+    border: 1px dashed #cfe1ff;
+    border-radius: 16px;
+    color: #1c2430;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.subsection-box {
+    margin-top: 12px;
+    border: 1px solid #e8eef6;
+    border-radius: 16px;
+    background: #ffffff;
+    padding: 16px 18px;
+}
+
+.subsection-title {
+    margin: 0 0 12px;
+    font-weight: 900;
+    letter-spacing: -0.01em;
+    color: #1c2430;
+    font-size: 18px;
+}
+
+/* Styled Table */
+.table-wrapper {
+    overflow-x: auto; /* Handles responsiveness on small screens */
+    margin-top: 10px;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.styled-table th {
+    background: #f6f9fe;
+    padding: 12px 10px;
+    color: #0e1e3d;
+    text-align: left;
+    font-weight: 700;
+}
+
+.styled-table td {
+    padding: 12px 10px;
+    color: #5b6b88;
+    border-bottom: 1px solid #e8eef6;
+    vertical-align: top;
+}
+
+.styled-table td strong {
+    color: #1c2430;
+}
+
+.table-footer-note {
+    margin-top: 10px;
+    color: #5b6b88;
+    font-size: 13px;
+    font-style: italic;
+}
+/**/
+/* --- Project Information Specific Styles --- */
+
+/* Smart Field Placeholder Style */
+.smart-field {
+    display: inline-block;
+    background-color: #fff1f2; /* Light pink background to indicate missing data */
+    color: #c0392b;            /* Dark red text */
+    padding: 4px 8px;
+    border-radius: 6px;
+    border: 1px dashed #e74c3c;
+    font-family: monospace;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+/* Optional: Hover effect for smart fields */
+
+
+
+
+.smart-field:hover {
+    background-color: #ffece8;
+    cursor: pointer;
+}
+/**/
+/* --- BIM Uses Specific Styles --- */
+
+/* Nested Box for the Owner's Goal inside the card */
+.nested-goal-box {
+    border: 1px solid #e8eef6;
+    border-radius: 14px;
+    background: #ffffff;
+    padding: 14px 16px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.intro-text {
+    color: #5b6b88;
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.instruction-text {
+    font-size: 14px;
+    color: #0e1e3d;
+    margin-bottom: 10px;
+
+
+
+}
+
+/* Specific styling for lists inside tables */
+.table-list {
+    margin: 0;
+    padding-left: 15px;
+    font-size: 13px; /* Slightly smaller to fit table */
+}
+
+.table-list li {
+    margin-bottom: 4px;
+}
+/**/
+/* --- Hardware Table Images --- */
+.hardware-img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centers the image in the cell */
+    border-radius: 4px;
+}
+/**/
+
+
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+<div id="subtree-container" class="subtree-container"><div class="aea2d7dde423afa7ad9351a0886150a8-scss b51b00c1669ad99a1c607cd1e77c2824-scss" style="inset: 346px 18px 0px 0px; justify-content: flex-end;"><div class="afeebf1df237d4103108ba40799802d6-scss"><div class="c13443431e58facf06f9d12490b92a82-scss" style="width: 90vw; max-width: 8.5in;"><div class="_0df5ec6b9902d7d22ccfa3ebb4f35211-scss">Defining Asset Information Requirements </div><div class="e5e059a27f4c194020f0d961a3cb5989-scss" dir="auto"><div class="fr-view"><div style="font-family: Roboto, Arial, sans-serif;">
+<!-- Section header / intro card --><div style="border:1px solid #e8eef6;border-radius:16px;background:#fbfdff;padding:18px 18px 16px 18px;">
+<div style="font-size:13px;font-weight:800;color:#5b6b88;letter-spacing:.06em;text-transform:uppercase;margin-bottom:6px;">Asset Information Requirements</div>
+<div style="border:1px solid #e8eef6;border-radius:14px;background:#ffffff;padding:14px 16px;margin-top:10px;">
+<div style="font-size:14px;font-weight:900;color:#0e1e3d;margin-bottom:6px;">Defining asset information requirements</div>
+<div style="color:#1c2430;line-height:1.6;font-size:14px;">Once the maintainable assets are identified, the next step is to define what information is required to support their operation and maintenance.</div>
+</div>
+<p class="p1" data-pasted="true"><span style="color: rgb(91, 107, 136);">The next step is to define </span><span class="s1" style="color: rgb(91, 107, 136);"><strong>exactly what information</strong></span><span style="color: rgb(91, 107, 136);"> we require for each one.</span></p>
+<p class="p1"><span style="color: rgb(91, 107, 136);">Each </span><span class="s1" style="color: rgb(91, 107, 136);"><strong>Asset Information Requirement (AIR)</strong></span><span style="color: rgb(91, 107, 136);"> entry should follow a clear and consistent structure, this ensures our delivery team knows what to provide, how to provide it, and when.</span></p>
+</div>
+<div style="margin-top:12px;border:1px solid #e8eef6;border-radius:16px;background:#ffffff;padding:16px 18px;" data-pasted="true">
+<h3 data-pasted="true"><span style="color: rgb(14, 30, 61);"><strong><span style="font-size: 14px;">What Makes Up a Complete AIR ?</span></strong></span></h3>
+<p class="p1" data-pasted="true"><span style="color: rgb(91, 107, 136);">When we define an AIR for an asset, we typically include the following elements:</span></p>
+<table data-pasted="true" style="height: 370px; width: 100%;">
+<thead><tr style="height: 37px;">
+<th style="background-color: rgb(246, 249, 254);"><p class="p1"><span style="color: rgb(14, 30, 61);"><strong>Field</strong></span></p></th>
+<th style="background-color: rgb(246, 249, 254);"><p class="p1"><span style="color: rgb(14, 30, 61);"><strong>Description</strong></span></p></th>
+</tr></thead>
+<tbody>
+<tr>
+<td><p class="p1"><span style="color: rgb(91, 107, 136);"><strong>Asset Type</strong></span></p></td>
+<td><p class="p1"><span style="color: rgb(91, 107, 136);">The name of the asset (e.g. Chiller, Fire Alarm Panel, Fan Coil Unit)</span></p></td>
+</tr>
+<tr>
+<td><p class="p1"><span style="color: rgb(91, 107, 136);"><strong>Property / Data Field</strong></span></p></td>
+<td><p class="p1"><span style="color: rgb(91, 107, 136);">What information we require (e.g. Serial Number, Fire Rating, Installation Date)</span></p></td>
+</tr>
+<tr>
+<td><p class="p1"><span style="color: rgb(91, 107, 136);"><strong>Purpose / Use Case</strong></span></p></td>
+<td><p class="p1"><span style="color: rgb(91, 107, 136);">Why this information is needed (e.g. for warranty tracking or compliance)</span></p></td>
+</tr>
+<tr>
+<td><p class="p1"><span style="color: rgb(91, 107, 136);"><strong>Units / Format</strong></span></p></td>
+<td><p class="p1"><span style="color: rgb(91, 107, 136);">Expected unit or format (e.g. °C, kW, YYYY-MM-DD)</span></p></td>
+</tr>
+<tr>
+<td><p class="p1"><span style="color: rgb(91, 107, 136);"><strong>Delivery Stage</strong></span></p></td>
+<td>
+<p class="p1" data-pasted="true"><span style="color: rgb(91, 107, 136);">When we expect certain data to be delivered</span></p>
+<p class="p1"><span style="color: rgb(91, 107, 136);">(e.g. prior to commissioning, at handover)</span></p>
+</td>
+</tr>
+<tr>
+<td><p class="p1"><span style="color: rgb(91, 107, 136);"><strong>Responsibility</strong></span></p></td>
+<td><p class="p1"><span style="color: rgb(91, 107, 136);">Who is expected to provide or verify the data (e.g. Contractor, MEP Consultant)</span></p></td>
+</tr>
+<tr>
+<td><p class="p1"><span style="color: rgb(91, 107, 136);"><strong>Verification Rule</strong></span></p></td>
+<td><p class="p1"><span style="color: rgb(91, 107, 136);">How the data will be checked (e.g. required field, format check, value range)</span></p></td>
+</tr>
+<tr>
+<td><p class="p1"><span style="color: rgb(91, 107, 136);"><strong>Standard Mapping</strong></span><span class="s1" style="color: rgb(91, 107, 136);">​</span></p></td>
+<td><p class="p1"><span style="color: rgb(91, 107, 136);">If applicable, map to COBie field or IFC property set (e.g. Pset_ManufacturerTypeInformation)</span></p></td>
+</tr>
+<tr>
+<td><p class="p1"><span style="color: rgb(91, 107, 136);"><strong>Notes / Clarifications</strong></span></p></td>
+<td><p class="p1"><span style="color: rgb(91, 107, 136);">Any special conditions, references to standards, or clarifications</span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="margin-top:12px;background:#fbfdff;border:1px solid #dbe6f3;border-left:5px solid #009ef5;border-radius:14px;padding:14px 16px;color:#0e1e3d;" data-pasted="true">
+<div style="font-weight:950;color:#1c2430;letter-spacing:-.01em;margin-bottom:6px;">Why this matters</div>
+<div style="color:#5b6b88;line-height:1.65;font-size:14px;">Clearly defining asset information requirements ensures that operational data is requested with purpose. By focusing on the information that supports real operational outcomes, teams avoid unnecessary data collection and create a strong foundation for structured information delivery later.</div>
+</div>
+</div></div></div></div></div></div></div>

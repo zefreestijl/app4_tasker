@@ -1,0 +1,48 @@
+<div id="subtree-container" class="subtree-container"><div class="aea2d7dde423afa7ad9351a0886150a8-scss b51b00c1669ad99a1c607cd1e77c2824-scss" style="inset: 343px 269px 0px 0px; justify-content: flex-end;"><div class="afeebf1df237d4103108ba40799802d6-scss"><div class="c13443431e58facf06f9d12490b92a82-scss" style="width: 90vw; max-width: 8.5in;"><div class="_0df5ec6b9902d7d22ccfa3ebb4f35211-scss">BCF Issue Management</div><div class="e5e059a27f4c194020f0d961a3cb5989-scss" dir="auto"><div class="fr-view"><p>One of the key aspects of successful BIM management is effective issue management.&nbsp;</p>
+<p>To facilitate this, we will use an open standard for managing issues on a BIM project called BCF (BIM Collaboration Format).</p>
+<p>BCF allows project team members to identify and communicate issues related to the project model in a structured way.&nbsp;</p>
+<p>This includes the ability to assign issues to specific team members, add comments and attachments, and track the status of issues over time.</p>
+<p>The BCF-API (Application Programming Interface) supports the exchange of BCF issues between software applications via a RESTful web interface.&nbsp;</p>
+<p>This means that different software tools used by different project team members can communicate and share issue information seamlessly.</p>
+<p>Our project will use the BCF format for issue management to help streamline the project management process, reduce errors and omissions, and improve communication and collaboration between team members.</p>
+<table>
+<caption>Example BCF Issue Management Workflow</caption>
+<thead><tr>
+<th style="text-align: center;">Step</th>
+<th>Action</th>
+<th>Responsible Party</th>
+<th>Status</th>
+</tr></thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td>Identify an issue in the project model</td>
+<td>Designer</td>
+<td>Open</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td>Create a BCF issue and assign it to the responsible party</td>
+<td>Project Manager</td>
+<td>Open</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td>Responsible party receives notification of issue and reviews it</td>
+<td>Contractor</td>
+<td>Open</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td>Responsible party adds comments and attachments to the issue</td>
+<td>Contractor</td>
+<td>In Progress</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td>Responsible party resolves the issue and marks it as closed</td>
+<td>Contractor</td>
+<td>Closed</td>
+</tr>
+</tbody>
+</table></div></div></div></div></div></div>

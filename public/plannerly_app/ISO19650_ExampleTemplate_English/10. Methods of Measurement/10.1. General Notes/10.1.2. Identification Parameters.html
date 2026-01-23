@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISO 19650 Example Template</title>
+    <link rel="stylesheet" href="../../public/styles.css">
+</head>
+<body>
+
+    <section class="content-card">
+    
+        <div class="section-label">Identification Parameters</div>
+    
+        <p>
+            Models must include parameters for indicating element identification codes specific to that project, in order to relate the cost structure with model elements.
+        </p>
+        <p>
+            These codes are crucial for identifying elements and accessing information; therefore, they should cover the cost structure not only during estimation and project phases but also during facility management (FM) and asset management phases.
+        </p>
+    
+        
+    
+        <p>
+            This ensures a consistent understanding of the unique identification code across Bills of Quantities (BoQ), specification documents, and any form of drawing tagging. Examples of such codes are <strong>Omniclass</strong>, <strong>Uniclass</strong>, <strong>Masterformat</strong>, and other project-specific or country-specific codes.
+        </p>
+    
+        <div style="background-color: #f0f4f8; border-left: 4px solid #2c82c9; padding: 15px; margin: 15px 0;">
+            <p style="margin: 0; color: #333;">
+                <strong>Requirement:</strong> The chosen codification and the specific element identification parameter should be defined in the <strong>EIR</strong> according to project requirements.
+            </p>
+        </div>
+    
+        <p>When setting identification parameters, consider the following strategies:</p>
+    
+        <ul style="margin-top: 10px; padding-left: 20px; line-height: 1.6;">
+            
+            <li style="margin-bottom: 20px;">
+                <strong>MEP and Structural elements:</strong> Should use <u>Instance Identification Parameters</u>. 
+                <br><span style="font-size: 0.9em; color: #666;">This is necessary because the same class or type of elements may be used across different systems, requiring unique codes (e.g., PVC pipes used in various systems must be assigned to the correct cost chapter).</span>
+                
+                <ul style="margin-top: 10px; border-left: 2px solid #eee; padding-left: 15px;">
+                    <li style="margin-bottom: 5px;"><strong>Structure:</strong> System &gt; Material &gt; Diameter</li>
+                    <li style="margin-bottom: 5px;"><strong>Example (Pipes):</strong>
+                        <ul style="font-size: 0.9em;">
+                            <li>Hot Water Systems &gt; PVC &gt; 100mm</li>
+                            <li>Sewage Systems &gt; PVC &gt; 200mm</li>
+                        </ul>
+                    </li>
+                    <li><strong>Example (Concrete Beams):</strong>
+                        <ul style="font-size: 0.9em;">
+                            <li>Foundation &gt; In situ concrete beam (with detailed spec.) &gt; 50 x 100cm</li>
+                            <li>Superstructure &gt; In situ concrete beam (with detailed spec.) &gt; 50 x 100cm</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+    
+            <li style="margin-bottom: 10px;">
+                <strong>Architectural elements:</strong> Can use <u>Type Parameters</u> or opt for <u>Instance Parameters</u> to maintain consistency across all disciplines.
+                
+                <ul style="margin-top: 10px; border-left: 2px solid #eee; padding-left: 15px;">
+                    <li style="margin-bottom: 5px;"><strong>Structure:</strong> Material Type &gt; Size &gt; Requirements that might impact cost (Fire Rate / Acoustic / Access Control)</li>
+                    <li><strong>Example (Doors/Windows):</strong>
+                        <ul style="font-size: 0.9em;">
+                            <li>Wooden door &gt; 900 x 2100 mm &gt; Insulation</li>
+                            <li>Steel door &gt; 1200 x 2100 mm &gt; 60 min Fire Rate</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+    
+        </ul>
+    
+        <div style="background-color: #fff3cd; border: 1px solid #ffeeba; padding: 15px; border-radius: 4px; margin-top: 20px;">
+            <p style="margin: 0; color: #856404; font-size: 0.95em;">
+                <strong>Quality Check:</strong> Before proceeding with the quantification of the modeled elements, conducting thorough quality checks is crucial to ensure the accurate assignment of all codes and avoid quantification errors.
+            </p>
+        </div>
+    
+    </section>
+
+</body>
+</html>

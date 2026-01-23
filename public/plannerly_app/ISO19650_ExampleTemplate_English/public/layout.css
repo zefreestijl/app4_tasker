@@ -1,0 +1,215 @@
+/* =========================================
+   1. GLOBAL LAYOUT & RESET
+   ========================================= */
+   * {
+    box-sizing: border-box;
+}
+
+h3 {
+    margin: 1rem 0rem;
+    padding: 0;
+    user-select: none;
+}
+
+body {
+    display: flex;          /* Flex Column for Header/Body/Footer */
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;       /* Prevent double scrollbars */
+    font-family: sans-serif;
+}
+
+.main-container {
+    display: flex;          /* Row for Sidebar + Content */
+    flex: 1;                /* Grow to fill space between top and footer */
+    overflow: hidden;
+    position: relative;     /* Needed for absolute positioning context */
+}
+
+/* =========================================
+   2. SIDEBAR (The Outliner)
+   ========================================= */
+.sidebar {
+    width: 300px;
+    min-width: 2rem;        /* Prevent it from disappearing completely */
+    height: 100%;
+    background-color: #f4f4f4;
+    border-right: 1px solid #ddd;
+    
+    /* Animation & Clipping Logic */
+    transition: width 0.3s ease;
+    overflow-x: hidden;     /* Hides text when width shrinks */
+    overflow-y: auto;       /* Scrolls vertically if list is long */
+    white-space: nowrap;    /* Keeps text on one line (no wrapping) */
+    z-index: 20;            /* Keeps sidebar above content */
+}
+
+/* Header Area (Title + Button) */
+.sidebar-header {
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;        /* Adjusted padding */
+    min-height: 50px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* The Pin Button */
+.pin-btn {
+    background: none;
+    border: none;
+    font-size: 1.0rem;
+    cursor: pointer;
+    padding: 5px;
+    display: inline-block;
+    transition: transform 0.3s ease; /* Smooth rotation */
+}
+
+
+/* =========================================
+   3. SIDEBAR LIST STYLES (The "No-Wrap" Fix)
+   ========================================= */
+
+/* 1. Base List Setup - Use 'outside' to prevent wrapping */
+.sidebar ul {
+    list-style-position: outside; 
+    padding: 0;
+    margin: 0;
+    /* We add padding here to push the bullets back onto the screen */
+    padding-left: 25px; 
+}
+
+/* 2. DEFAULT: Style for standard links (Solid Dot) */
+.sidebar li {
+    list-style-type: circle; 
+    color: #999;
+    border-bottom: 1px solid #eee;
+}
+
+/* 3. CATEGORIES: Style for items containing <details> (Hollow Circle) */
+.sidebar li:has(details) {
+    list-style-type: disc;
+    color: #333;
+}
+
+.sidebar li:has(details[open]) {
+    list-style-type: none; 
+}
+
+/* 4. Text Alignment - Ensuring everything stays on one line */
+.sidebar li a, 
+.sidebar li summary {
+    display: block;        /* Changed to block for better clipping */
+    width: 100%;
+    padding: 0.8rem 0;
+    margin-left: -5px;     /* Pulls text slightly closer to the 'outside' bullet */
+    
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+    
+    /* These three lines prevent wrapping and clip text */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+/* 5. Sub-items (Nested Links) */
+.sub-list {
+    list-style-type: none !important; 
+    padding-left: 0px !important;    /* Reset since the parent already has padding */
+    margin-left: -10px;              /* Moves sub-text slightly left */
+}
+
+.sub-list li {
+    list-style-type: none;           
+    border-bottom: none;              
+}
+
+.sub-list li a {
+    padding: 0.5rem 0;
+    padding-left: 15px;              /* Indents the text of sub-items */
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* 6. Clean up: Hide the default browser triangle */
+details summary::-webkit-details-marker { display: none; }
+details summary { list-style: none; outline: none; }
+
+
+
+/* =========================================
+   4. COLLAPSED STATE LOGIC
+   ========================================= */
+/* When 'collapsed' class is added via JS */
+.sidebar.collapsed {
+    width: 2rem;            /* Shrink width */
+    padding-left: 0;     /* Remove the extra left gap */
+    min-width: 2rem;
+}
+
+/* Rotate the button 90 degrees */
+.sidebar.collapsed .pin-btn {
+    transform: rotate(90deg);
+    color: #0066cc;
+}
+/* 2. Center the Bullet Points in the narrow strip */
+.sidebar.collapsed ul {
+    padding-left: 1.1rem; /* This centers the dot exactly in the middle of 2.2rem */
+}
+
+/* HOVER PEEK: When hovering a collapsed sidebar, expand it over content */
+.sidebar.collapsed:hover {
+    width: 300px;
+    position: absolute;     /* Float on top */
+    height: 100%;
+    box-shadow: 5px 0 15px rgba(0,0,0,0.2);
+    background-color: #f4f4f4;
+}
+
+/* =========================================
+   5. MAIN CONTENT AREA (The Iframes)
+   ========================================= */
+.content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+.window {
+    border: none;
+    width: 100%;
+    flex-grow: 1;
+}
+
+/* =========================================
+   6. FOOTER (Bottom Panel)
+   ========================================= */
+.bottom-panel {
+    height: 60px;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ccc;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #555;
+    z-index: 30;
+}
+
+.bottom-panel a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+.bottom-panel a:hover {
+    text-decoration: underline;
+    color: #003366;
+}

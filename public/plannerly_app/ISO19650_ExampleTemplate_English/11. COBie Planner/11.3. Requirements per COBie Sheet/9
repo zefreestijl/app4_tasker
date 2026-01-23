@@ -1,0 +1,60 @@
+<div id="subtree-container" class="subtree-container"><div class="aea2d7dde423afa7ad9351a0886150a8-scss b51b00c1669ad99a1c607cd1e77c2824-scss" style="inset: 616px 269px 0px 0px; justify-content: flex-end;"><div class="afeebf1df237d4103108ba40799802d6-scss"><div class="c13443431e58facf06f9d12490b92a82-scss" style="width: 90vw; max-width: 8.5in;"><div class="_0df5ec6b9902d7d22ccfa3ebb4f35211-scss">COBie Requirements - Contact</div><div class="e5e059a27f4c194020f0d961a3cb5989-scss" dir="auto"><div class="fr-view"><p><strong>authoCONTACT SHEET</strong></p>
+<table style="width: 100%; margin-right: calc(0%); margin-left: calc(0%);">
+<thead><tr>
+<th>COBie</th>
+<th>Description</th>
+<th>Example</th>
+</tr></thead>
+<tbody>
+<tr>
+<td style="width: 33.8235%;">Email</td>
+<td style="width: 32.8432%;">Author's Email</td>
+<td style="width: 33.3333%;">fl@limsen.com<br>
+</td>
+</tr>
+<tr>
+<td style="width: 33.8235%; background-color: rgb(251, 160, 38);"><span style="color: rgb(255, 255, 255);">CreatedBy</span></td>
+<td style="background-color: rgb(251, 160, 38);">
+<span style="color: rgb(255, 255, 255);">automatically mapped from&nbsp;</span><strong><span style="color: rgb(255, 255, 255);">Email</span></strong>
+</td>
+<td style="width: 33.3333%; background-color: rgb(251, 160, 38);"><br></td>
+</tr>
+<tr>
+<td style="width: 33.8235%;">Category</td>
+<td style="width: 32.8432%;">Classification Code : Classification Title</td>
+<td style="width: 33.3333%;">34-55 14 11: Consultant<br>
+</td>
+</tr>
+<tr>
+<td style="width: 33.8235%;">Company</td>
+<td style="width: 32.8432%;">Company Name</td>
+<td style="width: 33.3333%;">Limsen</td>
+</tr>
+<tr>
+<td style="width: 33.8235%;">Phone</td>
+<td style="width: 32.8432%;">Numeric</td>
+<td style="width: 33.3333%;">+3519xxxxxxxx</td>
+</tr>
+<tr>
+<td style="width: 33.8235%; background-color: rgb(147, 101, 184);"><span style="color: rgb(239, 239, 239);">External<span id="isPasted" style="color: rgb(255, 255, 255);">&nbsp;Fields</span></span></td>
+<td style="width: 32.8432%; background-color: rgb(147, 101, 184);"><span style="color: rgb(255, 255, 255);">automatically filled by authoring software</span></td>
+<td style="width: 33.3333%; background-color: rgb(147, 101, 184);"><br></td>
+</tr>
+<tr>
+<td style="width: 33.8235%; background-color: rgb(255, 255, 255);">Department<br>
+</td>
+<td style="width: 32.8432%; background-color: rgb(255, 255, 255);">3 letter code assigned in BEP<br>
+</td>
+<td style="width: 33.3333%; background-color: rgb(255, 255, 255);">BIM<br>
+</td>
+</tr>
+<tr>
+<td style="width: 33.8235%; background-color: rgb(255, 255, 255);">Organization Code<br>
+</td>
+<td style="width: 32.8432%; background-color: rgb(255, 255, 255);">3 letter code assigned in BEP<br>
+</td>
+<td style="width: 33.3333%; background-color: rgb(255, 255, 255);">LSN</td>
+</tr>
+</tbody>
+</table>
+<p><br></p></div></div></div></div></div></div>

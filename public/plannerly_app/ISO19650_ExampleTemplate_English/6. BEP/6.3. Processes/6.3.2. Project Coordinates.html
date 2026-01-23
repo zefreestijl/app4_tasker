@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISO 19650 Example Template</title>
+    <link rel="stylesheet" href="../../public/styles.css">
+</head>
+<body>
+
+    <section class="content-card">
+    
+        <div class="section-label">Project Coordinates</div>
+    
+        <p>
+            Identify project spatial location - real world co-ordinate and level system.
+        </p>
+    
+        
+    
+        <div class="table-wrapper">
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th colspan="3" style="text-align: center;">Physical Project Coordinates</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="width: 30%;"><strong>Project Datum</strong></td>
+                        <td colspan="2">0,0,0</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Height Datum</strong></td>
+                        <td colspan="2">0.0 ft. / m</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Project Location</strong></td>
+                        <td style="width: 35%;">Easting:<br><br></td>
+                        <td style="width: 35%;">Northing:<br><br></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Project Rotation / Positioning</strong></td>
+                        <td colspan="2">degrees 0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    
+        <div class="subsection-box">
+            <h3 class="subsection-title">Coordination Guidelines</h3>
+            <p style="margin-bottom: 10px;">The Civil/ Site will align with the State Plane Coordinates.</p>
+            
+            <p style="margin-bottom: 10px;">
+                The building origin will need to be selected and have a real physical location to act as a control point (example; the South West most point of the site). A physical monument can be placed (if not already existing) on site of the project (example; +5,+5,+1 from the property line). Consider Frost Lines and Vehicle traffic to avoid having to relocate the monument.
+            </p>
+    
+            <p style="margin-bottom: 10px;">
+                This Monument / Origin Marker should be placed in the Site Civil Drawings and all models (Design, Engineering, Shop, Fabrication, Civil, etc...). A 3D Text near the origin point can be placed near the marker with the building coordinates (example: Origin = N472,250, E2,228,070 - rotation 24.5 degrees).
+            </p>
+    
+            <p style="margin-bottom: 10px;">
+                Determine a control point "Building Origin" within the building - usually (example: Column/ Grid line A1 as finish slab is N 520 ft, E 785 ft/ height 4.5 ft. from the "monument". Usually Architectural and Structural will coordinate this first and all other design models follow.
+            </p>
+    
+            <div style="background-color: #e8f4fd; border-left: 4px solid #2c82c9; padding: 10px; margin-top: 15px;">
+                <p style="margin: 0; color: #333;">
+                    <strong>Note to all Revit users:</strong> The origin marker, “Base Point”, and “Shared Coordinate” should all be in the same place in your models. You can then use the site/civil information to “locate” the project for solar studies, heat days, lighting, etc… You will need a second “Site Location” created for the IFC export so that the project will not be miles from the origin.
+                </p>
+            </div>
+        </div>
+    
+    </section>
+
+</body>
+</html>

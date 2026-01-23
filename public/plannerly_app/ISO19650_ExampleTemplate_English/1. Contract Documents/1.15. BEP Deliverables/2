@@ -1,0 +1,27 @@
+<div id="subtree-container" class="subtree-container"><div class="aea2d7dde423afa7ad9351a0886150a8-scss b51b00c1669ad99a1c607cd1e77c2824-scss" style="inset: 617px 269px 0px 0px; justify-content: flex-end;"><div class="afeebf1df237d4103108ba40799802d6-scss"><div class="c13443431e58facf06f9d12490b92a82-scss" style="width: 90vw; max-width: 8.5in;"><div class="_0df5ec6b9902d7d22ccfa3ebb4f35211-scss">Contract Terms - Variations + Exclusions</div><div class="e5e059a27f4c194020f0d961a3cb5989-scss" dir="auto"><div class="fr-view"><div style="border:1px solid #e8eef6;border-radius:16px;background:#fbfdff;padding:18px 18px 16px 18px;" data-pasted="true">
+<div style="font-size:13px;font-weight:800;color:#5b6b88;letter-spacing:.06em;text-transform:uppercase;margin-bottom:6px;">Variations + Exclusions</div>
+<div style="border:1px solid #e8eef6;border-radius:14px;background:#ffffff;padding:14px 16px;margin-top:10px;">
+<p data-start="1257" data-end="1287" data-pasted="true"><strong data-start="1257" data-end="1285"><span style="color: rgb(91, 107, 136);">Model Element Exclusions</span></strong></p>
+<ul data-start="1288" data-end="1538">
+<li data-start="1288" data-end="1429" style="color: rgb(91, 107, 136);"><p data-start="1290" data-end="1429">Reinforcement, rebar detailing, and fabrication-level reinforcement models are excluded unless explicitly required for a defined BIM Use.</p></li>
+<li data-start="1430" data-end="1538" style="color: rgb(91, 107, 136);"><p data-start="1432" data-end="1538">Temporary works, formwork, and construction sequencing models are excluded unless specifically instructed.</p></li>
+</ul>
+<p data-start="1540" data-end="1569"><span style="color: rgb(91, 107, 136);"><strong data-start="1540" data-end="1567">Element Size Thresholds</strong></span></p>
+<ul data-start="1570" data-end="1757"><li data-start="1570" data-end="1757" style="color: rgb(91, 107, 136);"><p data-start="1572" data-end="1757">MEP elements below the agreed minimum size threshold (e.g. small bore pipework, minor containment, fixings) are not modelled unless required for coordination or safety-critical reasons.</p></li></ul>
+<p data-start="1759" data-end="1790"><span style="color: rgb(91, 107, 136);"><strong data-start="1759" data-end="1788">Location-Based Exclusions</strong></span></p>
+<ul data-start="1791" data-end="1973">
+<li data-start="1791" data-end="1880" style="color: rgb(91, 107, 136);"><p data-start="1793" data-end="1880">Tenant fit-out areas are excluded from the coordinated model unless otherwise stated.</p></li>
+<li data-start="1881" data-end="1973" style="color: rgb(91, 107, 136);"><p data-start="1883" data-end="1973">Equipment inside proprietary vendor packages is excluded beyond defined connection points.</p></li>
+</ul>
+<p data-start="1975" data-end="2010"><span style="color: rgb(91, 107, 136);"><strong data-start="1975" data-end="2008">Information &amp; Data Exclusions</strong></span></p>
+<ul data-start="2011" data-end="2236">
+<li data-start="2011" data-end="2150" style="color: rgb(91, 107, 136);"><p data-start="2013" data-end="2150">Asset data outside the defined AIR (e.g. warranty data, maintenance schedules, serial numbers) is excluded unless explicitly requested.</p></li>
+<li data-start="2151" data-end="2236" style="color: rgb(91, 107, 136);"><p data-start="2153" data-end="2236">COBie or structured asset data exports are excluded unless stated as a deliverable.</p></li>
+</ul>
+<p data-start="2238" data-end="2274"><span style="color: rgb(91, 107, 136);"><strong data-start="2238" data-end="2272">Coordination &amp; Use Limitations</strong></span></p>
+<ul data-start="2275" data-end="2482">
+<li data-start="2275" data-end="2396" style="color: rgb(91, 107, 136);"><p data-start="2277" data-end="2396">Models are not to be relied upon for setting-out, fabrication, or construction unless explicitly stated and approved.</p></li>
+<li data-start="2397" data-end="2482" style="color: rgb(91, 107, 136);"><p data-start="2399" data-end="2482">Models are not contractual documents unless identified as such within the contract.</p></li>
+</ul>
+</div>
+</div></div></div></div></div></div></div>

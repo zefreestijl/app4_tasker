@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISO 19650 Example Template</title>
+    <link rel="stylesheet" href="../../public/styles.css">
+</head>
+<body>
+
+    <section class="content-card">
+    
+    <div class="section-label">BIM Uses (aligned to the Owner’s strategic goal)</div>
+    
+    <div class="nested-goal-box">
+        <div class="goal-label">Owner’s strategic goal</div>
+        <div class="goal-text">“Capture the information required for long-term maintenance and operation of the building, ensuring all assets, systems, and spatial data are accurate and complete.”</div>
+    </div>
+    
+    <p class="intro-text">The BIM Uses table below supports this goal by focusing on coordination, verification, and reliable operational handover.</p>
+
+    
+
+    <div class="instruction-text">
+        <strong>Complete the table by filling in all highlighted smart fields.</strong> Use the first two rows as a guide and ensure your entries align with the Owner’s goal.
+    </div>
+
+    <div class="table-wrapper">
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th width="15%">BIM Use</th>
+                    <th width="35%">Purpose (why this BIM use is needed)</th>
+                    <th width="25%">Potential value (what it enables for the Owner)</th>
+                    <th width="25%">Information required (high level)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>3D Coordination / Clash Detection</strong></td>
+                    <td>To identify and resolve clashes between architectural, structural, and MEP systems before construction.</td>
+                    <td>
+                        <ul class="table-list">
+                            <li>Reduces rework and site conflicts</li>
+                            <li>Improves coordination quality</li>
+                            <li>Supports reliable construction and handover</li>
+                        </ul>
+                    </td>
+                    <td>Federated discipline models, coordinated geometry, agreed naming and classification.</td>
+                </tr>
+                
+                <tr>
+                    <td><strong>Record / As-Built Modeling</strong></td>
+                    <td>To capture verified asset and spatial information that reflects what was actually constructed.</td>
+                    <td>
+                        <ul class="table-list">
+                            <li>Provides reliable data for FM and maintenance</li>
+                            <li>Supports long-term asset management</li>
+                            <li>Reduces information loss at handover</li>
+                        </ul>
+                    </td>
+                    <td>Verified models, asset attributes, locations, serial numbers, warranties.</td>
+                </tr>
+
+                <tr>
+                    <td><strong>Building Maintenance Scheduling</strong></td>
+                    <td><span class="smart-field">{{Purpose}}</span></td>
+                    <td><span class="smart-field">{{Potential Value}}</span></td>
+                    <td><span class="smart-field">{{Information Required}}</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="note-box-accent">
+        <div class="note-title">Why this matters</div>
+        <p>Defining BIM Uses keeps information requirements purpose-driven, not model-driven. Each BIM Use clarifies why information is needed, what value it provides, and what must be delivered — helping the project team align models, data, and verification to the Owner’s goals.</p>
+    </div>
+
+</section>
+
+</body>
+</html>

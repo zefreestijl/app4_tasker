@@ -1,0 +1,108 @@
+<div id="subtree-container" class="subtree-container"><div class="aea2d7dde423afa7ad9351a0886150a8-scss b51b00c1669ad99a1c607cd1e77c2824-scss" style="inset: 274px 18px 0px 0px; justify-content: flex-end;"><div class="afeebf1df237d4103108ba40799802d6-scss"><div class="c13443431e58facf06f9d12490b92a82-scss" style="width: 90vw; max-width: 8.5in;"><div class="_0df5ec6b9902d7d22ccfa3ebb4f35211-scss">Identifying Maintainable Assets</div><div class="e5e059a27f4c194020f0d961a3cb5989-scss" dir="auto"><div class="fr-view"><div style="font-family: Roboto, Arial, sans-serif;">
+<!-- Section header / intro card --><div style="border:1px solid #e8eef6;border-radius:16px;background:#fbfdff;padding:18px 18px 16px 18px;">
+<div style="font-size:13px;font-weight:800;color:#5b6b88;letter-spacing:.06em;text-transform:uppercase;margin-bottom:6px;">Asset Information Requirements</div>
+<div style="border:1px solid #e8eef6;border-radius:14px;background:#ffffff;padding:14px 16px;margin-top:10px;">
+<div style="font-size:14px;font-weight:900;color:#0e1e3d;margin-bottom:6px;">Identifying maintainable assets</div>
+<div style="color:#1c2430;line-height:1.6;font-size:14px;">Before defining what information is required, it is essential to agree on which assets need to be managed once the building is in operation.</div>
+</div>
+<div style="color:#5b6b88;line-height:1.65;font-size:14px;margin-top:12px;">Not every element within a model requires ongoing tracking or structured data. The focus here is on assets that will be operated, maintained, inspected, or monitored after handover.</div>
+<div style="color:#5b6b88;line-height:1.65;font-size:14px;margin-top:10px;">Maintainable assets typically include those that require planned maintenance, carry warranties or performance criteria, influence safety or comfort, or need to be tracked within operational systems such as CAFM, BMS, or a digital twin.</div>
+</div>
+<!-- Asset identification table --><div style="margin-top:12px;border:1px solid #e8eef6;border-radius:16px;background:#ffffff;padding:16px 18px;">
+<div style="font-size:14px;font-weight:900;color:#0e1e3d;margin-bottom:10px;">Identified maintainable asset</div>
+<p><span style="color: rgb(91, 107, 136);" data-pasted="true"><strong>Complete the table by filling in all highlighted smart fields.</strong></span></p>
+<table style="width:100%;font-family:'Roboto', sans-serif;font-size:14px;color:#5b6b88;">
+<thead><tr>
+<th style="text-align:left;padding:14px 16px;font-weight:700;color:#0e1e3d;background:#f6f9fe;border-bottom:1px solid #e8eef6;">Discipline</th>
+<th style="text-align:left;padding:14px 16px;font-weight:700;color:#0e1e3d;background:#f6f9fe;border-bottom:1px solid #e8eef6;">Asset type</th>
+<th style="text-align:left;padding:14px 16px;font-weight:700;color:#0e1e3d;background:#f6f9fe;border-bottom:1px solid #e8eef6;">Why the asset matters in operation</th>
+</tr></thead>
+<tbody>
+<tr>
+<td style="padding:14px 16px;">Architecture</td>
+<td style="padding:14px 16px;"><strong>Interior Walls</strong></td>
+<td style="padding:14px 16px;">Affects acoustic performance, material durability, and future refurbishment.</td>
+</tr>
+<tr>
+<td style="padding:14px 16px;">Mechanical</td>
+<td style="padding:14px 16px;"><strong>Air Terminals</strong></td>
+<td style="padding:14px 16px;">Directly impacts comfort, air distribution, and system balancing.</td>
+</tr>
+<tr>
+<td style="padding:14px 16px;">Mechanical</td>
+<td style="padding:14px 16px;"><strong>Mechanical Equipment</strong></td>
+<td style="padding:14px 16px;">
+<span><span><span><span><span style=""><smartfield data-key="Why Mechanical Equipment matters" contenteditable="false" class="missing-value fr-deletable"><span class="lodIcon lodIcon_errorTriangle">&nbsp;</span>{{Why Mechanical Equipment matters}}</smartfield></span> </span> </span></span> </span><br>
+</td>
+</tr>
+<tr>
+<td style="padding:14px 16px;">Electrical</td>
+<td style="padding:14px 16px;"><strong>Lighting Fixtures</strong></td>
+<td style="padding:14px 16px;">
+<span><span><span><span><span style=""><smartfield data-key="Why Lighting Fixtures matters" contenteditable="false" class="missing-value fr-deletable"><span class="lodIcon lodIcon_errorTriangle">&nbsp;</span>{{Why Lighting Fixtures matters}}</smartfield></span> </span> </span></span> </span><br>
+</td>
+</tr>
+<tr>
+<td style="padding:14px 16px;">Electrical</td>
+<td style="padding:14px 16px;"><strong>Cable Tray with Fittings</strong></td>
+<td style="padding:14px 16px;">
+<span><span><span><span><span style=""><smartfield data-key="Why Cable Tray with Fittings matters" contenteditable="false" class="missing-value fr-deletable"><span class="lodIcon lodIcon_errorTriangle">&nbsp;</span>{{Why Cable Tray with Fittings matters}}</smartfield></span> </span> </span></span> </span><br>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<!-- Linking data to operational needs --><div style="margin-top:12px;border:1px solid #e8eef6;border-radius:16px;background:#ffffff;padding:16px 18px;">
+<div style="font-size:14px;font-weight:900;color:#0e1e3d;margin-bottom:10px;">Linking asset data to operational needs</div>
+<div style="color:#5b6b88;line-height:1.65;font-size:14px;margin-bottom:10px;">Once maintainable assets are identified, the next step is to understand why information about these assets is required. Each data requirement should support a clear operational decision or action.</div>
+<p><span style="color: rgb(91, 107, 136);" data-pasted="true"><strong>Complete the table by filling in all highlighted smart fields.</strong></span></p>
+<table style="width: 100%; font-family: Roboto, sans-serif; font-size: 14px; color: rgb(91, 107, 136); height: 300px;">
+<thead><tr>
+<th style="text-align:left;padding:14px 16px;font-weight:700;color:#0e1e3d;background:#f6f9fe;border-bottom:1px solid #e8eef6;">Asset type</th>
+<th style="text-align:left;padding:14px 16px;font-weight:700;color:#0e1e3d;background:#f6f9fe;border-bottom:1px solid #e8eef6;">Operational use case</th>
+<th style="text-align:left;padding:14px 16px;font-weight:700;color:#0e1e3d;background:#f6f9fe;border-bottom:1px solid #e8eef6;">Why the data is needed</th>
+</tr></thead>
+<tbody>
+<tr>
+<td style="padding:14px 16px;"><strong>Interior Walls</strong></td>
+<td style="padding:14px 16px;">Asset management, refurbishment planning</td>
+<td style="padding:14px 16px;">Supports material tracking and future space modifications.</td>
+</tr>
+<tr>
+<td style="padding:14px 16px;"><strong>Air Terminals</strong></td>
+<td style="padding:14px 16px;">Comfort control, system tuning</td>
+<td style="padding:14px 16px;">Enables airflow performance monitoring.</td>
+</tr>
+<tr style="height: 50px;">
+<td style="padding:14px 16px;"><strong>Mechanical Equipment</strong></td>
+<td style="padding:14px 16px;">
+<span><span><span><span><span style=""><smartfield data-key="Operational use case of Mechanical Equipment " contenteditable="false" class="missing-value fr-deletable"><span class="lodIcon lodIcon_errorTriangle">&nbsp;</span>{{Operational use case of Mechanical Equipment }}</smartfield></span> </span> </span></span> </span><br>
+</td>
+<td style="padding:14px 16px;">Supports servicing schedules and replacement forecasting<br>
+</td>
+</tr>
+<tr>
+<td style="padding:14px 16px;"><strong>Lighting Fixtures</strong></td>
+<td style="padding:14px 16px;">
+<span><span><span><span><span style=""><smartfield data-key="Operational use case of Lighting Fixtures " contenteditable="false" class="missing-value fr-deletable"><span class="lodIcon lodIcon_errorTriangle">&nbsp;</span>{{Operational use case of Lighting Fixtures }}</smartfield></span> </span> </span></span> </span><br>
+</td>
+<td style="padding:14px 16px;">Enables lamp replacement planning and energy analysis<br>
+</td>
+</tr>
+<tr>
+<td style="padding:14px 16px;"><strong>Cable Tray with Fittings</strong></td>
+<td style="padding:14px 16px;">
+<span><span><span><span><span style=""><smartfield data-key="Operational use case of Cable Tray with Fittings" contenteditable="false" class="missing-value fr-deletable"><span class="lodIcon lodIcon_errorTriangle">&nbsp;</span>{{Operational use case of Cable Tray with Fittings}}</smartfield></span> </span> </span></span> </span><br>
+</td>
+<td style="padding:14px 16px;">Supports safe routing and future electrical changes<br>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Why this matters callout --><div style="margin-top:12px;background:#fbfdff;border:1px solid #dbe6f3;border-left:5px solid #009ef5;border-radius:14px;padding:14px 16px;color:#0e1e3d;">
+<div style="font-weight:950;color:#1c2430;letter-spacing:-.01em;margin-bottom:6px;">Why this matters</div>
+<div style="color:#5b6b88;line-height:1.65;font-size:14px;">Identifying maintainable assets ensures that information requirements remain operationally focused. By defining which assets matter and why, asset data can be structured consistently later without overloading the project with unnecessary information.</div>
+</div>
+</div></div></div></div></div></div></div>

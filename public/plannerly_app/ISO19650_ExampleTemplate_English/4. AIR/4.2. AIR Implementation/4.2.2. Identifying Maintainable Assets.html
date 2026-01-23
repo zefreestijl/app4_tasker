@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISO 19650 Example Template</title>
+    <link rel="stylesheet" href="../../public/styles.css">
+</head>
+<body>
+
+    <section class="content-card">
+    
+    <div class="section-label">Identifying Maintainable Assets</div>
+
+    <div class="image-wrapper">
+        <img src="../../public/img/4.2.4.1.png" alt="Plannerly Project Creation">
+    </div>
+    
+
+
+    <p>
+        Before we define what information we need, we first need to agree on <strong>which assets we want information about</strong>.
+    </p>
+    <p>
+        This step focuses on identifying the <strong>maintainable, operable, and trackable assets</strong> that matter most after handover. These typically include any asset that:
+    </p>
+
+    <div class="subsection-box">
+        <ul class="styled-checklist">
+            <li>Requires planned preventive or reactive maintenance</li>
+            <li>Has a warranty, serial number, or performance target</li>
+            <li>Affects safety, compliance, comfort, or energy use</li>
+            <li>Needs to be tracked in a <strong>CAFM</strong>, <strong>BMS</strong>, or <strong>digital twin</strong> system</li>
+        </ul>
+    </div>
+
+    
+
+    <p>
+        Once we’ve identified the types of maintainable assets we care about, the next step is to <strong>organize and prioritize them</strong>.
+    </p>
+    <p>
+        Not all assets carry the same weight; some have a <strong>critical impact on safety or compliance</strong>, others are <strong>high-cost to maintain or replace</strong>. So instead of overloading the team with data on every object, we focus only on the assets that drive operational outcomes. This helps ensure your structured AIR in Scope stays Efficient, Relevant and Manageable.
+    </p>
+    <p>We recommend starting with a <strong>simple, high-level table</strong> like the one below:</p>
+
+    <div class="table-wrapper">
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th width="20%">Asset Group</th>
+                    <th width="30%">Example Assets</th>
+                    <th width="15%">Operational Priority</th>
+                    <th width="35%">Reason for Priority</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>HVAC</strong></td>
+                    <td>AHUs, chillers</td>
+                    <td><span style="color: #d9534f; font-weight: bold;">High</span></td>
+                    <td>Comfort, energy tracking, regular maintenance</td>
+                </tr>
+                <tr>
+                    <td><strong>Fire Safety</strong></td>
+                    <td>Alarms, dampers</td>
+                    <td><span style="color: #d9534f; font-weight: bold;">High</span></td>
+                    <td>Life safety and legal compliance</td>
+                </tr>
+                <tr>
+                    <td><strong>Electrical</strong></td>
+                    <td>DB boards, UPS</td>
+                    <td><span style="color: #f0ad4e; font-weight: bold;">Medium</span></td>
+                    <td>Safety testing, backup systems</td>
+                </tr>
+                <tr>
+                    <td><strong>Plumbing</strong></td>
+                    <td>Pumps, water heaters</td>
+                    <td><span style="color: #f0ad4e; font-weight: bold;">Medium</span></td>
+                    <td>Water hygiene, efficiency</td>
+                </tr>
+                <tr>
+                    <td><strong>Lighting</strong></td>
+                    <td>LED fixtures</td>
+                    <td><span style="color: #5cb85c; font-weight: bold;">Low</span></td>
+                    <td>Minimal risk, low maintenance requirement</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="subsection-box">
+        <h3 class="subsection-title">Linking Asset Data to Operational Needs</h3>
+        <p>
+            Next, defining what data is required for each asset, it’s important to step back and consider: <strong>“What decisions or actions will this information support?”</strong>
+        </p>
+        <p>
+            Each data point should serve a meaningful purpose helping teams maintain, operate, or manage assets more effectively. By focusing only on information that supports real-world needs, we avoid unnecessary complexity and ensure the data we request is both relevant and valuable.
+        </p>
+        <p>
+            When we can confidently say, <strong>“We need this data because it enables this,”</strong> we justify the effort required to collect it. Below are typical operational needs that commonly drive the requirement for structured asset data:
+        </p>
+
+        <div class="table-wrapper">
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th width="25%">Asset Type</th>
+                        <th width="30%">Use Case</th>
+                        <th width="45%">Why the Data is Needed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Fire Alarm Panel</strong></td>
+                        <td>Compliance, Maintenance</td>
+                        <td>Required for fire safety certification and PPM setup</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Chiller Unit</strong></td>
+                        <td>Energy Tracking, Lifecycle Planning</td>
+                        <td>Needed to monitor energy use and plan for replacement</td>
+                    </tr>
+                    <tr>
+                        <td><br></td>
+                        <td><br></td>
+                        <td><br></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <p>
+        Many of these needs tie directly back to our Organizational Information Requirements (OIR) — such as long-term goals around compliance, safety, sustainability, and operational efficiency. So when we define AIR, we’re really giving shape to those high-level goals by saying what data we need and why.
+    </p>
+
+</section>
+
+</body>
+</html>

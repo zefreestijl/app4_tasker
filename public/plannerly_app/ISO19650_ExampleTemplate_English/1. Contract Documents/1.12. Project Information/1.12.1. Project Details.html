@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISO 19650 Example Template</title>
+    <link rel="stylesheet" href="../../public/styles.css">
+</head>
+<body>
+
+    <section class="content-card">
+    
+    <h3>Project Details</h3>
+    
+    <div class="instruction-text">
+        <strong>Complete the table by filling in all highlighted smart fields with the relevant project information.</strong>
+    </div>
+
+    <div class="table-wrapper">
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th width="25%">Item</th>
+                    <th width="75%">Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Project Title</td>
+                    <td><span class="smart-field">{{Project Title}}</span></td>
+                </tr>
+                <tr>
+                    <td>Project Description</td>
+                    <td><span class="smart-field">{{Project Description}}</span></td>
+                </tr>
+                <tr>
+                    <td>Project Start Date</td>
+                    <td><span class="smart-field">{{Project Start Date}}</span></td>
+                </tr>
+                <tr>
+                    <td>Project Address</td>
+                    <td><span class="smart-field">{{Address}}</span></td>
+                </tr>
+                <tr>
+                    <td>Project Language</td>
+                    <td><span class="smart-field">{{Project Language}}</span></td>
+                </tr>
+                <tr>
+                    <td>Project Standard</td>
+                    <td><span class="smart-field">{{Project Standard}}</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <br>
+
+    <h3>Additional Project Details</h3>
+    
+    <div class="table-wrapper">
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th width="25%">Type</th>
+                    <th width="75%">Information</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Project Owner</td>
+                    <td><span class="smart-field">{{Client Name}}</span></td>
+                </tr>
+                <tr>
+                    <td>Contract Type / Delivery Method</td>
+                    <td><span class="smart-field">{{Project Delivery Method}}</span></td>
+                </tr>
+                <tr>
+                    <td>Contract Number</td>
+                    <td>PLN-EDU-IM-2025-01</td>
+                </tr>
+                <tr>
+                    <td>Other Project Information</td>
+                    <td>Multi-storey commercial office development requiring coordinated BIM delivery and ISO 19650-aligned information management for construction and handover.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</section>
+
+</body>
+</html>

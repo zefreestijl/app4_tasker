@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISO 19650 Example Template</title>
+    <link rel="stylesheet" href="../../public/styles.css">
+</head>
+<body>
+
+    <section class="content-card">
+    
+    <div class="section-label">Measurement and Coordinate System</div>
+
+    <div class="nested-goal-box">
+        <p style="margin:0;">This section establishes the common geometric framework for the project to ensure accurate alignment and interoperability.</p>
+    </div>
+
+    
+
+    <div class="subsection-box">
+        <h3 class="subsection-title">Coordinate Rules</h3>
+        <ul class="styled-checklist">
+            <li>All models of the building will use the Location at Latitude: 0°, Longitude: 0° in the Architectural model as a shared base point that must be used by the entire project team for building coordination purposes.</li>
+            <li>A <strong>.dwg file named "GRIDS"</strong> locates the building structural grid lines relative to the project origin.</li>
+            <li>All models of <strong>site utilities</strong> will use a coordinate system separate from the building coordinate system and will be based on the Civil Site drawings.</li>
+            <li>The <strong>General Contractor</strong> will coordinate the placement of this point first and all other models will follow.</li>
+            <li>Each model will be aligned and rotated so that when exporting to shared formats, they align without requiring manual moving or rotation.</li>
+            <li>The coordination process will be documented and published for the entire team to access. This allows for the sharing and use of coordinate point data between all trades for field location and installation.</li>
+        </ul>
+    </div>
+
+    <div class="note-box-accent">
+        <div class="note-title">Note to all Revit users</div>
+        <p>The origin marker, “Base Point”, and “Shared Coordinate” should all be in the same place in your models. You can then use the site/civil information to “locate” the project for solar studies, heat days, lighting, etc.</p>
+    </div>
+
+</section>
+
+</body>
+</html>

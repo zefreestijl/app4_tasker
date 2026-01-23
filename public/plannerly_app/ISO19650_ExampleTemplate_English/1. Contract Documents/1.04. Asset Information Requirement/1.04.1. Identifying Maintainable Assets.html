@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISO 19650 Example Template</title>
+    <link rel="stylesheet" href="../../public/styles.css">
+</head>
+<body>
+
+    <section class="content-card">
+    
+    <div class="section-label">Asset Information Requirements</div>
+    
+    <div class="nested-goal-box">
+        <div class="goal-label">Identifying maintainable assets</div>
+        <div class="intro-text" style="margin-bottom:0;">
+            Before defining what information is required, it is essential to agree on which assets need to be managed once the building is in operation.
+        </div>
+    </div>
+    
+    <p class="intro-text" style="margin-top:12px;">
+        Not every element within a model requires ongoing tracking or structured data. The focus here is on assets that will be operated, maintained, inspected, or monitored after handover (e.g., for CAFM, BMS, or digital twins).
+    </p>
+
+    
+
+    <div class="subsection-box">
+        <h4 class="subsection-title">Identified maintainable asset</h4>
+        <div class="instruction-text">
+            <strong>Complete the table by filling in all highlighted smart fields.</strong>
+        </div>
+
+        <div class="table-wrapper">
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th width="20%">Discipline</th>
+                        <th width="30%">Asset type</th>
+                        <th width="50%">Why the asset matters in operation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Architecture</td>
+                        <td><strong>Interior Walls</strong></td>
+                        <td>Affects acoustic performance, material durability, and future refurbishment.</td>
+                    </tr>
+                    <tr>
+                        <td>Mechanical</td>
+                        <td><strong>Air Terminals</strong></td>
+                        <td>Directly impacts comfort, air distribution, and system balancing.</td>
+                    </tr>
+                    <tr>
+                        <td>Mechanical</td>
+                        <td><strong>Mechanical Equipment</strong></td>
+                        <td><span class="smart-field">{{Why Mechanical Equipment matters}}</span></td>
+                    </tr>
+                    <tr>
+                        <td>Electrical</td>
+                        <td><strong>Lighting Fixtures</strong></td>
+                        <td><span class="smart-field">{{Why Lighting Fixtures matters}}</span></td>
+                    </tr>
+                    <tr>
+                        <td>Electrical</td>
+                        <td><strong>Cable Tray with Fittings</strong></td>
+                        <td><span class="smart-field">{{Why Cable Tray with Fittings matters}}</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="subsection-box">
+        <h4 class="subsection-title">Linking asset data to operational needs</h4>
+        <p class="intro-text">
+            Once maintainable assets are identified, the next step is to understand why information about these assets is required. Each data requirement should support a clear operational decision or action.
+        </p>
+        <div class="instruction-text">
+            <strong>Complete the table by filling in all highlighted smart fields.</strong>
+        </div>
+
+        <div class="table-wrapper">
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th width="25%">Asset type</th>
+                        <th width="35%">Operational use case</th>
+                        <th width="40%">Why the data is needed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Interior Walls</strong></td>
+                        <td>Asset management, refurbishment planning</td>
+                        <td>Supports material tracking and future space modifications.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Air Terminals</strong></td>
+                        <td>Comfort control, system tuning</td>
+                        <td>Enables airflow performance monitoring.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Mechanical Equipment</strong></td>
+                        <td><span class="smart-field">{{Operational use case of Mechanical Equipment}}</span></td>
+                        <td>Supports servicing schedules and replacement forecasting.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Lighting Fixtures</strong></td>
+                        <td><span class="smart-field">{{Operational use case of Lighting Fixtures}}</span></td>
+                        <td>Enables lamp replacement planning and energy analysis.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Cable Tray with Fittings</strong></td>
+                        <td><span class="smart-field">{{Operational use case of Cable Tray with Fittings}}</span></td>
+                        <td>Supports safe routing and future electrical changes.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="note-box-accent">
+        <div class="note-title">Why this matters</div>
+        <p>Identifying maintainable assets ensures that information requirements remain operationally focused. By defining which assets matter and why, asset data can be structured consistently later without overloading the project with unnecessary information.</p>
+    </div>
+
+</section>
+
+</body>
+</html>

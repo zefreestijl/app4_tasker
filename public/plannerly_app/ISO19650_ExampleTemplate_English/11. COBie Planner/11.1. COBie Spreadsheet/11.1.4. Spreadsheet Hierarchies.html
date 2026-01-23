@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISO 19650 Example Template</title>
+    <link rel="stylesheet" href="../../public/styles.css">
+</head>
+<body>
+
+    <section class="content-card">
+    
+        <div class="section-label">Spreadsheet Hierarchies</div>
+    
+        <p>
+            COBie sheets relate to each other through established hierarchies. These are generally categorized into three primary levels: <strong>Spatial, Equipment, and Common.</strong>
+        </p>
+    
+        <div style="margin-top: 25px;">
+            <h4 style="color: #2c82c9; border-bottom: 2px solid #eee; padding-bottom: 5px;">I. SPATIAL</h4>
+            <p>
+                This hierarchy defines the physical breakdown of the project. A single <strong>Facility</strong> contains multiple <strong>Floors</strong>, and each floor contains various <strong>Spaces</strong> (rooms or areas).
+            </p>
+            <p style="font-size: 0.9em; color: #666; margin-left: 15px; border-left: 3px solid #cbd5e0; padding-left: 10px;">
+                <strong>Note on Zones:</strong> Zones are independent of this hierarchy. A single Zone (e.g., a fire compartment) can encompass multiple facilities, floors, or spaces.
+            </p>
+            
+            <div style="text-align: center; margin: 20px 0;">
+                
+                <img src="../../public/img/11.1.4.1.jpg" alt="COBie Spatial Hierarchy: Facility > Floor > Space" style="width: 100%; max-width: 617px; height: auto;">
+            </div>
+        </div>
+    
+        <div style="margin-top: 25px;">
+            <h4 style="color: #2c82c9; border-bottom: 2px solid #eee; padding-bottom: 5px;">II. EQUIPMENT</h4>
+            <p>
+                This level defines the assets within the facility. An <strong>Equipment Type</strong> serves as the template for multiple <strong>Components</strong> (individual instances).
+            </p>
+            <p style="font-size: 0.9em; color: #666; margin-left: 15px; border-left: 3px solid #cbd5e0; padding-left: 10px;">
+                <strong>Note on Systems:</strong> Systems are independent. A single System (e.g., HVAC) can contain a variety of different types and components working together.
+            </p>
+    
+            <div style="text-align: center; margin: 20px 0;">
+                
+                <img src="../../public/img/11.1.4.2.jpg" alt="COBie Equipment Hierarchy: Type vs Component" style="width: 100%; max-width: 603px; height: auto;">
+            </div>
+        </div>
+    
+        <div style="margin-top: 25px;">
+            <h4 style="color: #2c82c9; border-bottom: 2px solid #eee; padding-bottom: 5px;">III. COMMON</h4>
+            <p>
+                These elements do not follow a rigid hierarchy but grow as the project progresses. For example, <strong>Contacts</strong> evolve from design-phase consultants to construction-phase manufacturers and suppliers.
+            </p>
+    
+            <div style="text-align: center; margin: 20px 0;">
+                
+                <img src="../../public/img/11.1.4.3.jpg" alt="COBie Common Sheets and Contacts progression" style="width: 100%; max-width: 587px; height: auto;">
+            </div>
+        </div>
+    
+        <footer style="margin-top: 30px; border-top: 1px solid #eee; padding-top: 10px;">
+            <p style="font-size: 0.8em; color: #999; font-style: italic;">
+                Source: Nogueira, R. (2022), "From BIM to Asset Management - Data Driven Guidelines for Operations and Maintenance", University of Minho.
+            </p>
+        </footer>
+    
+    </section>
+
+</body>
+</html>

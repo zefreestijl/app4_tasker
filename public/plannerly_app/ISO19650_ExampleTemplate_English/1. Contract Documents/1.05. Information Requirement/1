@@ -1,0 +1,97 @@
+<div id="subtree-container" class="subtree-container"><div class="aea2d7dde423afa7ad9351a0886150a8-scss b51b00c1669ad99a1c607cd1e77c2824-scss" style="inset: 313px 269px 0px 0px; justify-content: flex-end;"><div class="afeebf1df237d4103108ba40799802d6-scss"><div class="c13443431e58facf06f9d12490b92a82-scss" style="width: 90vw; max-width: 8.5in;"><div class="_0df5ec6b9902d7d22ccfa3ebb4f35211-scss">Define the information requirements in Scope</div><div class="e5e059a27f4c194020f0d961a3cb5989-scss" dir="auto"><div class="fr-view"><div style="background:#fff;border:1px solid #e3e8f0;border-radius:22px;padding:18px;">
+<div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;">
+<h3 style="margin:0;font-weight:900;letter-spacing:-.01em;color:#1c2430;font-size:18px;"><span style="color: rgb(14, 30, 61);">Define the information requirements in Scope</span></h3>
+<span style="display:inline-flex;align-items:center;justify-content:center;padding:8px 12px;border-radius:999px;background:#0e1e3d;color:#ffffff;border:1px solid #e3e8f0;color:#ffffff;font-weight:950;font-size:13px;"> Module - Scope </span>
+</div>
+<p style="margin:10px 0 0;color:#5b6b88;font-weight:750;line-height:1.65;">Your EIR explains what the Owner needs. Now you will structure those requirements in Scope so the project team can clearly see who delivers what - and so the requirements can be issued as part of a tender package.</p>
+<!-- Required checklist (Froala) --><div style="margin-top:12px;border:1px solid #edf2f8;border-radius:18px;padding:14px;background:#fbfdff;">
+<div style="font-weight:950;color:#1c2430;letter-spacing:-.01em;margin-bottom:8px;">Required checklist</div>
+<ul class="froala-checkbox-list" style="margin:0;padding-left:22px;color:#5b6b88;font-weight:750;line-height:1.6;font-size:14px;">
+<li>Create discipline folders: <span style="color:#1c2430;font-weight:950;">Architecture</span>, <span style="color:#1c2430;font-weight:950;">Mechanical</span>, <span style="color:#1c2430;font-weight:950;">Electrical</span>.</li>
+<li>Add tasks under each folder: Interior Walls, Air Terminals, Mechanical Equipment, Lighting Fixtures, Cable Tray with Fittings.</li>
+<li>Rename Milestone 1 to <span style="color:#1c2430;font-weight:950;">Operation</span>.</li>
+<li>Import the CSV: <a href="https://files.plannerly.com/projects/e50dd673-007d-4028-bbd3-2c56fb09a48a/plan-content/1766430911341_f65aa3d1-a61a-4a2d-a12c-cc1b2426aa90.csv?Expires=1768912265&amp;Signature=b8WntkMO7C1hMLXzfeokMbEV31jcQrvlmAmQyvtJpXJvMPvXgwx1tIB1-bARqw7tZE2yjOsLPQYWjTIyEPeT5hWW5tOhL~kRB9MpvWmfnW3OMpnMhQe4ri2vmLgsTg-mbkmC6HNOmIffgnwZGrB91dYkNKW066aaQY4p75shvtINgCy~zukbCmztVKMDPUpSRzFIPOiRgbppSFH9hn1whgcM7IkR4EnW6pGmYHDyV2N52xW6aI8mJB56ZB~f1nf0QWRcmsm4SJTfENtI-xYwD-t7kNWwXwJmuS4wqqDA21Rt9rURzv2F0kB4Gw7kZ25cih4iJrwSxx~Kvl4e1UKocQ__&amp;Key-Pair-Id=APKAJRIVA6WNZT4BZJPQ?Expires=1768912265&amp;Signature=b8WntkMO7C1hMLXzfeokMbEV31jcQrvlmAmQyvtJpXJvMPvXgwx1tIB1-bARqw7tZE2yjOsLPQYWjTIyEPeT5hWW5tOhL~kRB9MpvWmfnW3OMpnMhQe4ri2vmLgsTg-mbkmC6HNOmIffgnwZGrB91dYkNKW066aaQY4p75shvtINgCy~zukbCmztVKMDPUpSRzFIPOiRgbppSFH9hn1whgcM7IkR4EnW6pGmYHDyV2N52xW6aI8mJB56ZB~f1nf0QWRcmsm4SJTfENtI-xYwD-t7kNWwXwJmuS4wqqDA21Rt9rURzv2F0kB4Gw7kZ25cih4iJrwSxx~Kvl4e1UKocQ__&amp;Key-Pair-Id=APKAJRIVA6WNZT4BZJPQ" class="fr-file"><u>Plannerly Assignment Information Requirement Import Template.csv</u></a>
+</li>
+<li>Assign the correct requirements in the <span style="color:#1c2430;font-weight:950;">Operation</span> column for each task (use the reference image).</li>
+</ul>
+</div>
+<!-- Image placeholders (unchanged) --><div style="margin-top:12px;display:grid;gap:12px;">
+<div style="border:1px solid #e3e8f0;border-radius:18px;overflow:hidden;background:#f6f8fb;">
+<div style="padding:12px 14px;border-bottom:1px solid #e3e8f0;">
+<div style="font-weight:950;color:#1c2430;">Create Discipline folders</div>
+<div style="border:1px solid #e8eef6;border-radius:14px;background:#ffffff;padding:14px 16px;margin-top:10px;" data-pasted="true"><p>In the Scope module, create three discipline folders: <strong data-start="327" data-end="343">Architecture, </strong><strong data-start="348" data-end="362">Mechanical, </strong><strong data-start="367" data-end="381">Electrical </strong></p></div>
+</div>
+<div style="padding:12px;"><p><img src="https://files.plannerly.com/projects/e50dd673-007d-4028-bbd3-2c56fb09a48a/plan-content/1767878773923_e007590b-c521-4950-8a45-44365238518c.png?Expires=1768912265&amp;Signature=kqoacjmD83wKuvZ8qMGB3MgK5wM82HPMU~YftLOGwpfUau-zt3nn5mZZw2yAfs6KP8NEqBrPmZpSHPr8WzygQVkwwZJncF7n3p3wU2Woyvqsi-IaQFG9NvbmTQR~cRZQoOD9HnSoCinxNDtNSBkskMZFOoaJz49ordzF-luRAiJv0l7wHQy5m8A~C00RIWhoIxmD91~ZXkNBRzNmC2YTiaAbrOcui89h9AOL8ynRFmYogsrniJNiLLsamdXio6Lrg6-bOMWJueuTXpX76XfEkJufbSuuuYaC56ZMv~Re~OtYHlRBDVaG-LweKh1hW5XXjhD4HLuwimX0qmhNqBuatQ__&amp;Key-Pair-Id=APKAJRIVA6WNZT4BZJPQ" style="width: 602px;" class="fr-fic fr-dib"></p></div>
+</div>
+<div style="border:1px solid #e3e8f0;border-radius:18px;overflow:hidden;background:#f6f8fb;">
+<div style="padding:12px 14px;border-bottom:1px solid #e3e8f0;">
+<div style="font-weight:950;color:#1c2430;">Add tasks under each folder</div>
+<div style="border:1px solid #e8eef6;border-radius:14px;background:#ffffff;padding:14px 16px;margin-top:10px;" data-pasted="true">
+<p data-start="500" data-end="604" data-pasted="true"><span style="color: rgb(91, 107, 136);">Add asset tasks under each discipline folder to represent the maintainable assets identified in the EIR.</span></p>
+<p data-start="606" data-end="633"><span style="color: rgb(91, 107, 136);">Create the following tasks:</span></p>
+<ul data-start="635" data-end="794">
+<li data-start="635" data-end="672" style="color: rgb(91, 107, 136);"><p data-start="637" data-end="672"><strong data-start="637" data-end="653">Architecture</strong> → Interior Walls</p></li>
+<li data-start="673" data-end="729" style="color: rgb(91, 107, 136);"><p data-start="675" data-end="729"><strong data-start="675" data-end="689">Mechanical</strong> → Air Terminals, Mechanical Equipment</p></li>
+<li data-start="730" data-end="794" style="color: rgb(91, 107, 136);"><p data-start="732" data-end="794"><strong data-start="732" data-end="746">Electrical</strong> → Lighting Fixtures, Cable Tray with Fittings</p></li>
+</ul>
+<p data-start="796" data-end="879"><span style="color: rgb(91, 107, 136);">Each task represents an asset that will require structured information at handover.</span></p>
+<p data-start="881" data-end="992"><span style="color: rgb(91, 107, 136);">Ensure each task is placed under the appropriate discipline folder.</span></p>
+</div>
+<div style="color:#5b6b88;font-weight:850;font-size:13px;margin-top:2px;"><br></div>
+</div>
+<div style="padding:12px;"><img src="https://files.plannerly.com/projects/e50dd673-007d-4028-bbd3-2c56fb09a48a/plan-content/1766377280755_4fd1cf0b-678c-42ab-9632-f4c51c45371f.png?Expires=1768912265&amp;Signature=KdUWaz1Dzg3pTr6dfnbjzbWaQFVMcMk016~kvNQph2y2VFhMj2QB9pWxm0-sOxFHSkzmzFSiUYoJbT6QIbvc7nCbvmP7b~YOY2ruEuUwKnPf8Bu7nZjP7AUlZu5ENxgEWuwrgzkemz0rYsrjPTcrjUMj3qjCtV8uIJgPjpg-ymOXxKGoIJgREkwtZE3awqljNtYH6djA9IDQnhvyz5Cx0hev3bZv9jW4uF3yoi43BiA7Fa9Re~53RO6tjDB4yphHs8TYotsLefL992gIKn3clMe1AoOUtp6Ek8yMNl~S-oHy285pD3VnK0Rra8QvqxCW30LDw5BYqyAUpdGartAwRQ__&amp;Key-Pair-Id=APKAJRIVA6WNZT4BZJPQ" style="width: 739px;" class="fr-fic fr-dib"></div>
+<p><img src="https://files.plannerly.com/projects/e50dd673-007d-4028-bbd3-2c56fb09a48a/plan-content/1768217679137_d6ccc105-63d5-40a6-8c30-4e9ab435d80e.png?Expires=1768912265&amp;Signature=IAqzlrD1xQgY-P9GcRytLlhaZYQtZJsTb25kx6ffNkRal8tJiyK9B~bLOmHocnDpVj4IQC-KTI~Nh~pueti0SLnrt5xSDvOE8twTIF1135UhoI~81Md6pp5FZF~tu5ApL3846r8Ya3IVW5cySLc6N089JGlI00kqW5Xyd0Cwvcbysb5TWFe1wSN9y8k7ozbZ0biwS~OBMwY8t1yr4j-9y6WAy2armiB4J3svWEfr~0OHMCDgjegU0BQdj1PgL3in0CyT5pLgQfLfrJhR3ClESsWjZeNlGWix2eeHqy~wnQA~a1D~9~tZ5mUxZDxK9FW2U7TN3UL828Hmq2d-kiXJSA__&amp;Key-Pair-Id=APKAJRIVA6WNZT4BZJPQ" style="width: 970px;" class="fr-fic fr-dib"></p>
+</div>
+<div style="border:1px solid #e3e8f0;border-radius:18px;overflow:hidden;background:#f6f8fb;">
+<div style="padding:12px 14px;border-bottom:1px solid #e3e8f0;">
+<div style="font-weight:950;color:#1c2430;">Rename Milestone 1</div>
+<div style="border:1px solid #e8eef6;border-radius:14px;background:#ffffff;padding:14px 16px;margin-top:10px;" data-pasted="true"><div style="color:#1c2430;line-height:1.6;font-size:14px;"><span style="color: rgb(91, 107, 136);">Rename Milestone 1 to <strong data-start="290" data-end="303" data-pasted="true">Operation</strong>.</span></div></div>
+</div>
+<div style="padding:12px;"><img src="https://files.plannerly.com/projects/e50dd673-007d-4028-bbd3-2c56fb09a48a/plan-content/1767877393706_7d9151f3-395d-4032-abfd-585d38329b57.png?Expires=1768912265&amp;Signature=fROszFUEmE6q~qKSNAdulUgNrK5OquVgFXZtwATVetNeJrKN3GZMGdMOBMxP1BcOsQfnCgdM06K7ABn5VWVEkNNxnV5ZxHsZKOAG89-4V71M1osLqrFOODk5S4sZL2ggZQC9arpjyuAeuR7nd-tfsmGK5xnHsUj~BL9~6ID--nNdItCRpLQZAOU0X0FTONmjoa8obJEmCZQ6Oqqai3yHOs4htQR~aeIaua-glbJg-Anr6xKBeHfEl4rdHWLFr4cl0OcxDbiTxnPJn3ByszGLpBWoXcnXpA3j2C3Sp7a4BaHACJjiHWhFSCTlKkmOOZFdcxabxmqukeAzPOV53ofbGQ__&amp;Key-Pair-Id=APKAJRIVA6WNZT4BZJPQ" style="width: 891px;" class="fr-fic fr-dib"></div>
+</div>
+<div style="border:1px solid #e3e8f0;border-radius:18px;overflow:hidden;background:#f6f8fb;">
+<div style="padding:12px 14px;border-bottom:1px solid #e3e8f0;">
+<div style="font-weight:950;color:#1c2430;">Import the CSV</div>
+<div style="border:1px solid #e8eef6;border-radius:14px;background:#ffffff;padding:14px 16px;margin-top:10px;" data-pasted="true"><div style="color:#1c2430;line-height:1.6;font-size:14px;">
+<span style="color: rgb(91, 107, 136);">Click <strong data-start="597" data-end="612" data-pasted="true">Information</strong> at the bottom and import the CSV file</span> <a href="https://files.plannerly.com/projects/e50dd673-007d-4028-bbd3-2c56fb09a48a/plan-content/1766430911341_f65aa3d1-a61a-4a2d-a12c-cc1b2426aa90.csv?Expires=1768912265&amp;Signature=b8WntkMO7C1hMLXzfeokMbEV31jcQrvlmAmQyvtJpXJvMPvXgwx1tIB1-bARqw7tZE2yjOsLPQYWjTIyEPeT5hWW5tOhL~kRB9MpvWmfnW3OMpnMhQe4ri2vmLgsTg-mbkmC6HNOmIffgnwZGrB91dYkNKW066aaQY4p75shvtINgCy~zukbCmztVKMDPUpSRzFIPOiRgbppSFH9hn1whgcM7IkR4EnW6pGmYHDyV2N52xW6aI8mJB56ZB~f1nf0QWRcmsm4SJTfENtI-xYwD-t7kNWwXwJmuS4wqqDA21Rt9rURzv2F0kB4Gw7kZ25cih4iJrwSxx~Kvl4e1UKocQ__&amp;Key-Pair-Id=APKAJRIVA6WNZT4BZJPQ?Expires=1768912265&amp;Signature=b8WntkMO7C1hMLXzfeokMbEV31jcQrvlmAmQyvtJpXJvMPvXgwx1tIB1-bARqw7tZE2yjOsLPQYWjTIyEPeT5hWW5tOhL~kRB9MpvWmfnW3OMpnMhQe4ri2vmLgsTg-mbkmC6HNOmIffgnwZGrB91dYkNKW066aaQY4p75shvtINgCy~zukbCmztVKMDPUpSRzFIPOiRgbppSFH9hn1whgcM7IkR4EnW6pGmYHDyV2N52xW6aI8mJB56ZB~f1nf0QWRcmsm4SJTfENtI-xYwD-t7kNWwXwJmuS4wqqDA21Rt9rURzv2F0kB4Gw7kZ25cih4iJrwSxx~Kvl4e1UKocQ__&amp;Key-Pair-Id=APKAJRIVA6WNZT4BZJPQ" class="fr-file" target="_blank" data-pasted="true"><u>Plannerly Assignment Information Requirement Import Template.csv</u></a> <span style="color: rgb(91, 107, 136);">to load the information requirements.</span>
+</div></div>
+</div>
+<div style="padding:12px;"><img src="https://files.plannerly.com/projects/e50dd673-007d-4028-bbd3-2c56fb09a48a/plan-content/1767877505791_35f30ed1-d6c3-4f0b-8423-ab83cabac631.png?Expires=1768912265&amp;Signature=ggI6-Q-JBCcwWwhNbzjl-mxUXWigKby90myOgHM1-tTUbFAzEXt93B2XF57kR~acPFomGN~sG64bj~YIj34YVFgYSAmvyafgBBbWnqf1X1qPS-DTJwe5LWXI6gNeH2gEPud3vHDscTiRGxIpz5oNmY1lUVwQ2SAFPBTiLrRLNUm74ojmEcCBIZqtXNi6bnmJOZLRDyWvQjIyNIT5Fjl0d7SOnRZwy6jGtqEbqLMzWo02mdWGVoR15gz4f1tLTI2dMM7BEuT6DPVWZikbNjtKV~Njg1vuCyyE7314Ux~sIbMQ-JScvsdAO7A~hBNQbWJcyUAbe0~65f9iaV1OreikXA__&amp;Key-Pair-Id=APKAJRIVA6WNZT4BZJPQ" style="width: 899px;" class="fr-fic fr-dib"></div>
+</div>
+<div style="border:1px solid #e3e8f0;border-radius:18px;overflow:hidden;background:#f6f8fb;">
+<div style="padding:12px 14px;border-bottom:1px solid #e3e8f0;">
+<div style="font-weight:950;color:#1c2430;">Assigned requirements</div>
+<div style="border:1px solid #e8eef6;border-radius:14px;background:#ffffff;padding:14px 16px;margin-top:10px;" data-pasted="true">
+<p data-start="567" data-end="659" data-pasted="true"><span style="color: rgb(91, 107, 136);">Assign the relevant information requirements to each task in the <strong data-start="638" data-end="651">Operation</strong> column.</span></p>
+<p data-start="661" data-end="767"><span style="color: rgb(91, 107, 136);">For each task, select the information required to support the operation and maintenance of that asset.</span></p>
+<p data-start="769" data-end="790"><span style="color: rgb(91, 107, 136);">Assign the following:</span></p>
+<ul data-start="792" data-end="1170">
+<li data-start="792" data-end="856" style="color: rgb(91, 107, 136);"><p data-start="794" data-end="856"><strong data-start="794" data-end="827">Interior Walls <strong data-start="860" data-end="890" data-pasted="true">→ </strong></strong>AcousticRating, Material</p></li>
+<li data-start="858" data-end="951" style="color: rgb(91, 107, 136);"><p data-start="860" data-end="951"><strong data-start="860" data-end="890">Air Terminals <strong data-start="860" data-end="890" data-pasted="true">→ </strong></strong>Flow, Level, Static Pressure Drop, System Classification</p></li>
+<li data-start="953" data-end="1028" style="color: rgb(91, 107, 136);"><p data-start="955" data-end="1028"><strong data-start="955" data-end="992">Mechanical Equipment <strong data-start="860" data-end="890" data-pasted="true">→ </strong></strong>Water Flow, Water Pressure Drop</p></li>
+<li data-start="1030" data-end="1100" style="color: rgb(91, 107, 136);"><p data-start="1032" data-end="1100"><strong data-start="1032" data-end="1066">Lighting Fixtures <strong data-start="860" data-end="890" data-pasted="true">→ </strong></strong>Electrical Data, Manufacturer</p></li>
+<li data-start="1102" data-end="1170" style="color: rgb(91, 107, 136);"><p data-start="1104" data-end="1170"><strong data-start="1104" data-end="1145">Cable Tray with Fittings <strong data-start="860" data-end="890" data-pasted="true">→ </strong></strong>Length, Manufacturer</p></li>
+</ul>
+<p data-start="1172" data-end="1285"><span style="color: rgb(91, 107, 136);">Each task should show only the information requirements that are relevant to that asset at the operational stage.</span></p>
+</div>
+</div>
+<div style="padding:12px;"><img src="https://files.plannerly.com/projects/e50dd673-007d-4028-bbd3-2c56fb09a48a/plan-content/1768217704122_d58fdfe0-9f92-4b5b-bb0d-f3114fa25a6d.png?Expires=1768912265&amp;Signature=nQl3ZRil41GO3rlHNK7L84WKLRontyNMzewtBhPOqSDkW~4MsK0F8-8aKJ4ncQ~LM8SETao3h-NQq5AHiN0VQ2SkJMkQHEjsvS1E39Yojr3AG6Mb8vIA3meYVaMQkjx3LKcam-HrTlHZ-TZSMEisnzyGrEMQjC0qC8IzeJjvyfl6yURTeJmkJKa2-hiDGBxYOObAGOEyelw9EsQb7u7moq8J6KiBH8WXtCDBK1trJICJsZT8gVdSH~bH80jMJNTmIM0WACQBLLUl69fWjVaCcaH5ZWyUrdMNcDlurTuMZ1WV6BgFSaAaEE4TvyCy05mXv4pg~rZi6NqCWt3osakypg__&amp;Key-Pair-Id=APKAJRIVA6WNZT4BZJPQ" style="width: 918px;" class="fr-fic fr-dib"></div>
+<p><img src="https://files.plannerly.com/projects/e50dd673-007d-4028-bbd3-2c56fb09a48a/plan-content/1768217720076_941d65b7-cc46-4d4f-9b93-7fed72766d82.png?Expires=1768912265&amp;Signature=gvF1porM5ueg1rssJUK2C5KjjhhO~K7w~XDa0MdUWVoB5ocb-HeyXkIBbTfQ-YTlrKC-FntlnmVhNz5ghq4CFCPmJwj~TWEUIl3oiQPkYXCQKm15eXN2-RbJQKs5Nrosuuhwl8Zt5EbC4lvNIdHcedG2CGsQZv1kURPImI-sVh5eUaTe71iT6kj-cFvyBJ~ycBdwSXIa23oCRP1KkNqSxcHWG~Trueh9LbwHmbsokgvEbFnhkULLvO7OyX~gOA0UbgyS0dKoASvAsReulbAgT4hVHH-idVYzGlx3oQ4g93qzAbIuFk4i5pjD2SScbMrJBNigpSN1RwA20ZT8wXNcsQ__&amp;Key-Pair-Id=APKAJRIVA6WNZT4BZJPQ" style="width: 616px;" class="fr-fic fr-dib"></p>
+</div>
+</div>
+<!-- Optional AI note (unchanged) --><div style="margin-top:12px;background:#ffffff;border:1px solid #e3e8f0;border-radius:18px;padding:14px;"><div style="display:flex;gap:10px;align-items:flex-start;"><div style="min-width:0;">
+<div style="font-weight:950;color:#1c2430;letter-spacing:-.01em;margin-bottom:4px;">Optional - add images to tasks using AI</div>
+<div style="color:#5b6b88;font-weight:750;line-height:1.6;font-size:14px;">If you want to add images to your tasks, click the AI (robot) icon on the task row to generate an image for that specific row. This step is optional. Free Plannerly accounts have limits on AI generations.</div>
+<p><img src="https://files.plannerly.com/projects/e50dd673-007d-4028-bbd3-2c56fb09a48a/plan-content/1766397076073_7a81109e-7aef-4141-a1ff-1eabc13b850f.png?Expires=1768912265&amp;Signature=jtZkD92U-P8r5sBIev~6JFN0GZco4BbwayV9IxSxw15uzd5c4AjWd4fk-gvnf4YtCmJ-HR-HGwhQgkECM4FK~X6MOisy9yek4uJCeC4NNOKntNoQpwwJ8tGt73gSFfk8rXDjtkz5VfFY~wVzNE3omFePWquwtjaLEB-PM6mJPsdZh80ylQEdnlejRSv82rf-hcs9yqsxzU8AfVCLOikYqU9KnoQ3dmuAmmwbugDU452Fb8tncX1re7xAjR8LeK8EXKBSHLg0odHfEiTOYhHwaVXCVpKn4DgetkMZ2LVve2LJ480ngiA9vy-OB4fbU72YdRHJvqxqOlOrQYUIXYHevw__&amp;Key-Pair-Id=APKAJRIVA6WNZT4BZJPQ" style="width: 775px;" class="fr-fic fr-dib"></p>
+<p><img src="https://files.plannerly.com/projects/e50dd673-007d-4028-bbd3-2c56fb09a48a/plan-content/1767878501427_3b5e7e98-f8aa-4f6e-a84d-5d5e29a3e59a.png?Expires=1768912265&amp;Signature=HmA0xtInDGDBDXQVPajsb98t0fgq8gwJXoE6pvBAuC8tSmZUo7vvEmyqU4USUmwTTApukQFfmBHfmTz6r23zZ5v21wMOhACkr6D7KMbHSTa4-avalL42ujdhPUEg-3wXLECVIJx1bTBM3RJec-Tx1KuFDqtLOp-RHMdAy6scja6dsx8LCCvV8h65t44z95f~ITPUPlsP~3dOw-2~-4zUxR7N-I6ssvXkA7FNL1~sXjSDQ64mBgU0GeIoU-xblQqDa0FLXbh3K~ASnxJWmuR5ByT-4XPacr0QCX~OHHwzP4XnzLVVfk5615f1EXR3DFz34sbkqbh9geDsNtinzDoQ3g__&amp;Key-Pair-Id=APKAJRIVA6WNZT4BZJPQ" style="width: 776px;" class="fr-fic fr-dib"></p>
+</div></div></div>
+<!-- Learn more link --><div style="margin-top:12px;padding:12px 14px;border:1px dashed #cfe1ff;border-radius:16px;background:#ffffff;">
+<div style="color:#1c2430;font-weight:950;margin-bottom:4px;">Want to learn more about defining information requirements?</div>
+<div style="color:#5b6b88;font-weight:750;line-height:1.55;font-size:14px;"><span style="color:#009ef5;font-weight:950;"><a href="https://plannerly.com/courses/expert/lesson/creating-the-detailed-responsibility-matrix/" target="_blank" rel="noopener noreferrer">https://plannerly.com/courses/expert/lesson/creating-the-detailed-responsibility-matrix/</a></span></div>
+</div>
+</div>
+<div style="margin-top:12px;background:#fbfdff;border:1px solid #dbe6f3;border-left:5px solid #009ef5;border-radius:14px;padding:14px 16px;color:#0e1e3d;" data-pasted="true">
+<h3 data-start="1159" data-end="1188" data-pasted="true"><span style="font-size: 14px;">Finalise the EIR document</span></h3>
+<p data-start="715" data-end="807" data-pasted="true"><span style="color: rgb(91, 107, 136);">The information requirements for each asset have now been defined and structured in Scope.</span></p>
+<p data-start="814" data-end="953"><span style="color: rgb(91, 107, 136);">Complete the remaining sections in this template to finalise the EIR, as this document will form part of the tender/contract information.</span></p>
+</div></div></div></div></div></div></div>

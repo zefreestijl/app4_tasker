@@ -1,0 +1,91 @@
+<div id="subtree-container" class="subtree-container"><div class="aea2d7dde423afa7ad9351a0886150a8-scss b51b00c1669ad99a1c607cd1e77c2824-scss" style="inset: 218px 269px 0px 0px; justify-content: flex-end;"><div class="afeebf1df237d4103108ba40799802d6-scss"><div class="c13443431e58facf06f9d12490b92a82-scss" style="width: 90vw; max-width: 8.5in;"><div class="_0df5ec6b9902d7d22ccfa3ebb4f35211-scss">Project Standards</div><div class="e5e059a27f4c194020f0d961a3cb5989-scss" dir="auto"><div class="fr-view"><p>This project will follow these<strong>&nbsp;Standards and Local Annexes</strong>:</p>
+<table style="width: 100%;">
+<thead><tr>
+<th style="width: 22.8327%;">FUNCTION</th>
+<th style="width: 27.8389%;">STANDARD</th>
+<th style="width: 49%;">DESCRIPTION</th>
+</tr></thead>
+<tbody>
+<tr>
+<td style="width: 22.8327%;">Information management</td>
+<td style="width: 27.8389%;">ISO 19650 Series</td>
+<td style="width: 49%;"><span style="color: rgb(95, 95, 95); font-family: &quot;Open sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Collaborative production of architectural, engineering and construction information. Organization and digitization of information about buildings and civil engineering works, including building information modeling (BIM).</span></td>
+</tr>
+<tr>
+<td style="width: 22.8327%;">National Annex</td>
+<td style="width: 27.8389%;">For Example: UK Annex<br>
+</td>
+<td style="width: 49%;">Additional details required to clarify implementation within a specific country.</td>
+</tr>
+<tr>
+<td style="width: 22.8327%;">Means of structuring and classifying information</td>
+<td style="width: 27.8389%;">Uniformat II, Uniclass, Omniclass Table 21, Revit Categories, Disciplines, other...</td>
+<td style="width: 49%;">Classification used for categorizing scope of work and model deliverables&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 22.8327%;">Method of assignment for level of information need</td>
+<td style="width: 27.8389%;">CEN/EN 17412-1 / ISO 7817</td>
+<td style="width: 49%;">Building Information Modelling - Level of Information Need - Part 1: Concepts and principles - using the Plannerly <strong>Scope</strong> module</td>
+</tr>
+<tr>
+<td style="width: 22.8327%;"><span style="color: rgb(95, 95, 95); font-family: &quot;Open sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Accuracy and Tolerance</span></td>
+<td style="width: 27.8389%;"><span style="color: rgb(95, 95, 95); font-family: &quot;Open sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">USIBD LOA / BS 5606</span></td>
+<td style="width: 49%;">
+<span style="color: rgb(95, 95, 95); font-family: &quot;Open sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">When capturing the existing asset information, the geometry being reproduced shall take into account the construction tolerances outlined within the USIBD LOA /&nbsp;</span><span style="color: rgb(95, 95, 95); font-family: &quot;Open sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">BS 5606 as relevant</span>
+</td>
+</tr>
+<tr>
+<td style="width: 22.8327%;"><span style="color: rgb(95, 95, 95); font-family: &quot;Open sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Space Numbering</span></td>
+<td style="width: 27.8389%;"><span style="color: rgb(95, 95, 95); font-family: &quot;Open sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">ISO 4157-2</span></td>
+<td style="width: 49%;"><span style="color: rgb(95, 95, 95); font-family: &quot;Open sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Space numbering convention for room names and numbers</span></td>
+</tr>
+<tr>
+<td style="width: 22.8327%;"><span style="color: rgb(95, 95, 95); font-family: &quot;Open sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Naming of Containers</span></td>
+<td style="width: 27.8389%;"><span style="color: rgb(95, 95, 95); font-family: &quot;Open sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"><span style="color: rgb(95, 95, 95); font-family: &quot;Open sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">ISO 19650 - National Annex</span></span></td>
+<td style="width: 49%;"><span style="color: rgb(95, 95, 95); font-family: &quot;Open sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">The agreed convention for the naming of information container identification</span></td>
+</tr>
+<tr>
+<td style="width: 22.8327%;"><span style="color: rgb(95, 95, 95); font-family: &quot;Open sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Type and Component Naming</span></td>
+<td style="width: 27.8389%;"><span style="color: rgb(95, 95, 95); font-family: &quot;Open sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">ISO 4157-1</span></td>
+<td style="width: 49%;"><span style="color: rgb(95, 95, 95); font-family: &quot;Open sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"><span style="color: rgb(95, 95, 95); font-family: &quot;Open sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">The agreed type and component naming convention.&nbsp;</span>All primary designations shall be written in full</span></td>
+</tr>
+<tr>
+<td style="width: 22.8327%;"><span style="color: rgb(95, 95, 95); font-family: &quot;Open sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Document Management</span></td>
+<td style="width: 27.8389%;"><span style="color: rgb(95, 95, 95); font-family: &quot;Open sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">ISO 7200</span></td>
+<td style="width: 49%;">All exchanged information containers shall comply with ISO 7200 by including, as a minimum, all of the specified mandatory data fields in title blocks and document headers</td>
+</tr>
+<tr>
+<td style="width: 22.8327%;">Management of Assets<br>
+</td>
+<td style="width: 27.8389%;">
+<span style="color: rgb(95, 95, 95); font-family: &quot;Open sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">ISO 55000 Series</span><br>
+</td>
+<td style="width: 49%;">
+<span style="color: rgb(95, 95, 95); font-family: &quot;Open sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Guidance on the factors to be considered by an organization when managing its assets</span><br>
+</td>
+</tr>
+<tr>
+<td style="width: 22.8327%;">Facilities Maintenance<br>
+</td>
+<td style="width: 27.8389%;">
+<span style="color: rgb(95, 95, 95); font-family: &quot;Open sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">BS 8210</span><br>
+</td>
+<td style="width: 49%;">Detailed guidance on facilities maintenance management and code of practice<br>
+</td>
+</tr>
+<tr>
+<td style="width: 22.8327%;">Briefing for design and construction<br>
+</td>
+<td style="width: 27.8389%;">BS 8536<br>
+</td>
+<td style="width: 49%;">Recommendations for the briefing for design and construction to ensure that the design takes account of the expected performance of the asset/facility in use over its planned operational life.<br>
+</td>
+</tr>
+<tr>
+<td style="width: 22.8327%;"><br></td>
+<td style="width: 27.8389%;"><br></td>
+<td style="width: 49%;"><br></td>
+</tr>
+</tbody>
+</table>
+<p><br></p></div></div></div></div></div></div>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISO 19650 Example Template</title>
+    <link rel="stylesheet" href="../../public/styles.css">
+</head>
+<body>
+
+    <section class="content-card">
+    
+        <div class="section-label">Spreadsheet Relations & Project Stages</div>
+    
+        <p>
+            The COBie data structure is dynamic, with different sheets gaining prominence as the project lifecycle advances. Understanding these relationships is key to maintaining data integrity from initial design through to facility occupancy.
+        </p>
+    
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 25px 0;">
+            
+            <div style="padding: 15px; background-color: #f0f9ff; border-left: 5px solid #2c82c9;">
+                <h4 style="margin: 0 0 10px 0; color: #2c82c9;">Design Stage</h4>
+                <p style="font-size: 0.9em; margin: 0;">
+                    Focus on <strong>Spatial Properties</strong>. The Facility is organized via Zones and Systems. Floors contain Spaces, which serve as the containers for future Components.
+                </p>
+            </div>
+    
+            <div style="padding: 15px; background-color: #f0fdf4; border-left: 5px solid #27ae60;">
+                <h4 style="margin: 0 0 10px 0; color: #27ae60;">Construction Stage</h4>
+                <p style="font-size: 0.9em; margin: 0;">
+                    Focus on <strong>Equipment Definitions</strong>. Technical specifications are solidified into <strong>Types</strong>, and individual physical instances are logged as <strong>Components</strong>.
+                </p>
+            </div>
+    
+            <div style="padding: 15px; background-color: #fdf2f8; border-left: 5px solid #8e44ad;">
+                <h4 style="margin: 0 0 10px 0; color: #8e44ad;">Handover & In-Use</h4>
+                <p style="font-size: 0.9em; margin: 0;">
+                    Focus on <strong>Operational Tasks</strong>. Maintenance is managed through <strong>Jobs</strong>, which link to the <strong>Resources</strong> and <strong>Spares</strong> required for completion.
+                </p>
+            </div>
+        </div>
+    
+        <div style="text-align: center; margin: 30px 0;">
+            
+            <img src="../../public/img/11.3.1.1.jpg" alt="Relational map of COBie sheets across project stages" style="width: 100%; max-width: 819px; height: auto; border: 1px solid #ddd; border-radius: 4px;">
+            <p style="font-style: italic; font-size: 0.9em; color: #666; margin-top: 10px;">
+                Figure: Relational map showing how COBie data sheets interconnect throughout the project lifecycle.
+            </p>
+        </div>
+    
+        <p style="font-size: 0.95em; color: #444;">
+            Common elements (such as <strong>Contacts</strong> and <strong>Attributes</strong>) are cross-cutting; they provide additional context and are updated continuously through every stage of the project.
+        </p>
+    
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+<div id="subtree-container" class="subtree-container"><div class="aea2d7dde423afa7ad9351a0886150a8-scss b51b00c1669ad99a1c607cd1e77c2824-scss" style="inset: 251px 31px 0px 0px; justify-content: flex-end;"><div class="afeebf1df237d4103108ba40799802d6-scss"><div class="c13443431e58facf06f9d12490b92a82-scss" style="width: 90vw; max-width: 8.5in;"><div class="_0df5ec6b9902d7d22ccfa3ebb4f35211-scss">Welcome</div><div class="e5e059a27f4c194020f0d961a3cb5989-scss" dir="auto"><div class="fr-view"><div style="font-family:inherit;color:#1c2430;font-weight:400;max-width:1100px;margin:0 auto;padding:0 16px;">
+<!-- Header / Welcome --><div style="border:3px solid #dbeaff;border-radius:26px;padding:26px 22px;">
+<div style="display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:10px;">
+<span style="display:inline-flex;align-items:center;justify-content:center;padding:8px 14px;border-radius:999px;background:#e6f2ff;color:#0b3a7a;font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;">&nbsp;Assignment&nbsp;</span> <span style="color:#5b6b88;font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:600;">&nbsp;Docs - Scope - Verify - File Manager&nbsp;</span>
+</div>
+<div style="color:#5b6b88;line-height:1.65;font-size:14px;font-weight:400;">Ready to run a project the way real teams do it? This assignment walks you through the entire information management workflow inside Plannerly - from the <strong style="font-weight:700;color:#1c2430;">Owner’s goals → to clear requirements → to delivery planning → to verified outputs.</strong>
+</div>
+<!-- Three highlight cards --><div style="margin-top:16px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;">
+<div style="background:#fff;border:1px solid #e3e8f0;border-radius:18px;padding:14px 14px 12px;">
+<div style="font-weight:700;color:#1c2430;margin:0 0 4px;letter-spacing:-.01em;">Less theory</div>
+<p style="margin:0;color:#5b6b88;font-weight:400;line-height:1.55;font-size:14px;">You will do the workflow yourself, step-by-step.</p>
+</div>
+<div style="background:#fff;border:1px solid #e3e8f0;border-radius:18px;padding:14px 14px 12px;">
+<div style="font-weight:700;color:#1c2430;margin:0 0 4px;letter-spacing:-.01em;">Real roles</div>
+<p style="margin:0;color:#5b6b88;font-weight:400;line-height:1.55;font-size:14px;">Rotate through the key roles used on ISO 19650 projects.</p>
+</div>
+<div style="background:#fff;border:1px solid #e3e8f0;border-radius:18px;padding:14px 14px 12px;">
+<div style="font-weight:700;color:#1c2430;margin:0 0 4px;letter-spacing:-.01em;">Practical outcome</div>
+<p style="margin:0;color:#5b6b88;font-weight:400;line-height:1.55;font-size:14px;">Understand how structure reduces rework and improves coordination.</p>
+</div>
+</div>
+</div>
+<!-- Background --><div style="margin-top:18px;background:#fff;border:1px solid #e3e8f0;border-radius:22px;padding:18px;">
+<h3 style="margin:0 0 10px;font-weight:700;letter-spacing:-.01em;color:#1c2430;font-size:18px;">Background</h3>
+<p style="margin:0 0 12px;color:#5b6b88;line-height:1.65;font-weight:400;font-size:14px;">Throughout this assignment, you’ll see how project information moves through a real ISO 19650-aligned workflow: <span style="color:#1c2430;font-weight:700;">Owner goals</span> → <span style="color:#1c2430;font-weight:700;">clear requirements</span> → <span style="color:#1c2430;font-weight:700;">delivery planning</span> → <span style="color:#1c2430;font-weight:700;">verified outputs</span>.</p>
+<p style="margin:0;color:#5b6b88;line-height:1.65;font-weight:400;font-size:14px;">Instead of reading theory, you will do the workflow yourself. Plannerly will be your workspace to define what information is needed, organise it, structure responsibilities, and check that the model meets the agreed requirements - before handover.</p>
+</div>
+<!-- Roles --><div style="margin-top:18px;background:#fff;border:1px solid #e3e8f0;border-radius:22px;padding:18px;">
+<h3 style="margin:0 0 10px;font-weight:700;letter-spacing:-.01em;color:#1c2430;font-size:18px;">Roles you will experience</h3>
+<div style="display:grid;gap:12px;">
+<div style="padding:12px;border:1px solid #edf2f8;border-radius:12px;background:#fbfdff;">
+<div style="color:#1c2430;font-weight:700;line-height:1.2;">Appointing Party (client/owner)</div>
+<div style="color:#5b6b88;font-weight:400;line-height:1.45;font-size:14px;margin-top:2px;">Defines the goals and what information is required.</div>
+</div>
+<div style="padding:12px;border:1px solid #edf2f8;border-radius:12px;background:#fbfdff;">
+<div style="color:#1c2430;font-weight:700;line-height:1.2;">Lead Appointed Party + Appointed Parties</div>
+<div style="color:#5b6b88;font-weight:400;line-height:1.45;font-size:14px;margin-top:2px;">Plans delivery, assigns responsibilities, coordinates outputs, and supports verification.</div>
+</div>
+</div>
+<div style="margin-top:12px;padding:12px 14px;background:#fff;border:1px dashed #cfe1ff;border-radius:16px;color:#1c2430;font-weight:600;">Each step mirrors how real teams work - define the brief, turn it into a structured plan, assign responsibilities, coordinate delivery, verify results, and prepare for handover.</div>
+</div>
+<!-- Prerequisites / Getting set up --><div style="margin-top:18px;background:#fff;border:1px solid #e3e8f0;border-radius:22px;padding:18px;">
+<h3 style="margin:0 0 6px;font-weight:700;letter-spacing:-.01em;color:#1c2430;font-size:18px;">Get your Plannerly workspace ready</h3>
+<p style="margin:0 0 12px;color:#5b6b88;line-height:1.65;font-weight:400;font-size:14px;">These are the steps you must complete to access the assignment. If you are already inside Plannerly, you have probably done most of these already - use this as a quick checklist.</p>
+<div style="display:grid;gap:12px;">
+<!-- Step 1 --><div style="background:#fbfdff;border:1px solid #edf2f8;border-radius:16px;padding:14px;">
+<div style="font-weight:700;color:#1c2430;font-size:16px;letter-spacing:-.01em;">1. Sign in to Plannerly</div>
+<div style="margin-top:6px;color:#5b6b88;font-weight:400;line-height:1.55;font-size:14px;">If your university provides access, sign in using your university Plannerly account. If not, create a free account at <span style="font-weight:700;color:#1c2430;"><a href="https://app.plannerly.com/sign-up" target="_blank" rel="noopener noreferrer">plannerly.com</a></span><a href="https://app.plannerly.com/sign-up" target="_blank" rel="noopener noreferrer">.</a>
+</div>
+</div>
+<!-- Step 2 --><div style="background:#fbfdff;border:1px solid #edf2f8;border-radius:16px;padding:14px;">
+<div style="font-weight:700;color:#1c2430;font-size:16px;letter-spacing:-.01em;">2. Create your project</div>
+<ul>
+<li><div style="margin-top:6px;color:#5b6b88;font-weight:400;line-height:1.55;font-size:14px;">Go to your Projects workspace and click <span style="font-weight: 700; color: rgb(91, 107, 136);">New Project</span><span style="color: rgb(91, 107, 136);">.</span> Give your project a suitable name. Once the project is created, review the <strong>project settings</strong> and add key details such as the <strong>project ID, location,&nbsp;</strong>and other basic information you consider appropriate. This project will be used to complete all tasks in this assignment.</div></li>
+<li><div style="margin-top:6px;color:#5b6b88;font-weight:400;line-height:1.55;font-size:14px;">
+<strong data-start="67" data-end="89" data-pasted="true">In the Docs module</strong>, go to <strong data-start="97" data-end="160">Plannerly Templates → ISO 19650 Example Templates (English)</strong> and add the <strong data-start="173" data-end="203">Information Management Lab</strong> to your project. This document contains the step-by-step instructions you will follow to complete the assignment.</div></li>
+</ul>
+<div style="border:1px solid #e3e8f0;border-radius:14px;padding:10px 12px;background:#ffffff;" data-pasted="true">
+<div style="font-weight:700;color:#1c2430;"><img src="https://files.plannerly.com/projects/e50dd673-007d-4028-bbd3-2c56fb09a48a/plan-content/1768168841665_f0a0c206-f1ac-412f-8164-9949d17b3746.png?Expires=1768801185&amp;Signature=Nw1NAX7JJOG9aZsIFnja3YGRaXxWzIP1kNMjDm~x5rxiiCPceDLCHDvJc~z5Me136IL~4kH1N0T1pO6mt9rE9DAmCIAZkSRIXY~yLusrkyGdSCtd7NzgyGfZGC6pYNTDiAhYiErF0osEavDQozoNF9GPfECMhptWCEf-o1LnAd-EZxjTIzVjsc19g0RczGidkaFTH2SAOv8EZ1-eakj0914z0wYj~jk2nImEz7ROI~3lwWjnZgLDQm3eqfwwhbpMB8kbt2UuteFmxrqoqyGFvk9VaNk6kYjPAKO~EC9Dp--iPqE-ZWz-OgdUhvb~9oq4WgLjqSVDIC4D25R8UleCtg__&amp;Key-Pair-Id=APKAJRIVA6WNZT4BZJPQ" style="width: 800px;" class="fr-fic fr-dib"></div>
+<p><img src="https://files.plannerly.com/projects/e50dd673-007d-4028-bbd3-2c56fb09a48a/plan-content/1768168855541_8c6bf4fe-01c5-424e-90ff-ba9b3ceb7aa4.png?Expires=1768801185&amp;Signature=MjxS1Xbsjz3aXim9nc2TKHeWSVhDndv3p0ncbfQDgY1IewIlCH503n9GAFUQIwPo7x55MjUiEBIqOf0lGR5d04N8P5iRDZp2QWDJkH8nG6peRIXTSkFnSIvJZAaEm9bUusgny6-UvQEbRNJ4I~AAW91Of-hJxPLyBBE5nr0k6NF8CJy2M4EFInfyl3vpi6ajqpLULfJJmE9eEGJIMbcdlCWuW15j9yR9j3FlOlYPBtkERInDku4F74yPc4mxQRv2FYhQpDukAGMlbMGiQ5Kfy3E~V8mGB-rI15Vzp6WD-IE5DwZvmIr6KjSAC0uYuRaho8UW06ECfIdLdbGeszIt1Q__&amp;Key-Pair-Id=APKAJRIVA6WNZT4BZJPQ" style="width: 800px;" class="fr-fic fr-dib"></p>
+<p><img src="https://files.plannerly.com/projects/e50dd673-007d-4028-bbd3-2c56fb09a48a/plan-content/1768168871977_1a7aab1c-7111-4585-956f-041e3de627c0.png?Expires=1768801185&amp;Signature=IaoMnkcCUQ6Exn2pxVWELpq5X6~BUciRBxbVrJ2RDK1W5n5zL~RGP~siQWWPq1WNpFOEhmTh1nEj2gnmptEF77pZYwIr4lq693pOA0uG0mBHPUmESrBwmu0RjaK0F4AGv5z4gkxxYTXZLxpBa3SUMmSbYzBdy3OS-FZRSil0jeWlG5aIXWwXFEewQiM3~g3ZUljV5RESZjNkijRfsEmpLkUuGxFeR6v5DSd9bqeqBm9vW9p-4Xrj2A3HS6oqlrXiRfZb-AUFS-ERc8bZtz5xWScWGAb4~aoWZOPjJ776Hr8kN75~ScZx0KMLH9yZ3WYx6uPjvZKQGN4LkdAwhq5mNA__&amp;Key-Pair-Id=APKAJRIVA6WNZT4BZJPQ" style="width: 800px;" class="fr-fic fr-dib"><img src="https://files.plannerly.com/projects/0ea04e42-9753-4fa9-9b80-33cfc3aebb96/plan-content/1768337834846_6f10a2cb-fb06-4eed-839e-5ebf28c8a1bf.png?Expires=1768801185&amp;Signature=cEcDSoKoH5f0ZI~imcMOLvWOshNBxyr9DaX9kLl-oQZE1AnGYf5bTMvnCFmPu51JAM4Q5BnMysTmUurnrSS0GNLNeJzCCno9aGIJyxY6HK8OKbCnbUVCXrwgGIhr~A37M9OXxzOugl5MFTMozVTNe1ylz46ryJcnAk8oFWLCa7XK0JpWcjaNAqqkjRlFFlWIE-aUWm4fsYQH2Dothvonxh4nujFlFYB5ecmxiLHR-V9-V4xZW3lAfC072e~nDAB06-ky3S-uj8dZ551KNS9pcQHyDLeGVL9HiIDtEE5l-HFeIdQvWCgxmFQG83gZayHdxM3CsW0MITdWMuuJYP9NoQ__&amp;Key-Pair-Id=APKAJRIVA6WNZT4BZJPQ" style="width: 800px;" class="fr-fic fr-dib"></p>
+</div>
+</div>
+<!-- Step 3 --><div style="background:#fbfdff;border:1px solid #edf2f8;border-radius:16px;padding:14px;">
+<div style="font-weight:700;color:#1c2430;font-size:16px;letter-spacing:-.01em;">3. Work individually or as a group</div>
+<div style="margin-top:10px;display:grid;gap:10px;">
+<div style="border:1px solid #e3e8f0;border-radius:14px;padding:10px 12px;background:#ffffff;">
+<div style="font-weight:700;color:#1c2430;">If you’re working individually</div>
+<div style="margin-top:4px;color:#5b6b88;font-weight:400;line-height:1.55;font-size:14px;">You will complete every step in this assignment on your own.</div>
+</div>
+<div style="border:1px solid #e3e8f0;border-radius:14px;padding:10px 12px;background:#ffffff;">
+<div style="font-weight:700;color:#1c2430;">If you’re working as a group</div>
+<div style="margin-top:4px;color:#5b6b88;font-weight:400;line-height:1.55;font-size:14px;">Your instructor may create the shared project and add your team members to it. Later, divide the steps across your team and assign tasks to the right people inside Plannerly's Information Management Lab. Each person is responsible for completing their assigned steps and contributing to the final submission.</div>
+</div>
+<div style="border:1px dashed #cfe1ff;border-radius:14px;padding:10px 12px;background:#ffffff;"><div style="font-weight:950;color:#1c2430;margin-bottom:6px;" data-pasted="true">How to Video - To be Uploaded</div></div>
+</div>
+</div>
+</div>
+<!-- Note --><div style="margin-top:14px;background:#ffffff;border:1px solid #e3e8f0;border-radius:18px;padding:14px;"><div style="display:flex;gap:12px;align-items:flex-start;"><div style="min-width:0;">
+<div style="font-weight:700;color:#1c2430;letter-spacing:-.01em;margin-bottom:4px;">
+<span class="fr-emoticon fr-deletable fr-emoticon-img" style="background: url(https://cdnjs.cloudflare.com/ajax/libs/emojione/2.0.1/assets/svg/1f4a1.svg);">&nbsp;</span>Note</div>
+<div style="color:#5b6b88;font-weight:400;line-height:1.6;font-size:14px;">We recommend using a free Plannerly account, as this gives you access to the demo models required for the assignment. If you're completing this as part of an education program, your instructor may provide additional guidance (individual vs group work, how responsibilities should be divided, and expectations for final submission). <strong>Always follow your instructor’s requirements, and use the instructions here to complete the project.</strong>
+</div>
+</div></div></div>
+</div>
+<!-- Task sequence intro + screenshot placeholders --><div style="margin-top:18px;background:#fff;border:1px solid #e3e8f0;border-radius:22px;padding:18px;">
+<h3 style="margin:0 0 8px;font-weight:700;letter-spacing:-.01em;color:#1c2430;font-size:18px;">Here’s the sequence of tasks you’ll complete</h3>
+<p style="margin:0 0 12px;color:#5b6b88;line-height:1.65;font-weight:400;font-size:14px;">The diagram below shows the sequence of tasks you will complete as part of this Information Management Lab assignment. Each task aligns with an ISO 19650 project stage and builds on the previous one.</p>
+<p style="margin:0 0 12px;color:#5b6b88;line-height:1.65;font-weight:400;font-size:14px;">Complete the tasks in order, starting with <strong data-start="1629" data-end="1693" data-pasted="true">Task 1 – Define the Exchange Information Requirements (EIR).</strong></p>
+<div style="margin-top:12px;background:#fbfdff;border:1px solid #dbe6f3;border-left:5px solid #009ef5;border-radius:14px;padding:14px 16px;color:#0e1e3d;" data-pasted="true">
+<div style="font-weight:950;color:#1c2430;letter-spacing:-.01em;margin-bottom:6px;">Assignment Context</div>
+<div style="color:#5b6b88;line-height:1.65;font-size:14px;" data-pasted="true">
+<strong>For training purposes, this assignment uses a simplified and condensed version of ISO 19650 workflows.</strong> It represents a streamlined approach to real-world practice, focusing on how information requirements are defined, planned and verified.<br>On live projects, these requirements may be distributed across multiple documents such as OIR, PIR, AIR, EIR, BEP, appointments and protocols. For education and clarity, this assignment brings those elements together into a manageable, structured workflow.</div>
+</div>
+<p style="margin:0 0 12px;color:#5b6b88;line-height:1.65;font-weight:400;font-size:14px;"><br></p>
+<div style="border:1px solid #e3e8f0;border-radius:18px;overflow:hidden;background:#f6f8fb;">
+<div style="padding:12px 14px;border-bottom:1px solid #e3e8f0;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;"><div style="font-weight:700;color:#1c2430;">Assignment Workflow overview</div></div>
+<div style="padding:12px;"><img src="https://files.plannerly.com/projects/e50dd673-007d-4028-bbd3-2c56fb09a48a/plan-content/1766488843576_4e5c0321-2037-4ccd-9ed0-bbef52478c5f.png?Expires=1768801185&amp;Signature=CTzreMmOmXOMIJlBFhs5Jeosxqn8QdUObT1-vfeIqkT80ECJjehdDn0wNvpCDaQKlkJ4liNDGx~9rz6N6BOWhYBpqr9kp2FcBMApQiH4bcDGuOvRyrJ5sCHN-p4QSw~2XV2QN5YfJCiLksUGiuWuT3cY4-LZqjr47tL7W8mpdfG4Kl55pnoLsEuldNRqumEIkExmuSlnTkb0QIsbt9SRWvY4XicO8s4efbBsrq4DCEaUuaVQ-eh6r5haUJXgmIdSpOhWINOH30j4~VXQmdXPurlQfzIVYrZV1so4ODG536GoMNxOmkYViEiuFFniK1XW3VNBXjDke0glsg~Fy6tyFg__&amp;Key-Pair-Id=APKAJRIVA6WNZT4BZJPQ" alt="Assignment workflow overview" style="width: 100%; height: auto; max-width: 100%; border-radius: 14px;" class="fr-fil fr-dib"></div>
+</div>
+<div style="margin-top:12px;border:1px solid #e3e8f0;border-radius:18px;overflow:hidden;background:#f6f8fb;">
+<div style="padding:12px 14px;border-bottom:1px solid #e3e8f0;display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;">
+<div style="font-weight:700;color:#1c2430;">Task list</div>
+<div style="color:#5b6b88;font-weight:600;font-size:13px;"><br></div>
+</div>
+<div style="padding:12px;"><img src="https://files.plannerly.com/projects/e50dd673-007d-4028-bbd3-2c56fb09a48a/plan-content/1768170071491_f8c7d6cc-767a-4b5c-aceb-77980ad4ee96.png?Expires=1768801185&amp;Signature=ANnOZy-Q8m1pSz7ikG3N6Jd82StY7J5PZo3dpT-3EecTsKIJuiC8aHRTUOsKLMCXEazYz8beZWWM0rNJ~fQWz4AM7AFQXg8VmPrrC1BwsRYbIH2vv337MNbvH5RkbiO7HNEeX8UnvFxtvFAuX39C6dLz2nXiBR5nfm4-agUup1bWFKjzJjSjlEB5ukZhl7pyrT85CgPP1KYZKbRWu5tq0GbPnTfa4EtTevMWnoLQffi8sVOxoCJnlaFwgTZQfi4SpMrTZ~Nji6gUfm9uWyaIvSZ-xlFesiWdgpQH-Mwi55gNatpXZkeNYaEh4Yl8EffS-RJBGjkeotfu7F50TXVQRA__&amp;Key-Pair-Id=APKAJRIVA6WNZT4BZJPQ" alt="Task list in Plannerly" style="width: 100%; height: auto; max-width: 100%; border-radius: 14px;" class="fr-fil fr-dib"></div>
+</div>
+<div style="margin-top:14px;padding:12px 14px;background:#fff;border:1px dashed #cfe1ff;border-radius:16px;color:#1c2430;font-weight:600;">Set to become the digital hero of this project? Start with Task 1 below.</div>
+</div>
+</div>
+<!-- Why this matters callout --></div></div></div></div></div></div>
