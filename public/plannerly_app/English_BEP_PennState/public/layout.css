@@ -26,7 +26,7 @@ body {
    ========================================= */
 .sidebar {
     width: 300px;
-    min-width: 60px;        /* Prevent it from disappearing completely */
+    min-width: 0px;        /* Prevent it from disappearing completely */
     height: 100%;
     background-color: #f4f4f4;
     border-right: 1px solid #ddd;
@@ -140,7 +140,7 @@ details summary { list-style: none; outline: none; }
    ========================================= */
 /* When 'collapsed' class is added via JS */
 .sidebar.collapsed {
-    width: 60px;            /* Shrink width */
+    width: 3rem;            /* Shrink width */
 }
 
 /* Rotate the button 90 degrees */
