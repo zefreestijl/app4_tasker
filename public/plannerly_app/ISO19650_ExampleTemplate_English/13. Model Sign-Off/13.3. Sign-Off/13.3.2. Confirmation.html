@@ -12,57 +12,51 @@
     
         <div class="section-label">Confirmation</div>
     
-        <p style="font-weight: bold; font-size: 1.1em; color: #1e293b; margin-bottom: 20px;">
-            BIM Model Sign-Off and Authorization
-        </p>
+        <div style="margin-bottom: 20px;">
+            <p style="line-height: 1.6; color: #334155;">
+                BIM Model Sign-Off and Authorization
+            </p>
+        </div>
     
-        
-    
-        <div style="overflow-x: auto;">
-            <table style="width: 100%; border-collapse: collapse; font-size: 0.95em;">
+        <div style="margin-top: 25px; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; overflow-x: auto;">
+            <table style="width: 100%; border-collapse: collapse; min-width: 500px;">
                 <thead>
-                    <tr style="background-color: #2c82c9; color: white; text-align: left;">
-                        <th style="padding: 12px; border: 1px solid #dee2e6; width: 35%;">Section</th>
-                        <th style="padding: 12px; border: 1px solid #dee2e6;">Details</th>
+                    <tr style="background-color: #f8fafc; border-bottom: 2px solid #e2e8f0;">
+                        <th style="text-align: left; padding: 12px 15px; color: #1e293b; font-size: 0.9em; width: 40%;">Section</th>
+                        <th style="text-align: left; padding: 12px 15px; color: #1e293b; font-size: 0.9em; width: 60%;">Details</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td style="padding: 10px; border: 1px solid #dee2e6; background-color: #f8fafc; font-weight: bold;">Project Title</td>
-                        <td style="padding: 10px; border: 1px solid #dee2e6;"><span class="smart-field">{{Project Title}}</span></td>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em; font-weight: bold;">Project Title</td>
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;">{{Project Title}}</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em; font-weight: bold;">Project ID/Number</td>
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;">{{Project ID}}</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em; font-weight: bold;">Model Name/Reference</td>
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;">{{ModelTitle}} / {{ModelReferenceNumber}}</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em; font-weight: bold;">Model Revision</td>
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;">{{ModelRevision}}</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em; font-weight: bold;">Date of Submission</td>
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;">{{ModelSubmissionDate}}</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em; font-weight: bold;">Submitted by (Authoring Company)</td>
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;">{{AuthoringCompany}}</td>
                     </tr>
                     <tr>
-                        <td style="padding: 10px; border: 1px solid #dee2e6; background-color: #f8fafc; font-weight: bold;">Project ID/Number</td>
-                        <td style="padding: 10px; border: 1px solid #dee2e6;"><span class="smart-field">{{Project ID}}</span></td>
-                    </tr>
-                    <tr>
-                        <td style="padding: 10px; border: 1px solid #dee2e6; background-color: #f8fafc; font-weight: bold;">Model Name/Reference</td>
-                        <td style="padding: 10px; border: 1px solid #dee2e6;">{{ModelTitle}} / {{ModelReferenceNumber}}</td>
-                    </tr>
-                    <tr style="background-color: #f1f5f9;">
-                        <td style="padding: 10px; border: 1px solid #dee2e6; background-color: #f8fafc; font-weight: bold;">Model Revision</td>
-                        <td style="padding: 10px; border: 1px solid #dee2e6;">{{ModelRevision}}</td>
-                    </tr>
-                    <tr>
-                        <td style="padding: 10px; border: 1px solid #dee2e6; background-color: #f8fafc; font-weight: bold;">Date of Submission</td>
-                        <td style="padding: 10px; border: 1px solid #dee2e6;">{{ModelSubmissionDate}}</td>
-                    </tr>
-                    <tr>
-                        <td style="padding: 10px; border: 1px solid #dee2e6; background-color: #f8fafc; font-weight: bold;">Submitted by (Authoring Company)</td>
-                        <td style="padding: 10px; border: 1px solid #dee2e6;">{{AuthoringCompany}}</td>
-                    </tr>
-                    <tr style="background-color: #f0fdf4;">
-                        <td style="padding: 10px; border: 1px solid #dee2e6; background-color: #f8fafc; font-weight: bold;">Reviewed by (Approver)</td>
-                        <td style="padding: 10px; border: 1px solid #dee2e6; font-weight: bold; color: #166534;">{{ApproverCompany}}</td>
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em; font-weight: bold;">Reviewed by (Approver)</td>
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;">{{ApproverCompany}}</td>
                     </tr>
                 </tbody>
             </table>
-        </div>
-    
-        <div style="margin-top: 20px; padding: 15px; border: 2px solid #22c55e; border-radius: 6px; background-color: #f0fdf4; text-align: center;">
-            <p style="margin: 0; font-weight: bold; color: #15803d;">
-                CERTIFIED FOR PROJECT USE
-            </p>
         </div>
     
     </section>

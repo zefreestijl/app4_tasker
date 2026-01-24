@@ -1,5 +1,136 @@
-<div id="subtree-container" class="subtree-container"><div class="aea2d7dde423afa7ad9351a0886150a8-scss b51b00c1669ad99a1c607cd1e77c2824-scss" style="inset: 384px 269px 0px 0px; justify-content: flex-end;"><div class="afeebf1df237d4103108ba40799802d6-scss"><div class="c13443431e58facf06f9d12490b92a82-scss" style="width: 90vw; max-width: 8.5in;"><div class="_0df5ec6b9902d7d22ccfa3ebb4f35211-scss">Brainstorming Discussion</div><div class="e5e059a27f4c194020f0d961a3cb5989-scss" dir="auto"><div class="fr-view"><p>In the discussion phase we will use a variety of <span style="color: rgb(95, 95, 95); font-family: &quot;Open sans&quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">group discussion and&nbsp;</span>brainstorming techniques to list ideas that could be a project risk.</p>
-<p>These methods can involve stickie notes, mind-maps, round-robin brainstorming (iterative process building off consecutive contributions by each participants) and the step-ladder technique (encourages all members to contribute on an individual level before being influenced by anyone else).</p>
-<p>At this point, we are not looking to solve any problems - the goal is to identify as many possible scenarios that could negatively impact the project.&nbsp;</p>
-<p>We will also review the risk registers from past projects with similar size, scope, and location.</p>
-<p>The result will be a list of risks that will be transferred to step 2 - <strong>Evaluation</strong> - below.</p></div></div></div></div></div></div>
+<div id="subtree-container" class="subtree-container"><div class="aea2d7dde423afa7ad9351a0886150a8-scss b51b00c1669ad99a1c607cd1e77c2824-scss" style="inset: 530px 35px 0px 0px; justify-content: flex-end;"><div class="afeebf1df237d4103108ba40799802d6-scss"><div class="c13443431e58facf06f9d12490b92a82-scss" style="width: 90vw; max-width: 8.5in;"><div class="_0df5ec6b9902d7d22ccfa3ebb4f35211-scss">Potential Design Risks</div><div class="e5e059a27f4c194020f0d961a3cb5989-scss" dir="auto"><div class="fr-view"><table style="width: 100%;">
+    <thead><tr>
+    <th style="width: 17.9048%;">ITEM</th>
+    <th style="width: 46.4762%;">DESCRIPTION</th>
+    <th style="width: 13.1428%;">
+    <div style="text-align: center;">IMPACT</div>
+    <div style="text-align: center;">(LOW/MED/HIGH)</div>
+    </th>
+    <th style="width: 13.3333%;">
+    <div style="text-align: center;">PROBABILITY&nbsp;</div>
+    <div style="text-align: center;">(LOW/MED/HIGH)</div>
+    </th>
+    <th style="width: 9.2381%;"><div style="text-align: center;">PRIORITY (YES/NO)</div></th>
+    </tr></thead>
+    <tbody>
+    <tr>
+    <td style="width: 17.9048%;">Duration estimates<br>
+    </td>
+    <td style="width: 46.4762%;"><br></td>
+    <td style="width: 13.1428%; text-align: center;"><br></td>
+    <td style="width: 13.3333%; text-align: center;"><br></td>
+    <td style="width: 9.2381%;"><br></td>
+    </tr>
+    <tr>
+    <td style="width: 17.9048%;">Budget<br>
+    </td>
+    <td style="width: 46.4762%;"><br></td>
+    <td style="width: 13.1428%; text-align: center;"><br></td>
+    <td style="width: 13.3333%; text-align: center;"><br></td>
+    <td style="width: 9.2381%;"><br></td>
+    </tr>
+    <tr>
+    <td style="width: 17.9048%;">BIM Schedule</td>
+    <td style="width: 46.4762%;"><br></td>
+    <td style="width: 13.1428%; text-align: center;"><br></td>
+    <td style="width: 13.3333%; text-align: center;"><br></td>
+    <td style="width: 9.2381%;"><br></td>
+    </tr>
+    <tr>
+    <td style="width: 17.9048%;">
+    <strong>Too Many Clashes</strong><br>
+    </td>
+    <td style="width: 46.4762%;">When combining models we might experience 1,000's of instances where two or more objects are trying to occupy the same space. Having too many clashes will result in wasted time and effort to resolve.<br>
+    </td>
+    <td style="width: 13.1428%; text-align: center;"><br></td>
+    <td style="width: 13.3333%; text-align: center;"><br></td>
+    <td style="width: 9.2381%;"><br></td>
+    </tr>
+    <tr>
+    <td style="width: 17.9048%;">Cost Estimates<br>
+    </td>
+    <td style="width: 46.4762%;"><br></td>
+    <td style="width: 13.1428%; text-align: center;"><br></td>
+    <td style="width: 13.3333%; text-align: center;"><br></td>
+    <td style="width: 9.2381%;"><br></td>
+    </tr>
+    <tr>
+    <td style="width: 17.9048%;">Resources<br>
+    </td>
+    <td style="width: 46.4762%;"><br></td>
+    <td style="width: 13.1428%; text-align: center;"><br></td>
+    <td style="width: 13.3333%; text-align: center;"><br></td>
+    <td style="width: 9.2381%;"><br></td>
+    </tr>
+    <tr>
+    <td style="width: 17.9048%;">Quality<br>
+    </td>
+    <td style="width: 46.4762%;"><br></td>
+    <td style="width: 13.1428%; text-align: center;"><br></td>
+    <td style="width: 13.3333%; text-align: center;"><br></td>
+    <td style="width: 9.2381%;"><br></td>
+    </tr>
+    <tr>
+    <td style="width: 17.9048%;">Communication<br>
+    </td>
+    <td style="width: 46.4762%;"><br></td>
+    <td style="width: 13.1428%; text-align: center;"><br></td>
+    <td style="width: 13.3333%; text-align: center;"><br></td>
+    <td style="width: 9.2381%;"><br></td>
+    </tr>
+    <tr>
+    <td style="width: 17.9048%;">Responsibilities<br>
+    </td>
+    <td style="width: 46.4762%;"><br></td>
+    <td style="width: 13.1428%; text-align: center;"><br></td>
+    <td style="width: 13.3333%; text-align: center;"><br></td>
+    <td style="width: 9.2381%;"><br></td>
+    </tr>
+    <tr>
+    <td style="width: 17.9048%;">Design Errors<br>
+    </td>
+    <td style="width: 46.4762%;"><br></td>
+    <td style="width: 13.1428%; text-align: center;"><br></td>
+    <td style="width: 13.3333%; text-align: center;"><br></td>
+    <td style="width: 9.2381%;"><br></td>
+    </tr>
+    <tr>
+    <td style="width: 17.9048%;">Procurements<br>
+    </td>
+    <td style="width: 46.4762%;"><br></td>
+    <td style="width: 13.1428%; text-align: center;"><br></td>
+    <td style="width: 13.3333%; text-align: center;"><br></td>
+    <td style="width: 9.2381%;"><br></td>
+    </tr>
+    <tr>
+    <td style="width: 17.9048%;">Too Much BIM</td>
+    <td style="width: 46.4762%;"><br></td>
+    <td style="width: 13.1428%; text-align: center;"><br></td>
+    <td style="width: 13.3333%; text-align: center;"><br></td>
+    <td style="width: 9.2381%;"><br></td>
+    </tr>
+    <tr>
+    <td style="width: 17.9048%;">Too Little BIM</td>
+    <td style="width: 46.4762%;"><br></td>
+    <td style="width: 13.1428%; text-align: center;"><br></td>
+    <td style="width: 13.3333%; text-align: center;"><br></td>
+    <td style="width: 9.2381%;"><br></td>
+    </tr>
+    <tr>
+    <td style="width: 17.9048%;">BIM Too Soon</td>
+    <td style="width: 46.4762%;"><br></td>
+    <td style="width: 13.1428%; text-align: center;"><br></td>
+    <td style="width: 13.3333%; text-align: center;"><br></td>
+    <td style="width: 9.2381%;"><br></td>
+    </tr>
+    <tr>
+    <td style="width: 17.9048%;">BIM Too Late<br>
+    </td>
+    <td style="width: 46.4762%;"><br></td>
+    <td style="width: 13.1428%; text-align: center;"><br></td>
+    <td style="width: 13.3333%; text-align: center;"><br></td>
+    <td style="width: 9.2381%;"><br></td>
+    </tr>
+    </tbody>
+    </table>
+    <p><br></p></div></div></div></div></div></div>

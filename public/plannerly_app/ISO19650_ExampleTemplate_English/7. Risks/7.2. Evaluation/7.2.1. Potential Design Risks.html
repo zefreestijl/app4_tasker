@@ -7,52 +7,139 @@
     <link rel="stylesheet" href="../../public/styles.css">
 </head>
 <body>
-
     <section class="content-card">
     
-        <section class="content-card">
+        <div class="section-label">Potential Design Risks</div>
     
-            <div class="section-label">Introduction</div>
-        
-            <p>
-                There are many risks that could impact our project <strong>cost, schedule, and performance</strong> - some of these could even lead to disputes.
+        <div style="margin-bottom: 20px;">
+            <p style="line-height: 1.6; color: #334155;">
+                Identify potential risks related to the design and BIM process. Evaluate their impact and probability to prioritize mitigation strategies.
             </p>
-            <p>
-                In order to manage these risks, we will carry out some early planning to catalog potential challenges and their mitigation measures.
-            </p>
-        
-            <p>We will use the following <strong>three-step process</strong>:</p>
-            
-            
-        
-            <div style="margin-top: 20px;">
-                <div style="margin-bottom: 15px;">
-                    <h3 style="color: #2c82c9; margin-bottom: 5px;">1. Discuss</h3>
-                    <p style="margin-top: 0;">
-                        The <strong>discussion</strong> stage will involve quick online brainstorming sessions with the project team and stakeholders to identify risks. At this point, we are not looking to solve any problems - the goal is to identify as many possible scenarios that could negatively impact the project. We will also review the risk registers from past projects with similar size, scope, and location.
-                        <br>
-                        <em>The results will be listed as potential risks and classified in groups - for example, a group of "Potential Design Risks".</em>
-                    </p>
-                </div>
-        
-                <div style="margin-bottom: 15px;">
-                    <h3 style="color: #2c82c9; margin-bottom: 5px;">2. Evaluate</h3>
-                    <p style="margin-top: 0;">
-                        To <strong>evaluate</strong> the risks, we will analyze the qualitative and quantitative impacts on the project along with their probability. The team will then decide which are the priority items that require additional planning for specific mitigation measures.
-                    </p>
-                </div>
-        
-                <div>
-                    <h3 style="color: #2c82c9; margin-bottom: 5px;">3. Mitigate</h3>
-                    <p style="margin-top: 0;">
-                        Appropriate steps to <strong>mitigate</strong> each of these risks will then be planned and assigned an owner for the duration of the project.
-                    </p>
-                </div>
-            </div>
-        
-        </section>
-
+        </div>
+    
+        <div style="margin-top: 25px; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; overflow-x: auto;">
+            <table style="width: 100%; border-collapse: collapse; min-width: 600px;">
+                <thead>
+                    <tr style="background-color: #f8fafc; border-bottom: 2px solid #e2e8f0;">
+                        <th style="text-align: left; padding: 12px 15px; color: #1e293b; font-size: 0.9em; width: 18%;">ITEM</th>
+                        <th style="text-align: left; padding: 12px 15px; color: #1e293b; font-size: 0.9em; width: 46%;">DESCRIPTION</th>
+                        <th style="text-align: center; padding: 12px 10px; color: #1e293b; font-size: 0.85em; width: 13%;">IMPACT<br>(LOW/MED/HIGH)</th>
+                        <th style="text-align: center; padding: 12px 10px; color: #1e293b; font-size: 0.85em; width: 13%;">PROBABILITY<br>(LOW/MED/HIGH)</th>
+                        <th style="text-align: center; padding: 12px 10px; color: #1e293b; font-size: 0.85em; width: 10%;">PRIORITY<br>(YES/NO)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;">Duration estimates</td>
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;">Budget</td>
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;">BIM Schedule</td>
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;"><strong>Too Many Clashes</strong></td>
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;">When combining models we might experience 1,000's of instances where two or more objects are trying to occupy the same space. Having too many clashes will result in wasted time and effort to resolve.</td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;">Cost Estimates</td>
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;">Resources</td>
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;">Quality</td>
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;">Communication</td>
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;">Responsibilities</td>
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;">Design Errors</td>
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;">Procurements</td>
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;">Too Much BIM</td>
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;">Too Little BIM</td>
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #e2e8f0;">
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;">BIM Too Soon</td>
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;">BIM Too Late</td>
+                        <td style="padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                        <td style="text-align: center; padding: 12px 15px; color: #334155; font-size: 0.9em;"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    
     </section>
+    
 
 </body>
 </html>
