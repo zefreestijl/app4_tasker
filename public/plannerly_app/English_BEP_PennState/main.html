@@ -17,9 +17,6 @@
 
             <div class="sidebar-header">
                 <h3 class="sidebar-title">Outliner</h3>
-                <button onclick="toggleSidebar()" class="pin-btn" title="Toggle Sidebar">
-                    ☰
-                </button>
             </div>
 
             <ul>
@@ -409,12 +406,19 @@
         <script>
             function toggleSidebar() {
                 var sidebar = document.getElementById("sidebar");
+                var btn = document.querySelector(".external-toggle-btn");
+
                 sidebar.classList.toggle("collapsed");
+                btn.classList.toggle("rotated"); // Add a class to the button too
             }
         </script>
 
         <!-- Main Window-->
         <main class="content">
+            <button onclick="toggleSidebar()" class="external-toggle-btn" title="Toggle Sidebar">
+                ☰
+            </button>
+
             <iframe name="viewer"
                 src="./A. BIM Project Execution Plan Overview/1. BIM Project Execution Plan Overview.html"
                 class="window">

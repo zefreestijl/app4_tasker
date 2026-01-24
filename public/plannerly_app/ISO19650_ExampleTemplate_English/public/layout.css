@@ -40,6 +40,11 @@ body {
     
     /* Optional: If you want it to float OVER content on mobile */
     /* position: relative; */
+    
+    /* --- THE FIX START --- */
+    overflow-y: auto;       /* YES: Scroll up and down if list is long */
+    overflow-x: hidden;     /* NO: Hide sideways content (clipping) */
+    /* --- THE FIX END --- */
 }
 
 /* When collapsed, it disappears completely */
@@ -70,6 +75,8 @@ body {
     cursor: pointer;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     transition: left 0.3s ease; /* Animate with sidebar if needed */
+
+
 }
 
 /* Optional: Rotate button when sidebar is open vs closed */
@@ -102,6 +109,8 @@ body {
 .external-toggle-btn.rotated {
     transform: rotate(90deg);
 }
+
+
 
 /* =========================================
    3. SIDEBAR LIST STYLES (The "No-Wrap" Fix)
