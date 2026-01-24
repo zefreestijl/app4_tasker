@@ -215,34 +215,6 @@ details summary { list-style: none; outline: none; }
 
 
 
-/* =========================================
-   4. COLLAPSED STATE LOGIC
-   ========================================= */
-/* When 'collapsed' class is added via JS */
-.sidebar.collapsed {
-    width: 2px;            /* Shrink width */
-    padding-left: 0;     /* Remove the extra left gap */
-    min-width: 2px;
-}
-
-/* Rotate the button 90 degrees */
-.sidebar.collapsed .pin-btn {
-    transform: rotate(90deg);
-    color: #0066cc;
-}
-/* 2. Center the Bullet Points in the narrow strip */
-.sidebar.collapsed ul {
-    padding-left: 1.1rem; /* This centers the dot exactly in the middle of 2.2rem */
-}
-
-/* HOVER PEEK: When hovering a collapsed sidebar, expand it over content */
-.sidebar.collapsed:hover {
-    width: 350px;
-    position: absolute;     /* Float on top */
-    height: 100%;
-    box-shadow: 5px 0 15px rgba(0,0,0,0.2);
-    background-color: #f4f4f4;
-}
 
 /* =========================================
    5. MAIN CONTENT AREA (The Iframes)
