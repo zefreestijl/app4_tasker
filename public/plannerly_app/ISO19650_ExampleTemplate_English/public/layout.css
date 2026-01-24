@@ -28,45 +28,80 @@ body {
 }
 
 /* =========================================
-   2. SIDEBAR (The Outliner)
+   2. SIDEBAR (Zero Width Logic)
    ========================================= */
-.sidebar {
-    width: 350px;
-    min-width: 2rem;        /* Prevent it from disappearing completely */
-    height: 100%;
+   .sidebar {
+    width: 300px;
     background-color: #f4f4f4;
     border-right: 1px solid #ddd;
+    transition: width 0.3s ease; /* Smooth slide */
+    overflow: hidden; /* Ensures content disappears when width is 0 */
+    white-space: nowrap;
     
-    /* Animation & Clipping Logic */
-    transition: width 0.3s ease;
-    overflow-x: hidden;     /* Hides text when width shrinks */
-    overflow-y: auto;       /* Scrolls vertically if list is long */
-    white-space: nowrap;    /* Keeps text on one line (no wrapping) */
-    z-index: 20;            /* Keeps sidebar above content */
+    /* Optional: If you want it to float OVER content on mobile */
+    /* position: relative; */
 }
 
-/* Header Area (Title + Button) */
-.sidebar-header {
-    font-size: small;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10px;        /* Adjusted padding */
-    min-height: 50px;
-    border-bottom: 1px solid #ddd;
+/* When collapsed, it disappears completely */
+.sidebar.collapsed {
+    width: 0px; 
+    border-right: none; /* Hide the border so it's truly invisible */
 }
 
-/* The Pin Button */
-.pin-btn {
-    background: none;
-    border: none;
-    font-size: 1.0rem;
+/* =========================================
+   THE NEW EXTERNAL BUTTON
+   ========================================= */
+.content {
+    position: relative; /* Creates a reference point for the button */
+}
+
+.external-toggle-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 50; /* Ensure it floats ON TOP of the iframe */
+    
+    /* Visual Styling */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 1.5rem;
     cursor: pointer;
-    padding: 5px;
-    display: inline-block;
-    transition: transform 0.3s ease; /* Smooth rotation */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: left 0.3s ease; /* Animate with sidebar if needed */
 }
 
+/* Optional: Rotate button when sidebar is open vs closed */
+.sidebar:not(.collapsed) + .content .external-toggle-btn {
+    background-color: #f4f4f4; /* Match sidebar color when open */
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        position: absolute; /* Float on top */
+        height: 100%;       /* Full height */
+        z-index: 40;        /* Below the button (50) but above content */
+        box-shadow: 2px 0 10px rgba(0,0,0,0.2);
+    }
+
+    /* When the sidebar opens on mobile, we move the button 
+       to the right so it stays next to the opening panel */
+    .sidebar:not(.collapsed) + .content .external-toggle-btn {
+        left: 260px; /* 250px width + 10px padding */
+        transition: left 0.3s ease;
+    }
+}
+
+/* 1. Ensure the button spins smoothly */
+.external-toggle-btn {
+    /* ... your existing button styles ... */
+    transition: transform 0.3s ease; /* Adds the spin animation */
+}
+
+.external-toggle-btn.rotated {
+    transform: rotate(90deg);
+}
 
 /* =========================================
    3. SIDEBAR LIST STYLES (The "No-Wrap" Fix)
@@ -176,9 +211,9 @@ details summary { list-style: none; outline: none; }
    ========================================= */
 /* When 'collapsed' class is added via JS */
 .sidebar.collapsed {
-    width: 2rem;            /* Shrink width */
+    width: 2px;            /* Shrink width */
     padding-left: 0;     /* Remove the extra left gap */
-    min-width: 2rem;
+    min-width: 2px;
 }
 
 /* Rotate the button 90 degrees */
